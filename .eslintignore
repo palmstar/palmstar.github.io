@@ -1,0 +1,17 @@
+_site
+node_modules
+robots.txt
+humans.txt
+*.json
+*.yml
+*.sh
+*.css
+*.html
+*.png
+*.jpg
+*.scss
+*.ico
+CNAME
+README
+Gemfile
+Gemfile.lock

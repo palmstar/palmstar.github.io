@@ -1,0 +1,139 @@
+source:      ./_source
+destination: ./_site
+plugins_dir:     ./_plugins
+layouts_dir:     ./_layouts
+includes_dir: ./_includes
+data_dir: ./_data
+include:     ['.htaccess']
+exclude:     ['Gemfile', 'Gemfile.lock', 'node_modules', 'css', 'images~original']
+keep_files:  ['.git','.svn', 'assets']
+
+timezone:    America/New_York
+encoding:    utf-8
+
+future:      true
+show_drafts: false
+limit_posts: 0
+highlighter: pygments
+
+markdown:      kramdown
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
+textile_ext:   textile
+
+excerpt_separator: "\n\n"
+
+safe:        false
+host:        0.0.0.0
+port:        4000
+baseurl:     ""
+url:         https://www.palmstar.com
+lsi:         false
+
+maruku:
+  use_tex:    false
+  use_divs:   false
+  png_engine: blahtex
+  png_dir:    images/latex
+  png_url:    /images/latex
+  fenced_code_blocks: true
+
+rdiscount:
+  extensions: []
+
+redcarpet:
+  extensions: []
+
+kramdown:
+  auto_ids: false
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  parse_block_html: true
+
+liquid:
+  error_mode: strict
+
+syntax_highlighter_opts:
+  wrap: div
+  line_numbers: inline
+  line_numbers_start: 1
+  tab_width: 4
+  bold_every: 10
+  css: style
+
+redcloth:
+  hard_breaks: true
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+author: brianfleming
+author:
+  twitter: brianfleming
+twitter:
+  username: brianfleming
+social:
+  name: Brian Fleming
+  links:
+    - https://twitter.com/BrianFleming
+    - https://www.linkedin.com/in/brianmfleming
+    - https://github.com/brianfleming
+
+compress_html:
+  clippings: []
+  comments: []
+  endings: []
+  ignore:
+    envs: ['development']
+  blanklines: false
+  profile: false
+  startings: []
+
+permalink: pretty
+
+strict_front_matter: true
+
+autopages:
+  enabled: false
+  tags:
+    layouts:
+      - autopage_collections_tags.html
+     # - autopage_tags.html
+    enabled: true
+  categories:
+    layouts:
+      - autopage_cat.html
+    enabled: true
+  collections:
+    enabled: true
+    slugify:
+      mode: 'ascii'
+      cased: true  # Causes B+W tag to show up as it is written on the terry-pratchet-diary-2017.md page and not lowercase
+
+
+# This site uses the pretty permalink structure, this renders all urls with a slash / at the end and
+# no file endings, I guess that is considered pretty :)
+permalink: pretty
+
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: '/:num/'
+  title: ':title | :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+ # extension: htm
+ # indexpage: 'default'
+  trail:
+    before: 2
+    after: 2

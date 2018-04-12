@@ -1,0 +1,132 @@
+.slider {
+    $num-of-slide: 10;
+    position: relative;
+    overflow: hidden;
+
+    .slider__nav {
+        display: none;
+    }
+
+    .slider__inner {
+        @include transform (translate3d(0, 0, 0));
+        @include transition-animation (transform, .5s, ease-in-out, 0ms);
+        position: relative;
+
+        img {
+            border: 0;
+            display: inline-block;
+            width: 100%;
+        }
+    }
+
+    @for $i from 1 through ($num-of-slide) {
+        @if $i == 1 {
+            .slider__nav:checked:nth-of-type(1) ~ .slider__inner {
+                @include transform (translate3d(0, 0, 0));
+            }
+        }
+        @else {
+            .slider__nav:checked:nth-of-type(#{$i}) ~ .slider__inner {
+                @include transform (translate3d(-#{($i - 1) * 100%}, 0, 0));
+            }
+        }
+    }
+
+    .slider-prev-next-control {
+        @include opacity (0);
+        @include position (absolute, 50%, auto, auto, auto);
+        @include transform (translateY(-50%));
+        @include transition-animation (opacity, 250ms, ease-in-out, 0ms);
+        height: 50px;
+        width: 100%;
+
+        label {
+            @include transition-animation (all, 250ms, ease-in-out, 0ms);
+            background-color: rgba($white, .5);
+            border-radius: 50%;
+            color: rgba($black, .75);
+            cursor: pointer;
+            display: none;
+            height: 40px;
+            margin: 0 5px;
+            position: relative;
+            width: 40px;
+
+            &:hover {
+                background-color: rgba($white, 1);
+                color: rgba($black, 1);
+            }
+
+            &::after {
+                @include position (absolute, 0, 0, 0, 0);
+                border-radius: 50%;
+                color: inherit;
+                display: block;
+                font-size: 30px;
+                line-height: 1.1;
+                margin: 0;
+                text-align: center;
+                text-decoration: inherit;
+            }
+        }
+    }
+
+    @for $i from 1 through ($num-of-slide - 1) {
+        #slide#{$i}:checked {
+            & ~ .slider-prev-next-control label:nth-child(#{$i +1}) {
+                display: block;
+                float: right;
+
+                &::after {
+                    content: '\276f';
+                }
+            }
+        }
+    }
+
+    @for $i from 2 through $num-of-slide {
+        #slide#{$i}:checked {
+            & ~ .slider-prev-next-control label:nth-child(#{$i - 1}) {
+                display: block;
+                float: left;
+
+                &::after {
+                    content: '\276e';
+                }
+            }
+        }
+    }
+
+    .slider-dot-control {
+        padding: 12px 0;
+        text-align: center;
+        width: 100%;
+
+        label {
+            @include transition-animation (background-color, 250ms, ease-in-out, 0ms);
+            background-color: rgba($black, .25);
+            border-radius: 50%;
+            cursor: pointer;
+            display: inline-block;
+            height: 11px;
+            margin: 0 5px;
+            width: 11px;
+
+            &:hover {
+                background-color: $black;
+            }
+        }
+    }
+
+    @for $i from 1 through $num-of-slide {
+        #slide#{$i}:checked {
+            & ~ .slider-dot-control label:nth-child(#{$i}) {
+                background-color: $black;
+            }
+        }
+    }
+
+    &:hover .slider-prev-next-control {
+        @include opacity (1);
+    }
+}

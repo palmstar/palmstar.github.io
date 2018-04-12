@@ -1,0 +1,84 @@
+---
+layout: compress
+---
+
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>
+        {%- if page.title -%}
+            {{page.title}}
+        {%- else -%}
+            PalmStar Media
+        {%- endif -%}
+        </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        {%- if page.noindex == true -%}
+        <meta name="robots" content="noindex" />
+        {%- endif -%}
+
+        <meta content="PalmStar" property="og:site_name">
+        <meta content="PalmStar" property="og:title">
+        <meta name="author" content="Brian Fleming">
+        <link type="text/plain" rel="author" href="humans.txt" />
+
+        <link rel="stylesheet" type="text/css" href="/assets/css/essential.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/app.css">
+
+        <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/images/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/images/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/images/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/images/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="//imagesfavicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="194x194" href="/images/favicon-194x194.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="/images/android-chrome-192x192.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+        <link rel="manifest" href="/images/site.webmanifest">
+        <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-TileImage" content="/images/mstile-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="application-name" content="PalmStar"/>
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+        <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        {%- seo -%}
+        {%- if jekyll.environment == "production" -%}
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-37999567-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+        {%- endif -%}
+    </head>
+    <body>
+        <div id="app">
+            {%- include nav.html -%}
+            <div class="content">
+                {{ content }}
+            </div>
+            <foot></foot>
+        </div>
+        <script src="/assets/vendors~app.js"></script>
+        <script src="/assets/app.js"></script>
+    </body>
+</html>

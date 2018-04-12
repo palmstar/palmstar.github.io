@@ -1,0 +1,25 @@
+<div class="posters">
+    <div class="slider">
+        {%- for poster in page.posters -%}
+        {%- assign totalPosters = forloop.length -%}
+        <input type="radio" name="slider" id="slide{{ forloop.index }}" {%- if forloop.index == 1 -%}checked="checked"{%- endif -%} class="slider__nav"/>
+        {%- endfor -%}
+        <div class="slider__inner">
+            {%- for poster in page.posters -%}
+            <img src="{{poster}}" alt="{{page.title}}" />
+            {%- endfor -%}
+        </div>
+        {%- if totalPosters > 1 -%}
+        <div class="slider-prev-next-control">
+            {%- for poster in page.posters -%}
+            <label for=slide{{ forloop.index }}></label>
+            {%- endfor -%}
+        </div>
+        <div class="slider-dot-control">
+            {%- for poster in page.posters -%}
+            <label for=slide{{ forloop.index }}></label>
+            {%- endfor -%}
+        </div>
+        {%- endif -%}
+    </div>
+</div>

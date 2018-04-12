@@ -1,0 +1,181 @@
+nav {
+    align-content: stretch;
+    align-items: flex-start;
+    background-color: $header-background;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    flex-wrap: nowrap;
+    height: 120px;
+    justify-content: flex-start;
+    line-height: 120px;
+    overflow: hidden;
+    text-align: center;
+
+    div {
+        align-self: auto;
+        flex: 0 1 auto;
+        height: calc(100% - 50px);
+        margin: 25px 0 0 25px;
+        order: 0;
+
+        a {
+            display: block;
+            height: 100%;
+
+            img {
+                height: 100%;
+            }
+        }
+    }
+
+    ul {
+        align-self: auto;
+        display: inline-block;
+        flex: 1 1 auto;
+        height: 100%;
+        margin: 0;
+        order: 0;
+        overflow: hidden;
+        padding: 0 0 0 20px;
+        text-align: right;
+
+        li {
+            display: inline-block;
+            margin: 0;
+
+            a {
+                color: rgba($white, .75);
+                display: block;
+                font-size: 12px;
+                letter-spacing: 5px;
+                padding: 0 30px;
+                position: relative;
+                text-decoration: none;
+                text-transform: uppercase;
+
+                &::after {
+                    @include position (absolute, auto, 25px, 40px, 20px);
+                    @include transform (scaleX(0));
+                    ms-transition: -webkit-transform .3s ease-out,border-color .3s ease-out;
+                    -webkit-transition: -webkit-transform .3s ease-out,border-color .3s ease-out;
+                    transition: transform .2s ease-out,border-color .3s ease-out;
+                    border: solid 2px $white;
+                    border-color: transparent transparent $white;
+                    content: '';
+                    display: block;
+                }
+
+                &:hover {
+                    color: $white;
+
+                    &::after {
+                        @include transform (scaleX(1));
+                    }
+                }
+            }
+
+            &.active {
+                a {
+                    color: $white;
+
+                    &::after {
+                        @include transform (scaleX(1));
+                    }
+                }
+            }
+        }
+    }
+
+    @include breakpoint (large, max) {
+        ul {
+            li {
+                a {
+                    letter-spacing: 3px;
+                    padding: 0 18px;
+
+                    &::after {
+                        left: 10px;
+                        right: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    @include breakpoint (medium, max) {
+        flex-direction: column;
+
+        div {
+            height: 50%;
+            margin: 10px 0 0 25px;
+        }
+
+        ul {
+            height: 50%;
+            line-height: initial;
+            padding: 0;
+            text-align: left;
+            width: 100%;
+
+            li {
+                line-height: initial;
+
+                a {
+                    padding: 15px 35px;
+
+                    &::after {
+                        bottom: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    @include breakpoint (small, max) {
+        ul {
+            li {
+                a {
+                    padding: 15px 18px;
+                }
+            }
+        }
+    }
+
+    @include breakpoint (extra-small, max) {
+        height: 260px;
+
+        div {
+            height: 60px;
+            margin: 15px 15px 0;
+            width: calc(100% - 30px);
+        }
+
+        ul {
+            li {
+                display: block;
+
+                a {
+                    padding: 15px 18px 15px 30px;
+
+                    &:hover {
+                        color: $white;
+
+                        &::after {
+                            @include transform (scaleY(1));
+                        }
+                    }
+
+                    &::after {
+                        @include transform (scaleY(0));
+                        border-color: transparent transparent transparent $white;
+                        top: 5px;
+                        bottom: 5px;
+                        left: 15px;
+                        right: auto;
+                    }
+                }
+            }
+        }
+    }
+}

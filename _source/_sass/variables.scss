@@ -1,0 +1,100 @@
+/* stylelint-disable color-no-hex, value-keyword-case */
+$serif-font: Cambria,Georgia,'Times New Roman',Times,serif;
+$sans-serif-font: -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+$monospace-font: courier new, Courier, monospace;
+
+$alto: #ddd;
+$base-font-color: #000;
+$black: #000;
+$emperor: #555;
+$gray-headline: #656565;
+$header-background: $base-font-color;
+$kanye-pink: #ed1c24;
+$palmstar-blue: #183b6d;
+$silver: #ccc;
+$white: #fff;
+$breakpoints: (
+    'extra-small': 400px,
+    'small': 544px,
+    'medium': 768px,
+    'large': 992px,
+    'extra-large': 1200px
+);
+
+@mixin animate ($name, $duration, $function, $delay, $iteration, $direction, $mode) {
+    -webkit-animation: $name $duration $function $delay $iteration $direction $mode;
+    animation: $name $duration $function $delay $iteration $direction $mode;
+}
+
+@mixin breakpoint ($width, $type: min) {
+    @if map_has_key($breakpoints, $width) {
+        $width: map_get($breakpoints, $width);
+        @if $type == max {
+            $width: $width - 1px;
+        }
+        @media only screen and (#{$type}-width: $width) {
+            @content;
+        }
+    }
+}
+
+@mixin image-insert-icon ($imgtouse, $height: 20px, $width: 20px, $img-position: 0 0) {
+    background: url('#{$imgtouse}') #{$img-position} no-repeat;
+    display: block;
+    height: $height;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    width: $width;
+}
+
+@mixin keyframe ($animation-name) {
+    @-webkit-keyframes #{$animation-name} {
+        @content;
+    }
+
+    @-moz-keyframes #{$animation-name} {
+        @content;
+    }
+
+    @keyframes #{$animation-name} {
+        @content;
+    }
+}
+
+@mixin opacity ($value: 1) {
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=' $value * 100 ')';
+    filter: alpha(opacity = $value * 100);
+    opacity: $value;
+    zoom: 1;
+}
+
+@mixin position ($positioning, $top, $right, $bottom, $left) {
+    bottom: $bottom;
+    left: $left;
+    position: $positioning;
+    right: $right;
+    top: $top;
+}
+
+@mixin transform ($properties) {
+    -ms-transform: $properties;
+    -webkit-transform: $properties;
+    transform: $properties;
+}
+
+@mixin transition-animation ($prop, $time, $ease, $delay) {
+    -moz-transition: $prop $time $ease $delay;
+    -ms-transition: $prop $time $ease $delay;
+    -o-transition: $prop $time $ease $delay;
+    -webkit-transition: $prop $time $ease $delay;
+    transition: $prop $time $ease $delay;
+}
+
+@mixin text-truncate ($display) {
+    display: $display;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/* stylelint-enable */

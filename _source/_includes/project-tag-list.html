@@ -1,0 +1,20 @@
+<div class="tag-list">
+    {%- assign sorted_tags = site.tags | sort -%}
+    <ul class="genre-list">
+        <li {% if page.tag == nil %}class="selected"{%- endif -%}>
+            <a href="/projects" title="View {{tag[0]}} projects">
+                all projects
+            </a>
+        </li>
+        {%- for tag in sorted_tags -%}
+        {%- assign zz = tag[1] | where: 'category', 'projects' | sort -%}
+        {%- if zz != empty -%}
+        <li {% if tag[0] == page.tag %}class="selected"{%- endif -%}>
+            <a href="/projects/{{tag[0] | downcase}}" title="View {{tag[0]}} projects">
+                {{tag[0] | downcase}}
+            </a>
+        </li>
+        {%- endif -%}
+        {%- endfor -%}
+    </ul>
+</div>

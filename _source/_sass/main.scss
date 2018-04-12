@@ -1,0 +1,121 @@
+// ---
+// # Front matter comment to ensure Jekyll properly reads file.
+// ---
+
+@import 'modules/typography';
+@import 'modules/nav';
+@import 'modules/about';
+@import 'modules/team';
+@import 'modules/press';
+@import 'modules/projects';
+@import 'modules/poster-slider';
+
+.content {
+    flex: 1;
+    padding: 5% 0;
+}
+
+.content-interior {
+    margin: 0 auto;
+    width: 66%;
+
+    @include breakpoint (extra-large, min) {
+        width: 60%;
+    }
+
+    @include breakpoint (large, max) {
+        width: 75%;
+    }
+
+    @include breakpoint (medium, max) {
+        width: 80%;
+    }
+
+    @include breakpoint (small, max) {
+        width: 85%;
+    }
+
+    @include breakpoint (extra-small, max) {
+        width: 90%;
+    }
+}
+
+.paginator {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            display: inline-block;
+            margin: 0 10px 10px 0;
+
+            a {
+                border: solid 2px $black;
+                border-radius: 3px;
+                color: $black;
+                display: block;
+                margin: 0;
+                padding: 8px 12px;
+                text-decoration: none;
+
+                &:hover {
+                    border: solid 2px rgba($black, .65);
+                    color: rgba($black, .75);
+                }
+            }
+
+            &.selected {
+                a {
+                    background-color: rgba($black, .1);
+                    border: solid 2px rgba($black, .035);
+                    color: $kanye-pink;
+                }
+            }
+        }
+    }
+}
+
+.tag-list {
+    margin: 0 0 40px;
+    padding: 0 10px;
+    text-align: center;
+
+    @include breakpoint (medium, max) {
+        text-align: left;
+    }
+}
+
+.genre-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+        display: inline-block;
+        margin: 0 10px 10px 0;
+
+        a {
+            border: solid 2px $black;
+            border-radius: 3px;
+            color: $black;
+            display: block;
+            margin: 0;
+            padding: 8px 12px;
+            text-decoration: none;
+
+            &:hover {
+                border: solid 2px rgba($black, .65);
+                color: rgba($black, .75);
+            }
+        }
+
+        &.selected {
+            a {
+                background-color: rgba($black, .1);
+                border: solid 2px rgba($black, .035);
+                color: $kanye-pink;
+            }
+        }
+    }
+}

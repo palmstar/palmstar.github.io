@@ -1,0 +1,74 @@
+{
+    "name": "palmstar.com",
+    "description": "PalmStar",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brian Fleming",
+            "email": "brian@nationallampoon.com"
+        }
+    ],
+    "version": "0.0.1",
+    "repository": "git@github.com:palmstar/palmstar.github.io.git",
+    "dependencies": {
+        "concurrently": "^3.1.0",
+        "npm": "^5.8.0"
+    },
+    "devDependencies": {
+        "babel-loader": "^7.1.4",
+        "css-loader": "^0.28.11",
+        "eslint": "^4.19.1",
+        "eslint-config-airbnb-base": "^12.1.0",
+        "eslint-plugin-import": "^2.11.0",
+        "eslint-plugin-vue": "^4.4.0",
+        "extract-text-webpack-plugin": "^4.0.0-beta.0",
+        "file-loader": "^1.1.10",
+        "filemanager-webpack-plugin": "^1.0.26",
+        "husky": "^0.15.0-rc.13",
+        "imagemin-cli-preserve-dir-structure": "0.0.2",
+        "imagemin-jpeg-recompress": "^5.1.0",
+        "lint-staged": "^7.0.4",
+        "mini-css-extract-plugin": "^0.4.0",
+        "node-sass": "^4.8.3",
+        "normalize.css": "~8.0.0",
+        "sass-loader": "^6.0.7",
+        "sass-resources-loader": "^1.3.3",
+        "shelljs": "^0.8.1",
+        "style-loader": "^0.20.3",
+        "stylelint": "^9.2.0",
+        "stylelint-declaration-strict-value": "^1.0.4",
+        "stylelint-order": "^0.8.1",
+        "vue": "^2.5.16",
+        "vue-loader": "^14.2.2",
+        "vue-template-compiler": "^2.5.16",
+        "webpack": "^4.5.0",
+        "webpack-cli": "^2.0.14"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "_source/**/*.js": [
+            "eslint",
+            "git add"
+        ],
+        "_source/**/*.scss": [
+            "stylelint --syntax scss",
+            "git add"
+        ],
+        "_source/**/*.vue": [
+            "eslint",
+            "stylelint",
+            "git add"
+        ]
+    },
+    "scripts": {
+        "dev": "concurrently \"jekyll clean\" \"NODE_ENV='development' webpack -w --config=webpack.config.js --display-error-details --colors\" \"JEKYLL_ENV=development bundle exec jekyll serve --watch --incremental\"",
+        "build": "NODE_ENV='production' webpack --config=webpack.config.js --display-error-details --progress --colors",
+        "deploy": ". ./deploy.sh",
+        "imagemin": "imagemin-dir _source/images~original _source/images  --plugin=jpeg-recompress",
+        "eslint": "eslint \"**/*\"; exit 0"
+    }
+}

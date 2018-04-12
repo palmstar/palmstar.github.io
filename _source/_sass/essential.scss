@@ -1,0 +1,52 @@
+@import '~normalize.css/normalize';
+
+html, body, #app {
+    height: 100%;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    color: $base-font-color;
+    font-family: $sans-serif-font;
+    font-size: 16px;
+    font-weight: 300;
+
+    @include breakpoint (small, max) {
+        font-size: 15px;
+    }
+
+    // @include breakpoint (extra-small, min) {
+    //     border: solid 10px red;
+    // }
+
+    // @include breakpoint (small, min) {
+    //     border: solid 10px blue;
+    // }
+
+    // @include breakpoint (medium, min) {
+    //     border: solid 10px green;
+    // }
+
+    // @include breakpoint (large, min) {
+    //     border: solid 10px purple;
+    // }
+
+    // @include breakpoint (extra-large, min) {
+    //     border: solid 10px gold;
+    // }
+}
+
+#app {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.svg-icon {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+}

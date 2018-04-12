@@ -1,0 +1,24 @@
+<nav>
+    {%- assign generated_active_page = page.active_page | liquify -%}
+
+
+    <div>
+        <a href="/" title="Home">
+            <icon name="logo-white"></icon>
+        </a>
+    </div>
+    <ul>
+        <li {% if generated_active_page == 'about' %}class="active"{%- endif -%}>
+            <a href="/about" title="About">About</a>
+        </li>
+        <li {% if generated_active_page == 'team' %}class="active"{%- endif -%}>
+            <a href="/team" title="Team">Team</a>
+        </li>
+        <li {% if generated_active_page == 'projects' %}class="active"{%- endif -%}>
+            <a href="/projects" title="Projects">Projects</a>
+        </li>
+        <li {% if generated_active_page == 'press' %}class="active"{%- endif -%}>
+            <a href="/press" title="Press">Press</a>
+        </li>
+    </ul>
+</nav>

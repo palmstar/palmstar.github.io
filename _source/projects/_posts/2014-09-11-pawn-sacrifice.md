@@ -1,0 +1,33 @@
+---
+layout: project
+active_page: projects
+title: Pawn Sacrifice
+date: 2014-09-11 12:00:00 +0100
+posters:
+    - /images/projects/pawn-sacrifice/pawn-sacrifice-poster.jpg
+trailer: https://www.youtube.com/embed/xFHvH9FtACg?rel=0&amp;showinfo=0
+imdb: http://www.imdb.com/title/tt1596345/
+director:
+    - Edward Zwick
+producers:
+    - Gail Katz
+    - Tobey Maguire
+    - Kevin Frakes
+    - Ankur Rungta
+    - Vishal Rungta
+companies:
+    - Gail Katz Productions
+    - Material Pictures
+    - PalmStar Media Capital
+    - BR Capital
+cast:
+    - Tobey Maguire
+    - Liev Schreiber
+writers:
+    - Stephen J Rivele
+    - Christopher Wilkinson
+    - Seven Knight
+tags:
+    - Historical Drama
+category: projects
+---

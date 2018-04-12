@@ -1,0 +1,123 @@
+code,
+pre {
+    font-family: $monospace-font;
+}
+
+a {
+    @include transition-animation (color, 200ms, ease-in,  0ms);
+    color: $kanye-pink;
+    text-decoration: underline;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: $sans-serif-font;
+    font-weight: 100;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 0 10% 50px;
+    position: relative;
+    text-align: left;
+
+    &::before {
+        @include position (absolute, -12px, auto, -12px, -30px);
+        background-color: $kanye-pink;
+        content: '';
+        width: 2px;
+    }
+
+    &.recase {
+        text-transform: capitalize;
+    }
+
+    @include breakpoint (medium, max) {
+        font-size: 38px;
+        line-height: 50px;
+
+        &::before {
+            @include position (absolute, 0, auto, 0, -30px);
+        }
+    }
+
+    @include breakpoint (small, max) {
+        font-size: 32px;
+        line-height: 40px;
+        margin: 0 10% 30px;
+
+        &::before {
+            @include position (absolute, 0, auto, 0, -20px);
+        }
+    }
+}
+
+h3 {
+    color: $black;
+    display: block;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0 0 5px;
+    text-align: left;
+    text-transform: uppercase;
+
+    @include breakpoint (medium, max) {
+        font-size: 30px;
+    }
+
+    @include breakpoint (small, max) {
+        font-size: 28px;
+    }
+}
+
+h4 {
+    color: $gray-headline;
+    font-size: 24px;
+    margin: 0;
+    text-align: left;
+
+    @include breakpoint (small, max) {
+        font-size: 22px;
+    }
+
+    &.project_name {
+        margin: 10px 0 0;
+        text-align: center;
+    }
+
+    small {
+        font-size: 50%;
+    }
+
+    a {
+        color: $gray-headline;
+        text-decoration: none;
+
+        &:hover {
+            color: $kanye-pink;
+        }
+    }
+}
+
+p {
+    color: $emperor;
+    font-size: 18px;
+    line-height: 1.8em;
+
+    @include breakpoint (medium, max) {
+        font-size: 16px;
+        line-height: 1.6em;
+    }
+
+    @include breakpoint (small, max) {
+        font-size: 15px;
+    }
+}
