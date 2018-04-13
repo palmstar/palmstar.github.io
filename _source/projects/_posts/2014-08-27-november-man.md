@@ -29,4 +29,5 @@ writers:
 tags:
     - Action
 category: projects
+published: true
 ---

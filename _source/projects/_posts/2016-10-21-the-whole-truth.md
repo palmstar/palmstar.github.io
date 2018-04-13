@@ -28,4 +28,5 @@ tags:
     - Drama
     - Thriller
 category: projects
+published: true
 ---

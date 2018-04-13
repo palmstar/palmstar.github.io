@@ -30,4 +30,5 @@ writers:
 tags:
     - Comedy
 category: projects
+published: true
 ---

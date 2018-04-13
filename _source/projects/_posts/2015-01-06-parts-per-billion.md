@@ -29,4 +29,5 @@ writers:
 tags:
     - Drama
 category: projects
+published: true
 ---

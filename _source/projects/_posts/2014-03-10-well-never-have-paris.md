@@ -25,4 +25,5 @@ tags:
     - Comedy
     - Romance
 category: projects
+published: true
 ---

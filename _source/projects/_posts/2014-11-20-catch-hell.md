@@ -24,4 +24,5 @@ cast:
 tags:
     - Thriller
 category: projects
+published: true
 ---

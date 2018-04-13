@@ -67,24 +67,11 @@ layout: base
                 </ul>
                 {%- endif -%}
 
-                {%- if page.producers -%}
-                {%- if page.producers.size == 1 -%}
-                <h3>Producer</h3>
-                {%- else -%}
-                <h3>Producers</h3>
-                {%- endif -%}
-                <ul>
-                    {%- for producer in page.producers -%}
-                    <li>{{ producer }}</li>
-                    {%- endfor -%}
-                </ul>
-                {%- endif -%}
-
                 {%- if page.companies -%}
                 {%- if page.companies.size == 1 -%}
-                <h3>Production Company</h3>
+                <h3>Distributor</h3>
                 {%- else -%}
-                <h3>Production Companies</h3>
+                <h3>Distributors</h3>
                 {%- endif -%}
                 <ul>
                     {%- for company in page.companies -%}

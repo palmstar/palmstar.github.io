@@ -25,4 +25,5 @@ tags:
     - Romance
     - Thriller
 category: projects
+published: true
 ---

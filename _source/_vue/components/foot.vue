@@ -1,7 +1,8 @@
 <template>
     <footer>
         <div><icon name="logo-mark-black"></icon></div>
-        <span>&copy; 2018 PalmStar Media Capital, LLC. all rights reserved</span>
+        <span>&copy; 2018 PalmStar Media Capital, LLC.<ins>all rights reserved</ins></span>
+        <a href="http://www.nationallampoon.com/" class="nli-logo"></a>
     </footer>
 </template>
 
@@ -53,6 +54,53 @@
             order: 0;
             overflow: hidden;
             padding: 0 0 0 5px;
+            white-space: nowrap;
+
+            ins {
+                display: inline;
+                text-decoration: none;
+            }
+        }
+
+        .nli-logo {
+            @include image-insert-icon ('/images/nli-logo.png', 40px, 155px, 0 0);
+            background-size: cover;
+            display: inline-block;
+            margin: 10px 0 0;
+        }
+
+        @include breakpoint (medium, max) {
+            background: red;
+
+            span {
+                font-size: 12px;
+                line-height: 1.4;
+                margin: 12px 0 0;
+
+                ins {
+                    display: block;
+                }
+            }
+        }
+
+        @include breakpoint (small, max) {
+            background: gold;
+
+            .nli-logo {
+                height: 26px;
+                margin-top: 18px;
+                width: 100px;
+            }
+        }
+
+        @include breakpoint (extra-small, max) {
+            background: green;
+            padding: 0 10px;
+
+            div,
+            .nli-logo {
+                display: none;
+            }
         }
     }
 </style>

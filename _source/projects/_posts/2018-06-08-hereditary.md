@@ -1,0 +1,31 @@
+---
+layout: project
+active_page: projects
+title: Hereditary
+date: 2018-06-08 12:00:00 +0100
+posters:
+    - /images/projects/hereditary/hereditary-poster.jpg
+trailer: https://www.youtube.com/embed/V6wWKNij_1M?rel=0&amp;showinfo=0
+imdb: https://www.imdb.com/title/tt7784604/
+director:
+    - Ari Aster
+producers:
+    - Kevin Scott Frakes
+    - Lars Knudsen
+    - Buddy Patrick
+companies:
+    -  PalmStar Media
+    - Windy Hill Pictures
+cast:
+    - Toni Collette
+    - Gabriel Byrne
+    - Alex Wolff
+writers:
+    - Ari Aster
+tags:
+    - Drama
+    - Horror
+    - Mystery
+category: projects
+published: true
+---
