@@ -10,18 +10,14 @@ imdb: https://www.imdb.com/title/tt5779540/
 director:
     - Lisa Addario
     - Joe Syracuse
-producers:
-    - Lisa Addario
-    - Mary Aloe
-    - Robert Ogden Barnum
-companies:
-    - Hector Coup
-    - Defiant Pictures
-    - Coastal Film Studios S
+distributor:
+    - Cinedigm
 cast:
     - Michael Caine
-    - Odeya Rush
     - Katie Holmes
+    - Odeya Rush
+    - Seth Green
+    - Jason Biggs
 writers:
     - Lisa Addario
     - Joe Syracuse

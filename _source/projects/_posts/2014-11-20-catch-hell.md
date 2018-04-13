@@ -9,20 +9,15 @@ trailer: https://www.youtube.com/embed/zmdMQ-FszGQ?rel=0&amp;showinfo=0
 imdb: http://www.imdb.com/title/tt2403558/
 director:
     - Ryan Phillippe
-producers:
-    - Kevin Frakes
-    - Cassian Elwes
-    - Holly Wiersma
-    - Robert Ogden Barnum
-    - Mark Burg
-    - Raj Brinder Singh
-companies:
-    - PalmStar Media Capital
-    - Twisted Pictures
+distributor:
+    - Entertainment One
 cast:
     - Ryan Phillippe
 tags:
     - Thriller
+writers:
+    - Ryan Phillippe
+    - Joe Gossett
 category: projects
 published: true
 ---

@@ -13,20 +13,14 @@ trailer: https://www.youtube.com/embed/bLGFwkRx2HA?rel=0&amp;showinfo=0
 imdb: https://www.imdb.com/title/tt3316948/
 director:
     - Nima Nourizadeh
-producers:
-    - Anthony Bregman
-    - David Alpert
-    - Britton Rizzio
-    - Kevin Frakes
-    - Raj Brinder Singh
-companies:
-    - Likely Story
-    - Circle of Confusion
-    - PalmStar Media Capital
-    - Merced Media Partners
+distributor:
+    - Lionsgate
 cast:
     - Jesse Eisenberg
     - Kristen Stewart
+    - Topher Grace
+    - Connie Britton
+    - Walton Goggins
 writers:
     - Max Landis
 tags:

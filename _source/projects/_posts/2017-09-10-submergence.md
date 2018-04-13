@@ -9,16 +9,13 @@ trailer: https://www.youtube.com/embed/0Ec7JVwz9Dw?rel=0&amp;showinfo=0
 imdb: http://www.imdb.com/title/tt3563262/
 director:
     - Wim Wenders
-companies:
-    - Backup Films
-    - Green Hummingbird Entertainment
-    - Lila 9th Productions
+distributor:
+    - Samuel Golwyn Films
 cast:
-    - Alicia Vikander
     - James McAvoy
-    - Audrey Quoturi
+    - Alicia Vikander
 writers:
-    - Erin Dignam (screenplay)
+    - Erin Dignam
     - J.M. Ledgard (novel)
 tags:
     - Drama

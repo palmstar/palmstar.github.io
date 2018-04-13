@@ -9,30 +9,16 @@ trailer: https://www.youtube.com/embed/NkIJ0f-IXLM?rel=0&amp;showinfo=0
 imdb: http://www.imdb.com/title/tt1654523/
 director:
     - Billie August
-producers:
-    - Andreas Knoblauch
-    - Michael Lehmann
-    - Kerstin Ramcke
-    - Peter Reichenbach
-    - Gunther Russ
-    - Benjamin Seikel
-    - Ana Costa
-    - Paulo Trancoso
-    - Kevin Frakes
-    - Tom Reilly
-companies:
-    - PalmStar Media
-    - Likely Story
-    - Anonymous Content
+distributor:
+    - Wrekin Hill Entertainment
 cast:
     - Jeremy Irons
-    - Christopher Lee
-    - Melanie Laurent
-    - Vanessa Redgrave
+    - Mélanie Laurent
+    - Jack Huston
 writers:
-    - Ulrich Herrmann
     - Greg Latter
-    - Pascal Mercier
+    - Ulrich Herrmann
+    - Pascal Mercier (novel)
 tags:
     - Romance
     - Thriller

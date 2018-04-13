@@ -9,21 +9,15 @@ trailer: https://www.youtube.com/embed/6QT0zKjvRfE?rel=0&amp;showinfo=0
 imdb: http://www.imdb.com/title/tt1706598/
 director:
     - Amy Berg
-producers:
-    - Kevin Scott Frakes
-    - Anthony Bregman
-    - Francis McDormand
-    - Raj Brinder Singh
-companies:
-    - Likely Story
-    - Hyde Park Entertainment
-    - PalmStar Media Capital
+distributor:
+    - Starz Digital Media
 cast:
     - Diane Lane
     - Elizabeth Banks
     - Dakota Fanning
 writers:
-    - Nicole Holofcener
+    - Nicole Holofcener,
+    - Laura Lippman (novel)
 tags:
     - Drama
     - Crime

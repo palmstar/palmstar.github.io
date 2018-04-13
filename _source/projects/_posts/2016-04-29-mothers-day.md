@@ -9,16 +9,20 @@ trailer: https://www.youtube.com/embed/AQkCNxIM5yk?rel=0&amp;showinfo=0
 imdb: https://www.imdb.com/title/tt4824302/
 director:
     - Garry Marshall
-companies:
-    - Open Road Films (II)
-    - Rice Films
-    - Gulfstream Pictures
+distributor:
+    - Open Road Films
 cast:
     - Jennifer Aniston
     - Kate Hudson
-    - Julia Roberts
+    - Jula Roberts
+    - Jason Sudeikis
+    - Jennifer Garner
 writers:
     - Anya Kochoff
+    - Matthew Walker
+    - Tom Hines
+    - Lily Hollander (story)
+    - Garry Marshall (story)
 tags:
     - Comedy
     - Drama

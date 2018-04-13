@@ -9,16 +9,15 @@ trailer: https://www.youtube.com/embed/r3lChU6RdEA?rel=0&amp;showinfo=0
 imdb: http://www.imdb.com/title/tt3544112/
 director:
     - John Carney
-companies:
-    - Cosmo Films
-    - Distressed Films
-    - FilmNation Entertainment
+distributor:
+    - The Weinstein Company
 cast:
     - Ferdia Walsh-Peelo
-    - Aidan Gillen
-    - Maria Doyle Kennedy
+    - Kelly Thornton
+    - Jack Reynor
 writers:
     - John Carney
+    - Simon Carmody (story)
 tags:
     - Comedy
     - Drama

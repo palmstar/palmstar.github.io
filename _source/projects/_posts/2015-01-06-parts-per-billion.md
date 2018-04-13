@@ -10,20 +10,13 @@ trailer: https://www.youtube.com/embed/q4yZvBcPVkI?rel=0&amp;showinfo=0
 imdb: http://www.imdb.com/title/tt2495104/
 director:
     - Brian Horiuchi
-producers:
-    - Kevin Frakes
-    - Michael Benaroya
-    - Robert Ogden Barnum
-    - Cassian Elwes
-    - Cotty Chubb
-companies:
-    - PalmStar Media Capital
-    - Benaroya Pictures
-    - Interactor Media
+distributor:
+    - Millennium Entertainment
 cast:
+    - Frank Langella
+    - Gena Rowlands
     - Rosario Dawson
     - Josh Hartnett
-    - Frank Langella
 writers:
     - Brian Horiuchi
 tags:

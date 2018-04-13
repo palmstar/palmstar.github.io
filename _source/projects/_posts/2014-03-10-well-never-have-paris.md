@@ -10,11 +10,8 @@ imdb: http://www.imdb.com/title/tt3079016/?ref_=nv_sr_1
 director:
     - Simon Helberg
     - Jocelyn Towne
-companies:
-    - Bifrost Pictures
-    - Bridge Finance Company
-    - The
-    - E2B Capital
+distributor:
+    - Orion Pictures
 cast:
     - Simon Helberg
     - Melanie Lynskey

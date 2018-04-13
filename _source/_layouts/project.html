@@ -67,15 +67,15 @@ layout: base
                 </ul>
                 {%- endif -%}
 
-                {%- if page.companies -%}
-                {%- if page.companies.size == 1 -%}
+                {%- if page.distributor -%}
+                {%- if page.distributor.size == 1 -%}
                 <h3>Distributor</h3>
                 {%- else -%}
                 <h3>Distributors</h3>
                 {%- endif -%}
                 <ul>
-                    {%- for company in page.companies -%}
-                    <li>{{ company }}</li>
+                    {%- for distributor in page.distributor -%}
+                    <li>{{ distributor }}</li>
                     {%- endfor -%}
                 </ul>
                 {%- endif -%}

@@ -9,23 +9,16 @@ trailer: https://www.youtube.com/embed/p2zFH8Zruqo?rel=0&amp;showinfo=0
 imdb: http://www.imdb.com/title/tt2402157/
 director:
     - Roger Donaldson
-producers:
-    - Sriram Das
-    - Beau St Claire
-    - Kevin Frakes
-    - Raj Brinder Singh
-companies:
-    - Das Films
-    - Irish DreamTime
-    - PalmStar Media Capital
+distributor:
+    - Relativity Media
 cast:
     - Pierce Brosnan
-    - Olga Kurylenko
-    - Will Patton
     - Luke Bracey
+    - Olga Kurylenko
 writers:
     - Michael Finch
     - Karl Gajdusek
+    - Bill Granger (novel)
 tags:
     - Action
 category: projects

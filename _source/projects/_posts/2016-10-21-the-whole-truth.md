@@ -9,19 +9,12 @@ trailer: https://www.youtube.com/embed/eNjXFdiC1O0?rel=0&amp;showinfo=0
 imdb: http://www.imdb.com/title/tt3503406/
 director:
     - Courtney Hunt
-producers:
-    - Anthony Bregman
-    - Kevin Frakes
-    - Raj Brinder Singh
-companies:
-    - Likely Story
-    - PalmStar Media Capital
-    - Merced Media Partners
+distributor:
+    - Lionsgate
 cast:
     - Keanu Reeves
-    - Renee Zellweger
+    - Renée Zellweger
     - Gugu Mbatha-Raw
-    - Jim Belushi
 writers:
     - Nicholas Kazan
 tags:

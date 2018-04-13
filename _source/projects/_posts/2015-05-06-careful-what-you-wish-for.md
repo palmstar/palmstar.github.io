@@ -9,13 +9,7 @@ trailer: https://www.youtube.com/embed/DIqwXVKd99U?rel=0&amp;showinfo=0
 imdb: http://www.imdb.com/title/tt1629242/
 director:
     - Elizabeth Allen
-producers:
-    - Kevin Frakes
-    - Robert Stein
-    - Michael Helfant
-    - Ashok Amitraj
-    - Raj Brinder Sinh
-companies:
+distributor:
     - PalmStar Media Capital
     - Troika Pictures
     - Hyde Park Entertainment

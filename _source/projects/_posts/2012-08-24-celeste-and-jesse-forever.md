@@ -9,21 +9,15 @@ posters:
 trailer: https://www.youtube.com/embed/NQoH1IGRB3w?rel=0&amp;showinfo=0
 imdb: http://www.imdb.com/title/tt1405365/
 director:
-    - Rashida Jones
-    - Will McCormack
-producers:
-    - Kevin Frakes
-    - Suzanne Todd
-    - Jennifer Todd
-    - Lee Nelson
-    - Raj Brinder Singh
-companies:
-    - PalmStar Media Capital
-    - Team Todd
-    - Envision Media Arts
+    - Lee Toland Krieger
+distributor:
+    - Sony Pictures Classics
 cast:
     - Rashida Jones
     - Andy Samberg
+    - Ari Graynor
+    - Emma Roberts
+    - Chris Pine
 writers:
     - Rashida Jones
     - Will McCormack

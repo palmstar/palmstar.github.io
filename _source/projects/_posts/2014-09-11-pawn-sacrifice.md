@@ -9,24 +9,16 @@ trailer: https://www.youtube.com/embed/xFHvH9FtACg?rel=0&amp;showinfo=0
 imdb: http://www.imdb.com/title/tt1596345/
 director:
     - Edward Zwick
-producers:
-    - Gail Katz
-    - Tobey Maguire
-    - Kevin Frakes
-    - Ankur Rungta
-    - Vishal Rungta
-companies:
-    - Gail Katz Productions
-    - Material Pictures
-    - PalmStar Media Capital
-    - BR Capital
+distributor:
+    - Bleecker Street Media
 cast:
     - Tobey Maguire
     - Liev Schreiber
+    - Michael Stuhlbarg
 writers:
-    - Stephen J Rivele
+    - Steven Knight
+    - Stephen J. Rivele (story)
     - Christopher Wilkinson
-    - Seven Knight
 tags:
     - Historical Drama
 category: projects

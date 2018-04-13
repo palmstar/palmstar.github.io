@@ -9,22 +9,14 @@ trailer: https://www.youtube.com/embed/isQ5Ycie73U?rel=0&amp;showinfo=0
 imdb: https://www.imdb.com/title/tt4682786/
 director:
     - David Frankel
-producers:
-    - Michael Sugar
-    - Bard Darros
-    - Kevin Frakes
-    - Anthony Bregman
-companies:
-    - PalmStar Media
-    - Likely Story
-    - Anonymous Content
+distributor:
+    - Warner Bros.
 cast:
     - Will Smith
-    - Edward Norton
-    - Kate Winslett
+    - Ed Norton
+    - Kate Winslet
+    - Keira Knightley
     - Helen Mirren
-    - Keira Knightely
-    - Michael Pena
 writers:
     - Allan Loeb
 tags:

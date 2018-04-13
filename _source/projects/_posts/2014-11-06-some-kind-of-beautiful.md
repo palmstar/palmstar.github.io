@@ -9,19 +9,13 @@ trailer: https://www.youtube.com/embed/SnSf62D7TPY?rel=0&amp;showinfo=0
 imdb: http://www.imdb.com/title/tt1725986/
 director:
     - Tom Vaughan
-producers:
-    - Kevin Frakes
-    - Richard Lewis
-    - Beau St Claire
-    - Raj Brinder Singh
-companies:
-    - PalmStar Media Capital
-    - Irish DreamTime
-    - Southpaw Entertainment
+distributor:
+    - Lionsgate
 cast:
     - Pierce Brosnan
-    - Jessica Alba
     - Salma Hayek
+    - Jessica Alba
+    - Malcolm McDowell
 writers:
     - Matthew Newman
 tags:

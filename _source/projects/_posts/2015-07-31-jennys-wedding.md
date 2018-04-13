@@ -9,25 +9,12 @@ trailer: https://www.youtube.com/embed/MsRh-PTeXzw?rel=0&amp;showinfo=0
 imdb: http://www.imdb.com/title/tt3289712/
 director:
     - Mary Agnes Donoghue
-producers:
-    - Michelle Manning
-    - Kevin Frakes
-    - Raj Brinder Singh
-    - Lauren Selig
-    - Myles Nestel
-    - Lisa Wilson
-companies:
-    - MM Productions
-    - Merced Media Partner
-    - PalmStar Media
+distributor:
+    - IFC Films
 cast:
-    - Michelle Manning
-    - Kevin Frakes
-    - Raj Brinder Singh
-    - Lauren Selig
-    - Myles Nestel
-    - Lisa Wilson
-    - Mary Agnes Donoghue
+    - Katherine Heigl
+    - Tom Wilkinson
+    - Linda Emond
 writers:
     - Mary Agnes Donoghue
 tags:

@@ -10,7 +10,7 @@ imdb: http://www.imdb.com/title/tt2390283/
 director:
     - Roger Spottiswoode
     - Brando Quilici
-companies:
+distributor:
     - Hyde Park Entertainment
     - Imagenation Abu Dhabi FZ
     - Media Max Productions

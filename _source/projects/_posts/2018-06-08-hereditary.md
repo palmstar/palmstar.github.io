@@ -9,17 +9,13 @@ trailer: https://www.youtube.com/embed/V6wWKNij_1M?rel=0&amp;showinfo=0
 imdb: https://www.imdb.com/title/tt7784604/
 director:
     - Ari Aster
-producers:
-    - Kevin Scott Frakes
-    - Lars Knudsen
-    - Buddy Patrick
-companies:
-    -  PalmStar Media
-    - Windy Hill Pictures
+distributor:
+    - A24
 cast:
     - Toni Collette
-    - Gabriel Byrne
     - Alex Wolff
+    - Gabriel Byrne
+    - Ann Dowd
 writers:
     - Ari Aster
 tags:

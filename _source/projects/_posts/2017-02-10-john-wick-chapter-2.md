@@ -10,14 +10,12 @@ trailer: https://www.youtube.com/embed/XGk2EfbD_Ps?rel=0&amp;showinfo=0
 imdb: http://www.imdb.com/title/tt4425200/
 director:
     - Chad Stahelski
-companies:
-    - 87Eleven
-    - Lionsgate
-    - Thunder Road Pictures
+distributor:
+    - Summit Entertainment
 cast:
     - Keanu Reeves
-    - Ruby Rose
-    - Ian McShane
+    - Common
+    - Laurence Fishburne
 writers:
     - Derek Kolstad
 tags:

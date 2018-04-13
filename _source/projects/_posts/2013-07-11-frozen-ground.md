@@ -10,12 +10,7 @@ trailer: https://www.youtube.com/embed/GZSo12hMuKE?rel=0&amp;showinfo=0
 imdb: https://www.imdb.com/title/tt2005374/
 director:
     - Scott Walker
-producers:
-    - Kevin Frakes
-    - Daniel Wagner
-    - George Furla
-    - Raj Brinder Singh
-companies:
+distributor:
     - Emmet/Furla Films
     - K5 International
     - Envision Entertainment

@@ -9,22 +9,16 @@ trailer: https://www.youtube.com/embed/0zN05QECAtQ?rel=0&amp;showinfo=0
 imdb: http://www.imdb.com/title/tt2463512/
 director:
     - Liza Johnson
-producers:
-    - Michael Benaroya
-    - Kevin Frakes
-    - Cassian Elwes
-    - Robert Ogden Barnum
-    - Jacob Pechenik
-companies:
-    - Benaroya Pictures
-    - The Film Community
-    - PalmStar Media Capital
+distributor:
+    - IFC Films
 cast:
-    - Kristin Wiig
+    - Kristen Wiig
     - Guy Pearce
-    - Nick Nolte
+    - Hailee Steinfeld
+    - Jennifer Jason Leigh
 writers:
-    - Mark Pourier
+    - Mark Poirier
+    - Alice Munro (short story)
 tags:
     - Drama
     - Romance

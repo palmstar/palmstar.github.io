@@ -13,6 +13,8 @@ cast:
     - Keira Knightley
     - Mark Ruffalo
     - Adam Levine
+distributor:
+    - PalmStar
 writers:
     - John Carney
 tags:

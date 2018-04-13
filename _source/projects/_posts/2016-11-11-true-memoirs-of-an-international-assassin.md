@@ -9,15 +9,15 @@ trailer: https://www.youtube.com/embed/E6l4xrEjFY8?rel=0&amp;showinfo=0
 imdb: https://www.imdb.com/title/tt1542768/
 director:
     - Jeff Wadlow
-companies:
-    - PalmStar Media
-    - Global Film Group
+distributor:
+    - Netflix
 cast:
     - Kevin James
-    - Zulay Henao
+    - Rob Riggle
     - Andy Garcia
 writers:
-    - Jeff Morris (screenplay)
+    - Jeff Morris
+    - Jeff Wadlow
 tags:
     - Action
     - Comedy

@@ -9,14 +9,13 @@ trailer: https://www.youtube.com/embed/rAfGRtQ9aSo?rel=0&amp;showinfo=0
 imdb: http://www.imdb.com/title/tt0426462/
 director:
     - Theo Avgerinos
-companies:
-    - Coalition Film
-    - One Day Only Productions LLC
-    - PalmStar Media
+distributor:
+    - Imagem Filmes
 cast:
-    - Diora Baird
     - Kristen Bell
-    - Michael Masini
+    - Diora Baird
+    - Michael Peña
+    - Jane Lynch
 writers:
     - Matthew Perniciaro
 tags:
