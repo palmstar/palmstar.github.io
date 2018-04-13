@@ -37,7 +37,7 @@
             align-self: auto;
             height: 100%;
             order: 0;
-            flex: 0 1 auto;
+            flex: 0 1 60px;
 
             svg {
                 height: 40px;
@@ -70,8 +70,6 @@
         }
 
         @include breakpoint (medium, max) {
-            background: red;
-
             span {
                 font-size: 12px;
                 line-height: 1.4;
@@ -84,8 +82,6 @@
         }
 
         @include breakpoint (small, max) {
-            background: gold;
-
             .nli-logo {
                 height: 26px;
                 margin-top: 18px;
@@ -94,7 +90,6 @@
         }
 
         @include breakpoint (extra-small, max) {
-            background: green;
             padding: 0 10px;
 
             div,
