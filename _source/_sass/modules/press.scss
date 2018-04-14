@@ -13,6 +13,10 @@
                 line-height: 40px;
                 margin: 0 0 10px;
                 text-transform: none;
+
+                @include breakpoint (small, max) {
+                    line-height: 34px;
+                }
             }
 
             time {

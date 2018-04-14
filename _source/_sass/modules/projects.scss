@@ -77,6 +77,10 @@
     .trailer {
         margin: 0 auto;
         width: 80%;
+
+        @include breakpoint (small, max) {
+            width: 90%;
+        }
     }
 
     .videoWrapper {
@@ -108,6 +112,11 @@
         justify-content: flex-start;
         margin: 40px 0 0;
         padding: 40px 20px 0;
+
+        @include breakpoint (small, max) {
+            margin: 20px 0 0;
+            padding: 20px 10px 0;
+        }
 
         .posters,
         .meta {

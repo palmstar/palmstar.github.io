@@ -74,7 +74,7 @@ h3 {
     }
 
     @include breakpoint (small, max) {
-        font-size: 28px;
+        font-size: 26px;
     }
 }
 
@@ -118,6 +118,6 @@ p {
     }
 
     @include breakpoint (small, max) {
-        font-size: 15px;
+        font-size: 14px;
     }
 }

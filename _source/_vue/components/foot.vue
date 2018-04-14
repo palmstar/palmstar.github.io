@@ -70,6 +70,13 @@
         }
 
         @include breakpoint (medium, max) {
+            margin: 0 5%;
+            padding: 0 5px;
+
+            div {
+                flex: 0 1 30px;
+            }
+
             span {
                 font-size: 12px;
                 line-height: 1.4;
@@ -79,20 +86,23 @@
                     display: block;
                 }
             }
-        }
 
-        @include breakpoint (small, max) {
             .nli-logo {
                 height: 26px;
                 margin-top: 18px;
-                width: 100px;
+                width: 102px;
+            }
+        }
+
+        @include breakpoint (small, max) {
+            padding: 0 10px;
+
+            div {
+                display: none;
             }
         }
 
         @include breakpoint (extra-small, max) {
-            padding: 0 10px;
-
-            div,
             .nli-logo {
                 display: none;
             }
