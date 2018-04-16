@@ -70,6 +70,7 @@
         }
 
         .nli-logo {
+            color: $nli-yellow;
             display: inline-block;
             height: 100%;
             margin: 10px 0 0;
