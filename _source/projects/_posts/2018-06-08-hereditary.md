@@ -4,7 +4,7 @@ active_page: projects
 title: Hereditary
 date: 2018-06-08 12:00:00 +0100
 posters:
-    - /images/projects/hereditary/hereditary-poster.jpg
+    - /assets/images/projects/hereditary/hereditary-poster.jpg
 trailer: https://www.youtube.com/embed/V6wWKNij_1M?rel=0&amp;showinfo=0
 imdb: https://www.imdb.com/title/tt7784604/
 director:

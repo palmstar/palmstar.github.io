@@ -4,7 +4,7 @@ active_page: projects
 title: Veronika Decides to Die
 date: 2009-05-16 12:00:00 +0100
 posters:
-    - /images/projects/veronika-decides-to-die/veronika-decides-to-die-poster.jpg
+    - /assets/images/projects/veronika-decides-to-die/veronika-decides-to-die-poster.jpg
 trailer: https://www.youtube.com/embed/6VLS2P_g534?rel=0&amp;showinfo=0
 imdb: http://www.imdb.com/title/tt1068678/
 director:

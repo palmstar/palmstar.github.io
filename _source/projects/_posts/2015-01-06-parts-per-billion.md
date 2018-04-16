@@ -4,8 +4,8 @@ active_page: projects
 title: Parts Per Billion
 date: 2015-01-06 12:00:00 +0100
 posters:
-    - /images/projects/parts-per-billion/parts-per-billion-poster.jpg
-    - /images/projects/parts-per-billion/parts-per-billion-poster-2.jpg
+    - /assets/images/projects/parts-per-billion/parts-per-billion-poster.jpg
+    - /assets/images/projects/parts-per-billion/parts-per-billion-poster-2.jpg
 trailer: https://www.youtube.com/embed/q4yZvBcPVkI?rel=0&amp;showinfo=0
 imdb: http://www.imdb.com/title/tt2495104/
 director:

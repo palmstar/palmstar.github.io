@@ -58,6 +58,11 @@ h1 {
             @include position (absolute, 0, auto, 0, -20px);
         }
     }
+
+    @include breakpoint (extra-small, max) {
+        font-size: 28px;
+        line-height: 38px;
+    }
 }
 
 h3 {

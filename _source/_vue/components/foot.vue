@@ -1,8 +1,15 @@
 <template>
     <footer>
-        <div><icon name="logo-mark-black"></icon></div>
-        <span>&copy; 2018 PalmStar Media Capital, LLC.<ins>all rights reserved</ins></span>
-        <a href="http://www.nationallampoon.com/" class="nli-logo"><icon name="nli-logo"></icon></a>
+        <div>
+            <icon name="logo-mark-black"></icon>
+        </div>
+        <span>
+            &copy; 2018 PalmStar Media Capital, LLC.
+            <ins>all rights reserved.</ins>
+        </span>
+        <a href="http://www.nationallampoon.com/" class="nli-logo" title="National Lampoon">
+            <icon name="nli-logo"></icon>
+        </a>
     </footer>
 </template>
 

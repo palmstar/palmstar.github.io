@@ -5,7 +5,7 @@ layouts_dir:     ./_layouts
 includes_dir: ./_includes
 data_dir: ./_data
 include:     ['.htaccess']
-exclude:     ['Gemfile', 'Gemfile.lock', 'node_modules', 'css', 'images~original']
+exclude:     ['Gemfile', 'Gemfile.lock', 'node_modules', 'css', 'images']
 keep_files:  ['.git','.svn', 'assets']
 
 timezone:    America/New_York

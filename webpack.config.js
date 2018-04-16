@@ -80,14 +80,52 @@ const config = {
                 include: path.resolve(__dirname, './_source/_sass')
             },
             {
-                test: /\.(png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot)(\?.*$|$)/,
-                loader: 'file-loader'
+                test: /\.(png|jpg|jpeg|gif)(\?.*$|$)/,
+                use: [
+                {
+                    loader: 'file-loader',
+                    options: {
+                        context: path.resolve(__dirname, './_source/'),
+                        name: '[name].[ext]',
+                        useRelativePath: true
+                    }
+                },
+                {
+                    loader: 'image-webpack-loader',
+                    options: {
+                        mozjpeg: {
+                            progressive: true,
+                            quality: 90
+                        },
+                        pngquant: {
+                            quality: '65-90',
+                            speed: 4
+                        },
+                        gifsicle: {
+                            optimizationLevel: 3
+                        }
+                    }
+                }
+                ],
             },
             {
                 test: /\.js$/,
                 loader: 'babel-loader',
                 exclude: /node_modules/
-            }
+            },
+            // {
+            //     test: /\.(svg|woff|woff2|ttf|eot)(\?.*$|$)/,
+            //     use: [
+            //         {
+            //             loader: 'file-loader',
+            //             options: {
+            //                 context: path.resolve(__dirname, './_source/'),
+            //                 name: '[name].[ext]',
+            //                 useRelativePath: true
+            //             }
+            //         }
+            //     ]
+            // }
         ]
     },
     plugins: [
@@ -108,7 +146,10 @@ const config = {
                 {
                     delete: [
                         path.resolve(__dirname, './_site/assets/essential.js')
-                    ]
+                    ],
+                    copy: [
+                        { source: path.resolve(__dirname, './_source/images/*.{svg,ico,xml,webmanifest}'), destination: path.resolve(__dirname, './_site/assets/images') },
+                    ],
                 }
             ]
         })
