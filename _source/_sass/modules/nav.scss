@@ -11,6 +11,11 @@ nav {
     line-height: 120px;
     overflow: hidden;
     text-align: center;
+    z-index: 3;
+
+    &.home-bleed {
+        background-color: transparent;
+    }
 
     div {
         align-self: auto;

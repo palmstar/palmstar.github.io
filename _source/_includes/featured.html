@@ -1,0 +1,21 @@
+<div class="fullbleed">
+    {%- for post in site.posts limit: 1 -%}
+        {%- if post.featured -%}
+        <img src="{{ post.hero }}" />
+        <div class="meta">
+            <a href="{{ post.url }}" title="{{ post.title }}">
+                <h1>
+                    {{ post.title }}
+                    <small>({{post.date | date: "%Y"}})</small>
+                </h1>
+                {%- if post.director -%}
+                <span>
+                    Directed by&nbsp;
+                    {{ post.director | join: ', ' }}
+                </span>
+                {%- endif -%}
+            </a>
+        </div>
+      {%- endif -%}
+    {%- endfor -%}
+</div>

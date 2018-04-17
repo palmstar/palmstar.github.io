@@ -1,7 +1,7 @@
 <template>
     <footer>
         <div>
-            <icon name="logo-mark-black"></icon>
+            <icon name="logo-mark"></icon>
         </div>
         <span>
             &copy; 2018 PalmStar Media Capital, LLC.
@@ -39,6 +39,20 @@
         margin: 0 50px;
         overflow: hidden;
         padding: 0 25px;
+        z-index: 3;
+
+        &.home-bleed {
+            border-top-color: $gray-headline;
+            display: none;
+
+            div {
+                color: $gray-headline;
+            }
+
+            .nli-logo {
+                color: lighten($gray-headline, 35%);
+            }
+        }
 
         div {
             align-self: auto;
