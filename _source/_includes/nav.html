@@ -1,10 +1,8 @@
 {%- assign generated_active_page = page.active_page | liquify -%}
 <nav {% if generated_active_page == 'home' %}class="home-bleed"{%- endif -%}>
-    <div>
-        <a href="/" title="Home">
-            <icon name="logo-white"></icon>
-        </a>
-    </div>
+    <a href="/" title="Home" class="home-link">
+        <icon name="logo-white"></icon>
+    </a>
     <ul>
         <li {% if generated_active_page == 'about' %}class="active"{%- endif -%}>
             <a href="/about" title="About">About</a>

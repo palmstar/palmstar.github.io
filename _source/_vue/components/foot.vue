@@ -123,6 +123,10 @@
         }
 
         @include breakpoint (extra-small, max) {
+            &.home-bleed {
+                display: block;
+            }
+
             .nli-logo {
                 display: none;
             }

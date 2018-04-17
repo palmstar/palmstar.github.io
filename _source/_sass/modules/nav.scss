@@ -14,24 +14,16 @@ nav {
     z-index: 3;
 
     &.home-bleed {
+        @include position (absolute, 0, 0, auto, 0);
         background-color: transparent;
     }
 
-    div {
+    .home-link {
         align-self: auto;
         flex: 0 1 auto;
         height: calc(100% - 50px);
         margin: 25px 0 0 25px;
         order: 0;
-
-        a {
-            display: block;
-            height: 100%;
-
-            img {
-                height: 100%;
-            }
-        }
     }
 
     ul {
@@ -111,9 +103,9 @@ nav {
     @include breakpoint (medium, max) {
         flex-direction: column;
 
-        div {
+        .home-link {
             height: 50%;
-            margin: 10px 0 0 25px;
+            margin: 10px 0 0 35px;
         }
 
         ul {
@@ -138,6 +130,10 @@ nav {
     }
 
     @include breakpoint (small, max) {
+        .home-link {
+            margin: 10px 0 0 20px;
+        }
+
         ul {
             li {
                 a {
@@ -150,10 +146,9 @@ nav {
     @include breakpoint (extra-small, max) {
         height: 260px;
 
-        div {
+        .home-link {
             height: 60px;
-            margin: 15px 15px 0;
-            width: calc(100% - 30px);
+            margin: 15px auto 0;
         }
 
         ul {

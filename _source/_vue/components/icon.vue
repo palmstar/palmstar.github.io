@@ -2,6 +2,7 @@
     <svg
         :viewBox="iconData.artboard ? iconData.artboard : '0 0 50 50'"
         version="1.1"
+        preserveAspectRatio="xMinYMin"
         role="img"
         v-html="iconData.svg">
     </svg>
@@ -35,7 +36,7 @@
     };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
     svg {
         -moz-box-sizing: content-box !important;
         -webkit-box-sizing: content-box !important;
