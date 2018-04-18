@@ -10,8 +10,7 @@
                 </h1>
                 {%- if post.director -%}
                 <span>
-                    Directed by&nbsp;
-                    {{ post.director | join: ', ' }}
+                    Directed by {{ post.director | join: ', ' }}
                 </span>
                 {%- endif -%}
             </a>

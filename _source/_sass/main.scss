@@ -13,10 +13,12 @@
 .content {
     flex: 1;
     padding: 5% 0;
+    position: relative;
     z-index: 1;
 }
 
-.fullbleed {
+.fullbleed,
+.nav-featured {
     @include position (absolute, 0, 0, 0, 0);
     display: block;
     transform-style: preserve-3d;

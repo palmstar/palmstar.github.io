@@ -124,7 +124,9 @@
 
         @include breakpoint (extra-small, max) {
             &.home-bleed {
+                border-top: 0;
                 display: block;
+                text-align: center;
             }
 
             .nli-logo {

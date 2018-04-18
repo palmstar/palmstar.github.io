@@ -84,6 +84,14 @@ nav {
         }
     }
 
+    .nav-featured {
+        @include position (relative, auto, auto, auto, auto);
+        display: none;
+        line-height: initial;
+        text-align: center;
+        width: 100%;
+    }
+
     @include breakpoint (large, max) {
         ul {
             li {
@@ -154,6 +162,7 @@ nav {
         ul {
             li {
                 display: block;
+                font-weight: normal;
 
                 a {
                     padding: 15px 18px 15px 30px;
@@ -174,6 +183,18 @@ nav {
                         left: 15px;
                         right: auto;
                     }
+                }
+            }
+        }
+
+        &.home-bleed {
+            height: 350px;
+
+            .nav-featured {
+                display: block;
+
+                .meta {
+                    display: block;
                 }
             }
         }

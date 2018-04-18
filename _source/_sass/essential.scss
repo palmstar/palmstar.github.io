@@ -5,7 +5,15 @@ html, body, #app {
 }
 
 html {
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    margin: 0 !important;
     overflow-x: hidden;
+    padding: 0;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-touch-callout: none;
 }
 
 body {
@@ -13,6 +21,10 @@ body {
     font-family: $sans-serif-font;
     font-size: 16px;
     font-weight: 300;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: none;
+    -webkit-touch-callout: none !important;
+    -webkit-user-drag: none;
 
     @include breakpoint (small, max) {
         font-size: 15px;
