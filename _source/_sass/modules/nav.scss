@@ -24,6 +24,10 @@ nav {
         height: calc(100% - 50px);
         margin: 25px 0 0 25px;
         order: 0;
+
+        svg {
+            width: auto;
+        }
     }
 
     ul {
@@ -82,14 +86,6 @@ nav {
                 }
             }
         }
-    }
-
-    .nav-featured {
-        @include position (relative, auto, auto, auto, auto);
-        display: none;
-        line-height: initial;
-        text-align: center;
-        width: 100%;
     }
 
     @include breakpoint (large, max) {
@@ -183,18 +179,6 @@ nav {
                         left: 15px;
                         right: auto;
                     }
-                }
-            }
-        }
-
-        &.home-bleed {
-            height: 350px;
-
-            .nav-featured {
-                display: block;
-
-                .meta {
-                    display: block;
                 }
             }
         }

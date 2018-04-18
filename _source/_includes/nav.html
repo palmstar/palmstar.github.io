@@ -17,23 +17,4 @@
             <a href="/press" title="Press">Press</a>
         </li>
     </ul>
-    {%- for post in site.posts limit: 1 -%}
-    {%- if post.featured -%}
-    <div class="nav-featured">
-        <div class="meta">
-            <a href="{{ post.url }}" title="{{ post.title }}">
-                <h1>
-                    {{ post.title }}
-                    <small>({{post.date | date: "%Y"}})</small>
-                </h1>
-                {%- if post.director -%}
-                <span>
-                    Directed by {{ post.director | join: ', ' }}
-                </span>
-                {%- endif -%}
-            </a>
-        </div>
-    </div>
-    {%- endif -%}
-    {%- endfor -%}
 </nav>

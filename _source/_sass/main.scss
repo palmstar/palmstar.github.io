@@ -17,8 +17,7 @@
     z-index: 1;
 }
 
-.fullbleed,
-.nav-featured {
+.fullbleed {
     @include position (absolute, 0, 0, 0, 0);
     display: block;
     transform-style: preserve-3d;
@@ -75,7 +74,7 @@
         }
 
         @include breakpoint (extra-small, max) {
-            display: none;
+            top: 300px;
         }
     }
 }
