@@ -4,7 +4,6 @@ const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const FileManagerPlugin = require('filemanager-webpack-plugin');
 
-
 const config = {
     mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
     entry: {
@@ -12,7 +11,7 @@ const config = {
             path.resolve(__dirname, './_source/_vue/app.js')
         ],
         essential: [
-            path.resolve(__dirname, './_source/_sass/essential.scss'),
+            path.resolve(__dirname, './_source/_sass/essential.scss')
         ]
     },
     output: {
@@ -107,26 +106,13 @@ const config = {
                         }
                     }
                 }
-                ],
+                ]
             },
             {
                 test: /\.js$/,
                 loader: 'babel-loader',
                 exclude: /node_modules/
-            },
-            // {
-            //     test: /\.(svg|woff|woff2|ttf|eot)(\?.*$|$)/,
-            //     use: [
-            //         {
-            //             loader: 'file-loader',
-            //             options: {
-            //                 context: path.resolve(__dirname, './_source/'),
-            //                 name: '[name].[ext]',
-            //                 useRelativePath: true
-            //             }
-            //         }
-            //     ]
-            // }
+            }
         ]
     },
     plugins: [
@@ -149,8 +135,10 @@ const config = {
                         path.resolve(__dirname, './_site/assets/essential.js')
                     ],
                     copy: [
-                        { source: path.resolve(__dirname, './_source/images/*.{svg,ico,xml,webmanifest}'), destination: path.resolve(__dirname, './_site/assets/images') },
-                    ],
+                        {
+                            source: path.resolve(__dirname, './_source/images/*.{svg,ico,xml,webmanifest}'), destination: path.resolve(__dirname, './_site/assets/images')
+                        }
+                    ]
                 }
             ]
         })

@@ -49,6 +49,10 @@
         }
     },
     "lint-staged": {
+        "webpack.config.js": [
+            "eslint",
+            "git add"
+        ],
         "_source/**/*.js": [
             "eslint",
             "git add"
