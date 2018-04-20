@@ -4,6 +4,7 @@ const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const FileManagerPlugin = require('filemanager-webpack-plugin');
 
+
 const config = {
     mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
     entry: {
