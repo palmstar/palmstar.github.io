@@ -86,8 +86,9 @@
         .nli-logo {
             color: $nli-yellow;
             display: inline-block;
-            height: 100%;
             margin: 10px 0 0;
+            max-height: 100%;
+            width: 140px;
 
             svg {
                 height: 60%;
