@@ -1,7 +1,7 @@
 ---
 layout: project
 active_page: projects
-title: fifty Pills
+title: Fifty Pills
 date: 2006-04-26 12:00:00 +0100
 posters:
     - /assets/images/projects/fifty-pills/fifty-pills-poster.jpg

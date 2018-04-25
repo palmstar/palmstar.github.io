@@ -1,7 +1,7 @@
 ---
 layout: project
 active_page: projects
-title: Hateship,Loveship
+title: Hateship, Loveship
 date: 2013-09-07 12:00:00 +0100
 posters:
     - /assets/images/projects/hateship-loveship/hateship-loveship-poster.jpg

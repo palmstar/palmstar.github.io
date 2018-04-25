@@ -16,7 +16,7 @@ cast:
     - Elizabeth Banks
     - Dakota Fanning
 writers:
-    - Nicole Holofcener,
+    - Nicole Holofcener
     - Laura Lippman (novel)
 tags:
     - Drama

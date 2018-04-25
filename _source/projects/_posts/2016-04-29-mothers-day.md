@@ -14,7 +14,7 @@ distributor:
 cast:
     - Jennifer Aniston
     - Kate Hudson
-    - Jula Roberts
+    - Julia Roberts
     - Jason Sudeikis
     - Jennifer Garner
 writers:
