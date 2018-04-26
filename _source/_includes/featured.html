@@ -4,7 +4,8 @@
     <input type="radio" name="featured" id="featured{{ counter }}" {%- if counter == 1 -%}checked="checked"{%- endif -%} class="featured__nav"/>
     {%- endfor -%}
     <div class="featured__inner">
-    {%- for post in site.posts -%}
+    {%- assign sorted = site.posts | reverse -%}
+    {%- for post in sorted -%}
         {%- if post.id == '/projects/2018/06/08/hereditary' or post.id == '/projects/2018/07/01/the-catcher-was-a-spy' -%}
         <div class="feature">
             <img src="{{ post.hero }}" />
