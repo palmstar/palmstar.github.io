@@ -165,7 +165,7 @@
     }
     /* stylelint-enable */
     .featured-dot-control {
-        @include position (absolute, auto, 0, 0, 0);
+        @include position (absolute, auto, 0, 25px, 0);
         margin-bottom: constant(safe-area-inset-bottom);
         margin-bottom: env(safe-area-inset-bottom);
         padding: 12px 0;
