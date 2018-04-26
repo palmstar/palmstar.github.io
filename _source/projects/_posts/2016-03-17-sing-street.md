@@ -27,6 +27,5 @@ tags:
     - Music
     - Romance
 category: projects
-featured: true
 published: true
 ---

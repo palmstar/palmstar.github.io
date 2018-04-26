@@ -79,7 +79,7 @@
             }
 
             @include breakpoint (extra-small, max) {
-                top: 300px;
+                top: 325px;
             }
         }
     }
@@ -164,7 +164,34 @@
         }
     }
     /* stylelint-enable */
-    &:hover .featured-prev-next-control {
-        @include opacity (1);
+    .featured-dot-control {
+        @include position (absolute, auto, 0, 0, 0);
+        padding: 12px 0;
+        text-align: center;
+        width: 100%;
+
+        label {
+            @include transition-animation (background-color, 250ms, ease-in-out, 0ms);
+            background-color: rgba($white, .25);
+            border-radius: 50%;
+            cursor: pointer;
+            display: inline-block;
+            height: 11px;
+            margin: 0 5px;
+            width: 11px;
+
+            &:hover {
+                background-color: $white;
+            }
+        }
     }
+    /* stylelint-disable at-rule-no-unknown */
+    @for $i from 1 through $num-of-featured {
+        #featured#{$i}:checked {
+            & ~ .featured-dot-control label:nth-child(#{$i}) {
+                background-color: $white;
+            }
+        }
+    }
+    /* stylelint-enable */
 }

@@ -25,6 +25,5 @@ tags:
     - Horror
     - Mystery
 category: projects
-featured: true
 published: true
 ---
