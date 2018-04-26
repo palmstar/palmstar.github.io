@@ -1,20 +1,56 @@
+{%- assign totalFeatured = 5 -%}
 <div class="fullbleed">
-    {%- for post in site.posts limit: 1 -%}
-        {%- if post.featured -%}
-        <img src="{{ post.hero }}" />
-        <div class="meta">
-            <a href="{{ post.url }}" title="{{ post.title }}">
-                <h1>
-                    {{ post.title }}
-                    <small>({{post.date | date: "%Y"}})</small>
-                </h1>
-                {%- if post.director -%}
-                <span>
-                    Directed by {{ post.director | join: ', ' }}
-                </span>
-                {%- endif -%}
-            </a>
-        </div>
-      {%- endif -%}
+    {%- for counter in (1..totalFeatured) %}
+    <input type="radio" name="featured" id="featured{{ counter }}" {%- if counter == 1 -%}checked="checked"{%- endif -%} class="featured__nav"/>
     {%- endfor -%}
+    <div class="featured__inner">
+    {%- for post in site.posts -%}
+        {%- if post.id == '/projects/2018/06/08/hereditary' or post.id == '/projects/2018/07/01/the-catcher-was-a-spy' -%}
+        <div class="feature">
+            <img src="{{ post.hero }}" />
+            <div class="meta">
+                <a href="{{ post.url }}" title="{{ post.title }}">
+                    <h1>
+                        {{ post.title }}
+                    </h1>
+                    {%- if post.director -%}
+                    <span>
+                        Directed by {{ post.director | join: ', ' }} <small>({{post.date | date: "%Y"}})</small>
+                    </span>
+                    {%- endif -%}
+                </a>
+            </div>
+        </div>
+        {%- endif -%}
+    {%- endfor -%}
+
+    <div class="feature">
+        <img src="assets/images/hero/lampoon-hero-1.jpg" />
+    </div>
+
+    {%- for post in site.posts -%}
+        {%- if post.id == '/projects/2016/12/16/collateral-beauty' or post.id == '/projects/2016/03/17/sing-street' -%}
+        <div class="feature">
+            <img src="{{ post.hero }}" />
+            <div class="meta">
+                <a href="{{ post.url }}" title="{{ post.title }}">
+                    <h1>
+                        {{ post.title }}
+                    </h1>
+                    {%- if post.director -%}
+                    <span>
+                        Directed by {{ post.director | join: ', ' }} <small>({{post.date | date: "%Y"}})</small>
+                    </span>
+                    {%- endif -%}
+                </a>
+            </div>
+        </div>
+        {%- endif -%}
+    {%- endfor -%}
+    </div>
+    <div class="featured-prev-next-control">
+        {%- for counter in (1..totalFeatured) %}
+        <label for=featured{{ counter }}></label>
+        {%- endfor -%}
+    </div>
 </div>

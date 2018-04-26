@@ -5,7 +5,7 @@ pre {
 
 a {
     @include transition-animation (color, 200ms, ease-in,  0ms);
-    color: $kanye-pink;
+    color: $palmstar-blue;
     text-decoration: underline;
 
     &:hover {
@@ -31,7 +31,7 @@ h1 {
 
     &::before {
         @include position (absolute, -12px, auto, -12px, -30px);
-        background-color: $kanye-pink;
+        background-color: $palmstar-blue;
         content: '';
         width: 2px;
     }
@@ -107,7 +107,7 @@ h4 {
         text-decoration: none;
 
         &:hover {
-            color: $kanye-pink;
+            color: $palmstar-blue;
         }
     }
 }

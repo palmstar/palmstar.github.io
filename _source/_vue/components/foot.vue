@@ -1,14 +1,16 @@
 <template>
     <footer>
         <div>
-            <icon name="logo-mark"></icon>
+            <a href="/" title="PalmStar Homepage">
+                <icon name="logo-mark"></icon>
+            </a>
         </div>
         <span>
             &copy; 2018 PalmStar Media Capital, LLC.
             <ins>all rights reserved.</ins>
         </span>
         <a href="http://www.nationallampoon.com/" class="nli-logo" title="National Lampoon">
-            <icon name="nli-logo"></icon>
+            <icon name="nli-logo-alt"></icon>
         </a>
     </footer>
 </template>
@@ -25,9 +27,10 @@
 
 <style lang="scss" scoped>
     footer {
-        border-top: solid 1px $alto;
+        /* stylelint-disable declaration-block-no-redundant-longhand-properties */
         align-content: stretch;
         align-items: flex-start;
+        border-top: solid 1px $alto;
         color: $gray-headline;
         display: flex;
         flex-direction: row;
@@ -40,7 +43,7 @@
         overflow: hidden;
         padding: 0 25px;
         z-index: 3;
-
+        /* stylelint-enable */
         &.home-bleed {
             border-top-color: $gray-headline;
             display: none;
@@ -56,9 +59,13 @@
 
         div {
             align-self: auto;
+            flex: 0 1 60px;
             height: 100%;
             order: 0;
-            flex: 0 1 60px;
+
+            a {
+                color: inherit;
+            }
 
             svg {
                 height: 40px;
@@ -92,7 +99,6 @@
 
             svg {
                 height: 60%;
-                margin-top: 5px;
             }
         }
 
@@ -125,8 +131,12 @@
 
         @include breakpoint (extra-small, max) {
             &.home-bleed {
+                background-color: $black;
                 border-top: 0;
-                display: block;
+                color: $white;
+                display: none;
+                font-weight: normal;
+                margin: 0;
                 text-align: center;
             }
 

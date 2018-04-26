@@ -1,4 +1,5 @@
 nav {
+    /* stylelint-disable declaration-block-no-redundant-longhand-properties */
     align-content: stretch;
     align-items: flex-start;
     background-color: $header-background;
@@ -12,7 +13,7 @@ nav {
     overflow: hidden;
     text-align: center;
     z-index: 3;
-
+    /* stylelint-enable */
     &.home-bleed {
         @include position (absolute, 0, 0, auto, 0);
         background-color: transparent;
@@ -43,6 +44,7 @@ nav {
 
         li {
             display: inline-block;
+            font-weight: normal;
             margin: 0;
 
             a {
@@ -58,13 +60,13 @@ nav {
                 &::after {
                     @include position (absolute, auto, 25px, 40px, 20px);
                     @include transform (scaleX(0));
-                    ms-transition: -webkit-transform .3s ease-out,border-color .3s ease-out;
-                    -webkit-transition: -webkit-transform .3s ease-out,border-color .3s ease-out;
-                    transition: transform .2s ease-out,border-color .3s ease-out;
                     border: solid 2px $white;
                     border-color: transparent transparent $white;
                     content: '';
                     display: block;
+                    ms-transition: -webkit-transform .3s ease-out, border-color .3s ease-out;
+                    -webkit-transition: -webkit-transform .3s ease-out, border-color .3s ease-out;
+                    transition: transform .2s ease-out, border-color .3s ease-out;
                 }
 
                 &:hover {
@@ -158,7 +160,6 @@ nav {
         ul {
             li {
                 display: block;
-                font-weight: normal;
 
                 a {
                     padding: 15px 18px 15px 30px;
@@ -174,10 +175,10 @@ nav {
                     &::after {
                         @include transform (scaleY(0));
                         border-color: transparent transparent transparent $white;
-                        top: 5px;
                         bottom: 5px;
                         left: 15px;
                         right: auto;
+                        top: 5px;
                     }
                 }
             }

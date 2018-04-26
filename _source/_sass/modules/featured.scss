@@ -1,0 +1,170 @@
+.fullbleed {
+    $num-of-featured: 10;
+    @include position (absolute, 0, 0, 0, 0);
+    display: block;
+    overflow: hidden;
+    transform-style: preserve-3d;
+
+    .featured__nav {
+        display: none;
+    }
+
+    .featured__inner {
+        @include transform (translate3d(0, 0, 0));
+        @include transition-animation (transform, .5s, ease-in-out, 0ms);
+        height: 100%;
+        position: relative;
+        white-space: nowrap;
+    }
+
+    .feature {
+        display: inline-block;
+        height: 100%;
+        position: relative;
+        vertical-align: top;
+        width: 100%;
+
+        img {
+            @include position (absolute, 0, 0, 0, 0);
+            display: block;
+            height: 100%;
+            object-fit: cover;
+            width: 100%;
+            z-index: 1;
+        }
+
+        .meta {
+            @include position (relative, 50%, auto, auto, 50%);
+            @include transform (translate3d(-50%, -50%, 0));
+            color: $white;
+            display: inline-block;
+            padding: 0 10px;
+            text-align: center;
+            white-space: normal;
+            width: calc(100% - 140px);
+            z-index: 2;
+
+            a {
+                color: $white;
+                display: block;
+                text-decoration: none;
+
+                &:hover {
+                    color: rgba($white, .65);
+                }
+            }
+
+            h1,
+            span {
+                font-weight: 200;
+                text-align: center;
+                text-transform: none;
+            }
+
+            h1 {
+                margin: 0;
+
+                small {
+                    font-size: 40%;
+                }
+
+                &::before {
+                    display: none;
+                }
+            }
+
+            span {
+                display: block;
+                font-weight: normal;
+            }
+
+            @include breakpoint (extra-small, max) {
+                top: 300px;
+            }
+        }
+    }
+
+    /* stylelint-disable at-rule-no-unknown */
+    @for $i from 1 through ($num-of-featured) {
+        @if $i == 1 {
+            .featured__nav:checked:nth-of-type(1) ~ .featured__inner {
+                @include transform (translate3d(0, 0, 0));
+            }
+        }
+        @else {
+            .featured__nav:checked:nth-of-type(#{$i}) ~ .featured__inner {
+                @include transform (translate3d(-#{($i - 1) * 100%}, 0, 0));
+            }
+        }
+    }
+    /* stylelint-enable */
+    .featured-prev-next-control {
+        @include position (absolute, 50%, auto, auto, auto);
+        @include transform (translateY(-50%));
+        @include transition-animation (opacity, 250ms, ease-in-out, 0ms);
+        height: 50px;
+        pointer-events: none;
+        width: 100%;
+
+        label {
+            @include transition-animation (all, 250ms, ease-in-out, 0ms);
+            background-color: rgba($white, .5);
+            border-radius: 50%;
+            color: rgba($black, .85);
+            cursor: pointer;
+            display: none;
+            height: 50px;
+            margin: 0 10px;
+            pointer-events: auto;
+            position: relative;
+            width: 50px;
+
+            &:hover {
+                background-color: rgba($white, 1);
+                color: rgba($black, 1);
+            }
+
+            &::after {
+                @include position (absolute, 0, 0, 0, 0);
+                border-radius: 50%;
+                color: inherit;
+                display: block;
+                font-size: 40px;
+                line-height: 1.05;
+                margin: 0;
+                text-align: center;
+                text-decoration: inherit;
+            }
+        }
+    }
+    /* stylelint-disable at-rule-no-unknown */
+    @for $i from 1 through ($num-of-featured - 1) {
+        #featured#{$i}:checked {
+            & ~ .featured-prev-next-control label:nth-child(#{$i +1}) {
+                display: block;
+                float: right;
+
+                &::after {
+                    content: '\276f';
+                }
+            }
+        }
+    }
+
+    @for $i from 2 through $num-of-featured {
+        #featured#{$i}:checked {
+            & ~ .featured-prev-next-control label:nth-child(#{$i - 1}) {
+                display: block;
+                float: left;
+
+                &::after {
+                    content: '\276e';
+                }
+            }
+        }
+    }
+    /* stylelint-enable */
+    &:hover .featured-prev-next-control {
+        @include opacity (1);
+    }
+}

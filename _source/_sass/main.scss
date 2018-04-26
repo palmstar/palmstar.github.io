@@ -4,6 +4,7 @@
 
 @import 'modules/typography';
 @import 'modules/nav';
+@import 'modules/featured';
 @import 'modules/about';
 @import 'modules/team';
 @import 'modules/press';
@@ -15,68 +16,6 @@
     padding: 5% 0;
     position: relative;
     z-index: 1;
-}
-
-.fullbleed {
-    @include position (absolute, 0, 0, 0, 0);
-    display: block;
-    transform-style: preserve-3d;
-
-    img {
-        @include position (absolute, 0, 0, 0, 0);
-        display: block;
-        object-fit: cover;
-        height: 100%;
-        width: 100%;
-        z-index: 1;
-    }
-
-    .meta {
-        @include position (relative, 50%, auto, auto, 50%);
-        @include transform (translate3d(-50%, -50%, 0));
-        color: $white;
-        display: inline-block;
-        padding: 0 10px;
-        text-align: center;
-        z-index: 2;
-
-        a {
-            color: $white;
-            display: block;
-            text-decoration: none;
-
-            &:hover {
-                color: rgba($white, .65);
-            }
-        }
-
-        h1,
-        span {
-            font-weight: 200;
-            text-align: center;
-            text-transform: none;
-        }
-
-        h1 {
-            margin: 0;
-
-            small {
-                font-size: 40%;
-            }
-
-            &::before {
-                display: none;
-            }
-        }
-
-        span {
-            display: block;
-        }
-
-        @include breakpoint (extra-small, max) {
-            top: 300px;
-        }
-    }
 }
 
 .content-interior {
@@ -133,7 +72,7 @@
                 a {
                     background-color: rgba($black, .1);
                     border: solid 2px rgba($black, .035);
-                    color: $kanye-pink;
+                    color: $palmstar-blue;
                 }
             }
         }
@@ -188,7 +127,7 @@
             a {
                 background-color: rgba($black, .1);
                 border: solid 2px rgba($black, .035);
-                color: $kanye-pink;
+                color: $palmstar-blue;
             }
         }
     }
