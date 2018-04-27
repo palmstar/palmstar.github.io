@@ -1,6 +1,7 @@
 <template>
     <svg
         :viewBox="iconData.artboard ? iconData.artboard : '0 0 50 50'"
+        :class="name"
         version="1.1"
         preserveAspectRatio="xMinYMin"
         role="img"
@@ -9,7 +10,10 @@
 </template>
 
 <script>
-    import {ICON_SHAPES} from '../constants/icon-shapes.js';
+    import {
+        ICON_SHAPES
+    }
+    from '../constants/icon-shapes.js';
 
     export default {
         name: 'icon',

@@ -108,11 +108,12 @@
 
         label {
             @include transition-animation (all, 250ms, ease-in-out, 0ms);
-            background-color: rgba($white, .5);
+            background-color: rgba($black, .5);
             border-radius: 50%;
-            color: rgba($black, .85);
+            color: $white;
             cursor: pointer;
             display: none;
+            font-size: 40px;
             height: 50px;
             margin: 0 10px;
             pointer-events: auto;
@@ -120,20 +121,16 @@
             width: 50px;
 
             &:hover {
-                background-color: rgba($white, 1);
-                color: rgba($black, 1);
+                background-color: $palmstar-blue;
             }
 
-            &::after {
-                @include position (absolute, 0, 0, 0, 0);
-                border-radius: 50%;
-                color: inherit;
-                display: block;
-                font-size: 40px;
-                line-height: 1.05;
-                margin: 0;
-                text-align: center;
-                text-decoration: inherit;
+            .arrow-left,
+            .arrow-right {
+                @include position (absolute, 50%, auto, auto, 50%);
+                @include transform (translate3d(-50%, -50%, 0));
+                display: none;
+                height: 30px;
+                width: auto;
             }
         }
     }
@@ -144,8 +141,8 @@
                 display: block;
                 float: right;
 
-                &::after {
-                    content: '\276f';
+                .arrow-right {
+                    display: block;
                 }
             }
         }
@@ -157,8 +154,8 @@
                 display: block;
                 float: left;
 
-                &::after {
-                    content: '\276e';
+                .arrow-left {
+                    display: block;
                 }
             }
         }

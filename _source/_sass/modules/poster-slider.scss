@@ -1,7 +1,7 @@
 .slider {
     $num-of-slide: 10;
-    position: relative;
     overflow: hidden;
+    position: relative;
 
     .slider__nav {
         display: none;
@@ -18,7 +18,7 @@
             width: 100%;
         }
     }
-
+    /* stylelint-disable at-rule-no-unknown */
     @for $i from 1 through ($num-of-slide) {
         @if $i == 1 {
             .slider__nav:checked:nth-of-type(1) ~ .slider__inner {
@@ -31,7 +31,7 @@
             }
         }
     }
-
+    /* stylelint-enable */
     .slider-prev-next-control {
         @include opacity (0);
         @include position (absolute, 50%, auto, auto, auto);
@@ -42,9 +42,9 @@
 
         label {
             @include transition-animation (all, 250ms, ease-in-out, 0ms);
-            background-color: rgba($white, .5);
+            background-color: rgba($black, .5);
             border-radius: 50%;
-            color: rgba($black, .75);
+            color: $white;
             cursor: pointer;
             display: none;
             height: 40px;
@@ -53,32 +53,28 @@
             width: 40px;
 
             &:hover {
-                background-color: rgba($white, 1);
-                color: rgba($black, 1);
+                background-color: $palmstar-blue;
             }
 
-            &::after {
-                @include position (absolute, 0, 0, 0, 0);
-                border-radius: 50%;
-                color: inherit;
-                display: block;
-                font-size: 30px;
-                line-height: 1.1;
-                margin: 0;
-                text-align: center;
-                text-decoration: inherit;
+            .arrow-left,
+            .arrow-right {
+                @include position (absolute, 50%, auto, auto, 50%);
+                @include transform (translate3d(-50%, -50%, 0));
+                display: none;
+                height: 20px;
+                width: auto;
             }
         }
     }
-
+    /* stylelint-disable at-rule-no-unknown */
     @for $i from 1 through ($num-of-slide - 1) {
         #slide#{$i}:checked {
             & ~ .slider-prev-next-control label:nth-child(#{$i +1}) {
                 display: block;
                 float: right;
 
-                &::after {
-                    content: '\276f';
+                .arrow-right {
+                    display: block;
                 }
             }
         }
@@ -90,13 +86,13 @@
                 display: block;
                 float: left;
 
-                &::after {
-                    content: '\276e';
+                .arrow-left {
+                    display: block;
                 }
             }
         }
     }
-
+    /* stylelint-enable */
     .slider-dot-control {
         padding: 12px 0;
         text-align: center;
@@ -117,7 +113,7 @@
             }
         }
     }
-
+    /* stylelint-disable at-rule-no-unknown */
     @for $i from 1 through $num-of-slide {
         #slide#{$i}:checked {
             & ~ .slider-dot-control label:nth-child(#{$i}) {
@@ -125,7 +121,7 @@
             }
         }
     }
-
+    /* stylelint-enable */
     &:hover .slider-prev-next-control {
         @include opacity (1);
     }

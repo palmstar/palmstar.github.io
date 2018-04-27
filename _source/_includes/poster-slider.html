@@ -12,7 +12,9 @@
         {%- if totalPosters > 1 -%}
         <div class="slider-prev-next-control">
             {%- for poster in page.posters -%}
-            <label for=slide{{ forloop.index }}></label>
+            <label for=slide{{ forloop.index }}>
+                <icon name="arrow-left"></icon><icon name="arrow-right"></icon>
+            </label>
             {%- endfor -%}
         </div>
         <div class="slider-dot-control">
