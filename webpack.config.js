@@ -1,7 +1,10 @@
 'use strict';
 const path = require('path');
 const webpack = require('webpack');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const {
+    VueLoaderPlugin
+} = require('vue-loader');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const FileManagerPlugin = require('filemanager-webpack-plugin');
 
 const config = {
@@ -24,60 +27,40 @@ const config = {
         rules: [
             {
                 test: /\.vue$/,
-                loader: 'vue-loader',
-                options: {
-                    loaders: {
-                        scss: ExtractTextPlugin.extract({
-                            use: [
-                                'css-loader',
-                                'sass-loader',
-                                {
-                                    loader: 'sass-resources-loader',
-                                    options: {
-                                        indentedSyntax: false, // Set to true to use indented SASS syntax.
-                                        resources: [
-                                            path.resolve(__dirname, './_source/_sass/variables.scss')
-                                        ]
-                                    }
-                                }
-                            ],
-                            fallback: 'vue-style-loader'
-                        })
-                    }
-                }
+                loader: 'vue-loader'
             },
             {
                 test: /\.scss$/,
-                use: ExtractTextPlugin.extract({
-                    fallback: 'style-loader',
-                    use: [
-                        {
-                            loader: 'css-loader',
-                            options: {
-                                // If you are having trouble with urls not resolving add this setting.
-                                // See https://github.com/webpack-contrib/css-loader#url
-                                // url: false,
-                                minimize: process.env.NODE_ENV === 'production',
-                                sourceMap: true
-                            }
-                        },
-                        {
-                            loader: 'sass-loader',
-                            options: {
-                                sourceMap: true
-                            }
-                        },
-                        {
-                            loader: 'sass-resources-loader',
-                            options: {
-                                resources: [
-                                    path.resolve(__dirname, './_source/_sass/variables.scss')
-                                ]
-                            }
+                use: [
+                    {
+                        loader: 'vue-style-loader'
+                    },
+                    MiniCssExtractPlugin.loader,
+                    {
+                        loader: 'css-loader',
+                        options: {
+                            // If you are having trouble with urls not resolving add this setting.
+                            // See https://github.com/webpack-contrib/css-loader#url
+                            // url: false,
+                            minimize: process.env.NODE_ENV === 'production',
+                            sourceMap: true
                         }
-                    ]
-                }),
-                include: path.resolve(__dirname, './_source/_sass')
+                    },
+                    {
+                        loader: 'sass-loader',
+                        options: {
+                            sourceMap: true
+                        }
+                    },
+                    {
+                        loader: 'sass-resources-loader',
+                        options: {
+                            resources: [
+                                path.resolve(__dirname, './_source/_sass/variables.scss')
+                            ]
+                        }
+                    }
+                ]
             },
             {
                 test: /\.(png|jpg|jpeg|gif)(\?.*$|$)/,
@@ -116,9 +99,10 @@ const config = {
         ]
     },
     plugins: [
-        new ExtractTextPlugin({
-            allChunks: true,
-            filename: 'css/[name].css'
+        new VueLoaderPlugin(),
+        new MiniCssExtractPlugin({
+            filename: 'css/[name].css',
+            chunkFilename: '[id].css'
         }),
         new webpack.DefinePlugin({
             'process.env': {
