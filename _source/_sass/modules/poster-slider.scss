@@ -33,7 +33,6 @@
     }
     /* stylelint-enable */
     .slider-prev-next-control {
-        @include opacity (0);
         @include position (absolute, 50%, auto, auto, auto);
         @include transform (translateY(-50%));
         @include transition-animation (opacity, 250ms, ease-in-out, 0ms);
@@ -122,7 +121,4 @@
         }
     }
     /* stylelint-enable */
-    &:hover .slider-prev-next-control {
-        @include opacity (1);
-    }
 }
