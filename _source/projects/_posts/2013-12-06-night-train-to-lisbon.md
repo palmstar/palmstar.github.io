@@ -15,7 +15,7 @@ cast:
     - Jeremy Irons
     - Mélanie Laurent
     - Jack Huston
-writers:
+writer:
     - Greg Latter
     - Ulrich Herrmann
     - Pascal Mercier (novel)

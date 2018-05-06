@@ -18,7 +18,7 @@ cast:
     - Alex Wolff
     - Gabriel Byrne
     - Ann Dowd
-writers:
+writer:
     - Ari Aster
 tags:
     - Drama

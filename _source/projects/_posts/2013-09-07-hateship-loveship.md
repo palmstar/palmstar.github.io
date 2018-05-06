@@ -16,7 +16,7 @@ cast:
     - Guy Pearce
     - Hailee Steinfeld
     - Jennifer Jason Leigh
-writers:
+writer:
     - Mark Poirier
     - Alice Munro (short story)
 tags:

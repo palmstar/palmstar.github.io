@@ -17,7 +17,7 @@ cast:
     - Keanu Reeves
     - Common
     - Laurence Fishburne
-writers:
+writer:
     - Derek Kolstad
 tags:
     - Action

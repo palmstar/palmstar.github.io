@@ -21,7 +21,7 @@ cast:
     - Topher Grace
     - Connie Britton
     - Walton Goggins
-writers:
+writer:
     - Max Landis
 tags:
     - Comedy

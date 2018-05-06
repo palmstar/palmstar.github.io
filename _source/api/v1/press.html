@@ -1,0 +1,36 @@
+---
+layout: null
+permalink: /api/v1/press
+pagination:
+    category: press
+    enabled: true
+    extension: json
+    indexpage: 'index'
+    per_page: 1000
+---
+{
+    "meta": {
+        "total-pages": {{ paginator.total_pages }},
+        "total-posts": {{ paginator.total_posts }}
+    },
+    "data": [
+        {%- for post in paginator.posts -%}
+        {
+            "type": {{post.category | jsonify}},
+            "id": {{post.id | jsonify}},
+            "attributes": {
+                "title": {{post.title | jsonify}},
+                "date": {{ post.date | jsonify }},
+                "url": {{ post.url | jsonify }}
+            }
+        }{% unless forloop.last %},{% endunless %}
+        {%- endfor -%}
+    ],
+    "links": {
+        "self": "{{ paginator.page_path }}",
+        "first": "{{ paginator.first_page_path }}",
+        "prev": {% if paginator.previous_page %}"{{ paginator.previous_page_path }}"{% else %}null{% endif %},
+        "next": {% if paginator.next_page %}"{{ paginator.next_page_path }}"{% else %}null{% endif %},
+        "last": "{{ paginator.last_page_path }}"
+    }
+}

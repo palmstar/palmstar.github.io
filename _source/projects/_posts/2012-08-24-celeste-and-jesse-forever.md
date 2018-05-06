@@ -18,7 +18,7 @@ cast:
     - Ari Graynor
     - Emma Roberts
     - Chris Pine
-writers:
+writer:
     - Rashida Jones
     - Will McCormack
 tags:

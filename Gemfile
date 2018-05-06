@@ -1,4 +1,4 @@
-source "http://rubygems.org"
+source "https://rubygems.org"
 
 require 'json'
 require 'open-uri'
@@ -9,5 +9,4 @@ gem 'kramdown'
 gem 'jekyll-sitemap'
 gem 'jekyll-seo-tag'
 gem 'jekyll-paginate-v2'
-gem 'github-pages-health-check'
-gem 'github-pages', versions['github-pages']
+gem 'jekyll-feed'

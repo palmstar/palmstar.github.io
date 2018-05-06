@@ -18,7 +18,7 @@ cast:
     - Ferdia Walsh-Peelo
     - Kelly Thornton
     - Jack Reynor
-writers:
+writer:
     - John Carney
     - Simon Carmody (story)
 tags:

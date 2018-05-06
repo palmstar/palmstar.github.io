@@ -15,7 +15,7 @@ cast:
     - Diane Lane
     - Elizabeth Banks
     - Dakota Fanning
-writers:
+writer:
     - Nicole Holofcener
     - Laura Lippman (novel)
 tags:

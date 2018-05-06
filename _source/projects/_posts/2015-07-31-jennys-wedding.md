@@ -15,7 +15,7 @@ cast:
     - Katherine Heigl
     - Tom Wilkinson
     - Linda Emond
-writers:
+writer:
     - Mary Agnes Donoghue
 tags:
     - Comedy

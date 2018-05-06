@@ -16,7 +16,7 @@ cast:
     - Simon Helberg
     - Melanie Lynskey
     - Zachary Quinto
-writers:
+writer:
     - Simon Helberg
 tags:
     - Comedy

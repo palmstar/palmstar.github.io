@@ -18,7 +18,7 @@ cast:
     - Odeya Rush
     - Seth Green
     - Jason Biggs
-writers:
+writer:
     - Lisa Addario
     - Joe Syracuse
 tags:

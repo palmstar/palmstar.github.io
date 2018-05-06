@@ -15,7 +15,7 @@ cast:
     - Kevin James
     - Rob Riggle
     - Andy Garcia
-writers:
+writer:
     - Jeff Morris
     - Jeff Wadlow
 tags:

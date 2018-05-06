@@ -15,7 +15,7 @@ cast:
     - Sarah Michelle Gellar
     - Jonathan Tucker
     - Erika Christensen
-writers:
+writer:
     - Larry Gross
     - Roberta Hanley
     - Paulo Coelho (novel)

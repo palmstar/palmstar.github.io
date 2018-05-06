@@ -19,7 +19,7 @@ cast:
     - Nicholas Cage
     - John Cussack
     - Vanessa Hudgens
-writers:
+writer:
     - Scott Walker
 tags:
     - Thriller

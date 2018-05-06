@@ -17,7 +17,7 @@ cast:
     - Gena Rowlands
     - Rosario Dawson
     - Josh Hartnett
-writers:
+writer:
     - Brian Horiuchi
 tags:
     - Drama

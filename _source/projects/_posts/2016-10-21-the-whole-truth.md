@@ -15,7 +15,7 @@ cast:
     - Keanu Reeves
     - Renée Zellweger
     - Gugu Mbatha-Raw
-writers:
+writer:
     - Nicholas Kazan
 tags:
     - Drama

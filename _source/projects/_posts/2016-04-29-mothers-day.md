@@ -17,7 +17,7 @@ cast:
     - Julia Roberts
     - Jason Sudeikis
     - Jennifer Garner
-writers:
+writer:
     - Anya Kochoff
     - Matthew Walker
     - Tom Hines

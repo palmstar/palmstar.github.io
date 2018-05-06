@@ -16,7 +16,7 @@ cast:
     - Diora Baird
     - Michael Peña
     - Jane Lynch
-writers:
+writer:
     - Matthew Perniciaro
 tags:
     - Comedy

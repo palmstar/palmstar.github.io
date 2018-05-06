@@ -16,7 +16,7 @@ cast:
     - Salma Hayek
     - Jessica Alba
     - Malcolm McDowell
-writers:
+writer:
     - Matthew Newman
 tags:
     - Comedy

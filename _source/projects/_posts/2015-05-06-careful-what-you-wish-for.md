@@ -16,7 +16,7 @@ distributor:
 cast:
     - Isabel Lucas
     - Nick Jonas
-writers:
+writer:
     - Chris Frisina
 tags:
     - Thriller

@@ -15,7 +15,7 @@ distributor:
 cast:
     - James McAvoy
     - Alicia Vikander
-writers:
+writer:
     - Erin Dignam
     - J.M. Ledgard (novel)
 tags:

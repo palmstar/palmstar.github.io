@@ -45,14 +45,14 @@ layout: base
                 </ul>
                 {%- endif -%}
 
-                {%- if page.writers -%}
-                {%- if page.writers.size == 1 -%}
+                {%- if page.writer -%}
+                {%- if page.writer.size == 1 -%}
                 <h3>Writer</h3>
                 {%- else -%}
                 <h3>Writers</h3>
                 {%- endif -%}
                 <ul>
-                    {%- for writer in page.writers -%}
+                    {%- for writer in page.writer -%}
                     <li>{{ writer }}</li>
                     {%- endfor -%}
                 </ul>

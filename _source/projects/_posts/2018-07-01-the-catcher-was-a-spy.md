@@ -20,7 +20,7 @@ cast:
     - Tom Wilkinson
     - Guy Pearce
     - Paul Giamatti
-writers:
+writer:
     - Robert Rodat
 tags:
     - Drama

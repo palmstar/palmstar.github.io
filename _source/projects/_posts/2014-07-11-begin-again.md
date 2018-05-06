@@ -15,7 +15,7 @@ cast:
     - Adam Levine
 distributor:
     - PalmStar
-writers:
+writer:
     - John Carney
 tags:
     - Comedy

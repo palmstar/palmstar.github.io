@@ -15,7 +15,7 @@ cast:
     - Pierce Brosnan
     - Luke Bracey
     - Olga Kurylenko
-writers:
+writer:
     - Michael Finch
     - Karl Gajdusek
     - Bill Granger (novel)

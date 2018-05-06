@@ -72,7 +72,7 @@ layout: compress
     </head>
     <body>
         <div id="app">
-            {%- include nav.html -%}
+            <navigation active-page="{{page.active_page | liquify}}"></navigation>
             <div class="content">
                 {{ content }}
             </div>

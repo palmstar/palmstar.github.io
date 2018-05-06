@@ -18,7 +18,7 @@ cast:
     - Dakota Goyo
     - Goran Visnjic
     - Bridget Moynahan
-writers:
+writer:
     - Bart Gavigan
     - Hugh Hudson
 tags:

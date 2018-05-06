@@ -15,7 +15,7 @@ cast:
     - Ryan Phillippe
 tags:
     - Thriller
-writers:
+writer:
     - Ryan Phillippe
     - Joe Gossett
 category: projects

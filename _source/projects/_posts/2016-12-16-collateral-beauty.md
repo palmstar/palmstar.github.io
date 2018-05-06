@@ -19,7 +19,7 @@ cast:
     - Kate Winslet
     - Keira Knightley
     - Helen Mirren
-writers:
+writer:
     - Allan Loeb
 tags:
     - Drama

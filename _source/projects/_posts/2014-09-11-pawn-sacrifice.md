@@ -15,7 +15,7 @@ cast:
     - Tobey Maguire
     - Liev Schreiber
     - Michael Stuhlbarg
-writers:
+writer:
     - Steven Knight
     - Stephen J. Rivele (story)
     - Christopher Wilkinson
