@@ -39,55 +39,47 @@
         height: 50px;
         width: 100%;
 
-        label {
-            @include transition-animation (all, 250ms, ease-in-out, 0ms);
-            background-color: rgba($black, .5);
-            border-radius: 50%;
-            color: $white;
-            cursor: pointer;
+        .arrows {
+            @include position (absolute, 0, 0, 0, 0);
             display: none;
-            height: 40px;
-            margin: 0 5px;
-            position: relative;
-            width: 40px;
 
-            &:hover {
-                background-color: $palmstar-blue;
-            }
+            label {
+                @include transition-animation (all, 250ms, ease-in-out, 0ms);
+                border-radius: 50%;
+                color: $white;
+                cursor: pointer;
+                height: 40px;
+                margin: 0 5px;
+                position: relative;
+                width: 40px;
 
-            .arrow-left,
-            .arrow-right {
-                @include position (absolute, 50%, auto, auto, 50%);
-                @include transform (translate3d(-50%, -50%, 0));
-                display: none;
-                height: 20px;
-                width: auto;
+                &:nth-child(1) {
+                    float: left;
+                }
+
+                &:nth-child(2) {
+                    float: right;
+                }
+
+                &:hover {
+                    color: rgba($white, .65);
+                }
+
+                .arrow-left,
+                .arrow-right {
+                    @include position (absolute, 50%, auto, auto, 50%);
+                    @include transform (translate3d(-50%, -50%, 0));
+                    height: 20px;
+                    width: auto;
+                }
             }
         }
     }
     /* stylelint-disable at-rule-no-unknown */
-    @for $i from 1 through ($num-of-slide - 1) {
+    @for $i from 1 through ($num-of-slide) {
         #slide#{$i}:checked {
-            & ~ .slider-prev-next-control label:nth-child(#{$i +1}) {
+            & ~ .slider-prev-next-control .arrows#{$i} {
                 display: block;
-                float: right;
-
-                .arrow-right {
-                    display: block;
-                }
-            }
-        }
-    }
-
-    @for $i from 2 through $num-of-slide {
-        #slide#{$i}:checked {
-            & ~ .slider-prev-next-control label:nth-child(#{$i - 1}) {
-                display: block;
-                float: left;
-
-                .arrow-left {
-                    display: block;
-                }
             }
         }
     }

@@ -1,6 +1,6 @@
-{%- assign totalFeatured = 5 -%}
+{%- assign totalFeatured = 8 -%}
 <div class="fullbleed">
-    {%- for counter in (1..totalFeatured) %}
+    {%- for counter in (1..totalFeatured) -%}
     <input type="radio" name="featured" id="featured{{ counter }}" {%- if counter == 1 -%}checked="checked"{%- endif -%} class="featured__nav"/>
     {%- endfor -%}
     <div class="featured__inner">
@@ -24,11 +24,19 @@
         </div>
         {%- endif -%}
         {%- endfor -%}
-
+        {%- for counter in (1..4) -%}
         <div class="feature">
-            <img src="assets/images/hero/lampoon-hero-1.jpg" />
+            <img src="assets/images/hero/lampoon-hero-{{ counter }}.jpg" />
+            <div class="meta">
+                <h1>
+                    PalmStar Acquires<br>National Lampoon
+                </h1>
+                <span>
+                    June 2017
+                </span>
+            </div>
         </div>
-
+        {%- endfor -%}
         {%- assign sorted = site.posts -%}
         {%- for post in sorted -%}
         {%- if post.id == '/projects/2016/12/16/collateral-beauty' or post.id == '/projects/2016/03/17/sing-street' -%}
@@ -51,14 +59,19 @@
         {%- endfor -%}
     </div>
     <div class="featured-prev-next-control">
-        {%- for counter in (1..totalFeatured) %}
-        <label for=featured{{ counter }}>
-            <icon name="arrow-left"></icon><icon name="arrow-right"></icon>
-        </label>
+        {%- for counter in (1..totalFeatured) -%}
+        <div class="arrows arrows{{ counter }}">
+            <label for="{% if counter == 1 %}featured{{ totalFeatured }}{% else %}featured{{ counter | minus: 1 }}{% endif %}">
+                <icon name="arrow-left"></icon>
+            </label>
+            <label for="{% if counter == totalFeatured %}featured1{% else %}featured{{ counter | plus: 1 }}{% endif %}">
+                <icon name="arrow-right"></icon>
+            </label>
+        </div>
         {%- endfor -%}
     </div>
     <div class="featured-dot-control">
-        {%- for counter in (1..totalFeatured) %}
+        {%- for counter in (1..totalFeatured) -%}
         <label for=featured{{ counter }}></label>
         {%- endfor -%}
     </div>

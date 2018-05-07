@@ -7,9 +7,6 @@ pagination:
     per_page: 1000
 ---
 <div class="projects">
-    <div class="content-interior">
-        {%- include project-tag-list.html -%}
-    </div>
     <div class="posts">
         {%- for post in paginator.posts -%}
         <div class="post">

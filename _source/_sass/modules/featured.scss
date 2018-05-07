@@ -1,5 +1,5 @@
 .fullbleed {
-    $num-of-featured: 10;
+    $num-of-featured: 8;
     @include position (absolute, 0, 0, 0, 0);
     display: block;
     overflow: hidden;
@@ -38,10 +38,9 @@
             @include transform (translate3d(-50%, -50%, 0));
             color: $white;
             display: inline-block;
-            padding: 0 10px;
+            padding: 10px;
             text-align: center;
             white-space: normal;
-            width: calc(100% - 140px);
             z-index: 2;
 
             a {
@@ -106,57 +105,49 @@
         pointer-events: none;
         width: 100%;
 
-        label {
-            @include transition-animation (all, 250ms, ease-in-out, 0ms);
-            background-color: rgba($black, .5);
-            border-radius: 50%;
-            color: $white;
-            cursor: pointer;
+        .arrows {
+            @include position (absolute, 0, 0, 0, 0);
             display: none;
-            font-size: 40px;
-            height: 50px;
-            margin: 0 10px;
-            pointer-events: auto;
-            position: relative;
-            width: 50px;
 
-            &:hover {
-                background-color: $palmstar-blue;
-            }
+            label {
+                @include transition-animation (all, 250ms, ease-in-out, 0ms);
+                border-radius: 50%;
+                color: $white;
+                cursor: pointer;
+                font-size: 40px;
+                height: 50px;
+                margin: 0 10px;
+                pointer-events: auto;
+                position: relative;
+                width: 50px;
 
-            .arrow-left,
-            .arrow-right {
-                @include position (absolute, 50%, auto, auto, 50%);
-                @include transform (translate3d(-50%, -50%, 0));
-                display: none;
-                height: 28px;
-                width: auto;
+                &:nth-child(1) {
+                    float: left;
+                }
+
+                &:nth-child(2) {
+                    float: right;
+                }
+
+                &:hover {
+                    color: rgba($white, .65);
+                }
+
+                .arrow-left,
+                .arrow-right {
+                    @include position (absolute, 50%, auto, auto, 50%);
+                    @include transform (translate3d(-50%, -50%, 0));
+                    height: 28px;
+                    width: auto;
+                }
             }
         }
     }
     /* stylelint-disable at-rule-no-unknown */
-    @for $i from 1 through ($num-of-featured - 1) {
+    @for $i from 1 through ($num-of-featured) {
         #featured#{$i}:checked {
-            & ~ .featured-prev-next-control label:nth-child(#{$i +1}) {
+            & ~ .featured-prev-next-control .arrows#{$i} {
                 display: block;
-                float: right;
-
-                .arrow-right {
-                    display: block;
-                }
-            }
-        }
-    }
-
-    @for $i from 2 through $num-of-featured {
-        #featured#{$i}:checked {
-            & ~ .featured-prev-next-control label:nth-child(#{$i - 1}) {
-                display: block;
-                float: left;
-
-                .arrow-left {
-                    display: block;
-                }
             }
         }
     }

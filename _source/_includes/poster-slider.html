@@ -12,9 +12,14 @@
         {%- if totalPosters > 1 -%}
         <div class="slider-prev-next-control">
             {%- for poster in page.posters -%}
-            <label for=slide{{ forloop.index }}>
-                <icon name="arrow-left"></icon><icon name="arrow-right"></icon>
-            </label>
+            <div class="arrows arrows{{ forloop.index }}">
+                <label for="{% if forloop.index == 1 %}slide{{ totalPosters }}{% else %}slide{{ forloop.index | minus: 1 }}{% endif %}">
+                    <icon name="arrow-left"></icon>
+                </label>
+                <label for="{% if forloop.index == totalPosters %}slide1{% else %}slide{{ forloop.index | plus: 1 }}{% endif %}">
+                    <icon name="arrow-right"></icon>
+                </label>
+            </div>
             {%- endfor -%}
         </div>
         <div class="slider-dot-control">

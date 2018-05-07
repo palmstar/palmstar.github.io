@@ -20,18 +20,6 @@ layout: base
             {%- include poster-slider.html -%}
             {%- endif -%}
             <div class="meta">
-                {%- if page.tags -%}
-                <ul class="genre-list">
-                    {%- for tag in page.tags -%}
-                    <li>
-                        <a href="/projects/{{tag | downcase}}" title="View {{tag}} projects">
-                            {{tag | downcase}}
-                        </a>
-                    </li>
-                    {%- endfor -%}
-                </ul>
-                {%- endif -%}
-
                 {%- if page.director -%}
                 {%- if page.director.size == 1 -%}
                 <h3>Director</h3>
@@ -76,6 +64,17 @@ layout: base
                 <ul>
                     {%- for distributor in page.distributor -%}
                     <li>{{ distributor }}</li>
+                    {%- endfor -%}
+                </ul>
+                {%- endif -%}
+
+                {%- if page.tags -%}
+                <h3>Genre</h3>
+                <ul>
+                    {%- for tag in page.tags -%}
+                    <li>
+                        {{tag | downcase}}
+                    </li>
                     {%- endfor -%}
                 </ul>
                 {%- endif -%}
