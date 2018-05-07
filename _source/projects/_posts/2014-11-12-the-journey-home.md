@@ -5,7 +5,9 @@ title: The Journey Home
 date: 2014-11-12 12:00:00 +0100
 posters:
     - /assets/images/projects/the-journey-home/the-journey-home-poster.jpg
-trailer: https://www.youtube.com/embed/gzl_AeedrcA?rel=0&amp;showinfo=0
+trailers:
+    - trailer: //www.youtube.com/embed/gzl_AeedrcA?rel=0&amp;showinfo=0
+      thumbnail: //i.ytimg.com/vi/gzl_AeedrcA/mqdefault.jpg
 imdb: http://www.imdb.com/title/tt2390283/
 director:
     - Roger Spottiswoode

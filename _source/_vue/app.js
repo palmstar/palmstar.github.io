@@ -12,6 +12,7 @@ import Vue from 'vue';
 import navigation from './components/nav.vue';
 import foot from './components/foot.vue';
 import icon from './components/icon.vue';
+import trailers from './components/trailers.vue';
 
 Vue.config.debug = true;
 Vue.config.devtools = true;
@@ -21,6 +22,7 @@ new Vue({
     components: {
         navigation,
         foot,
-        icon
+        icon,
+        trailers
     }
 });

@@ -3,12 +3,26 @@ layout: base
 ---
 
 <div class="project">
-    {%- if page.trailer -%}
-    <div class="trailer">
-    <div class="videoWrapper">
-        <iframe src="{{ page.trailer }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </div>
-    </div>
+    {%- if page.trailers -%}
+    <trailers project-slug="{{ page.slug }}"></trailers>
+<!--     <div class="trailer">
+        <div class="videoWrapper">
+            <iframe src="{{ page.trailers }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        {%- if page.trailers.size > 1 -%}
+        <div class="thumbs">
+            <ul>
+                {%- for thumb in page.thumbnails -%}
+                <li>
+                    <a>
+                        <img src="{{ thumb }}" />
+                    </a>
+                </li>
+                {%- endfor -%}
+            </ul>
+        </div>
+        {%- endif -%}
+    </div> -->
     {%- endif -%}
     <div class="content-interior">
         <h1>

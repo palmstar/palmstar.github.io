@@ -75,28 +75,6 @@
 }
 
 .project {
-    .trailer {
-        margin: 0 auto;
-        width: 80%;
-
-        @include breakpoint (small, max) {
-            width: 90%;
-        }
-    }
-
-    .videoWrapper {
-        height: 0;
-        padding-bottom: 56.25%; /* 16:9 */
-        padding-top: 25px;
-        position: relative;
-
-        iframe {
-            @include position (absolute, 0, 0, 0, 0);
-            height: 100%;
-            width: 100%;
-        }
-    }
-
     h1 {
         margin-left: 30px;
         margin-top: 40px;

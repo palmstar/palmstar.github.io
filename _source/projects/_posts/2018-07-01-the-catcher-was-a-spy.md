@@ -7,7 +7,9 @@ posters:
     - /assets/images/projects/the-catcher-was-a-spy/the-catcher-was-a-spy-poster.jpg
 hero:
     - /assets/images/projects/the-catcher-was-a-spy/the-catcher-was-a-spy-hero-1.jpg
-trailer: https://www.youtube.com/embed/W0XTxOs-_Os?rel=0&amp;showinfo=0
+trailers:
+    - trailer: //www.youtube.com/embed/W0XTxOs-_Os?rel=0&amp;showinfo=0
+      thumbnail: //i.ytimg.com/vi/W0XTxOs-_Os/mqdefault.jpg
 imdb: https://www.imdb.com/title/tt4602066/
 director:
     - Ben Lewin

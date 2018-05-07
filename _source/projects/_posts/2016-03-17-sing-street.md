@@ -8,7 +8,9 @@ posters:
     - /assets/images/projects/sing-street/sing-street-poster-2.jpg
 hero:
     - /assets/images/projects/sing-street/sing-street-hero-1.jpg
-trailer: https://www.youtube.com/embed/r3lChU6RdEA?rel=0&amp;showinfo=0
+trailers:
+    - trailer: //www.youtube.com/embed/r3lChU6RdEA?rel=0&amp;showinfo=0
+      thumbnail: //i.ytimg.com/vi/r3lChU6RdEA/mqdefault.jpg
 imdb: http://www.imdb.com/title/tt3544112/
 director:
     - John Carney

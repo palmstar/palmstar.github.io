@@ -6,7 +6,9 @@ date: 2017-09-10 12:00:00 +0100
 posters:
     - /assets/images/projects/submergence/submergence-poster.jpg
     - /assets/images/projects/submergence/submergence-poster-2.jpg
-trailer: https://www.youtube.com/embed/0Ec7JVwz9Dw?rel=0&amp;showinfo=0
+trailers:
+    - trailer: //www.youtube.com/embed/0Ec7JVwz9Dw?rel=0&amp;showinfo=0
+      thumbnail: //i.ytimg.com/vi/0Ec7JVwz9Dw/mqdefault.jpg
 imdb: http://www.imdb.com/title/tt3563262/
 director:
     - Wim Wenders

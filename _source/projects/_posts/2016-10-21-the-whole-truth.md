@@ -5,7 +5,9 @@ title: The Whole Truth
 date: 2016-10-21 12:00:00 +0100
 posters:
     - /assets/images/projects/the-whole-truth/the-whole-truth-poster.jpg
-trailer: https://www.youtube.com/embed/eNjXFdiC1O0?rel=0&amp;showinfo=0
+trailers:
+    - trailer: //www.youtube.com/embed/eNjXFdiC1O0?rel=0&amp;showinfo=0
+      thumbnail: //i.ytimg.com/vi/eNjXFdiC1O0/mqdefault.jpg
 imdb: http://www.imdb.com/title/tt3503406/
 director:
     - Courtney Hunt

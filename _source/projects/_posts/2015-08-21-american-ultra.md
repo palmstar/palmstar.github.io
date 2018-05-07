@@ -9,7 +9,9 @@ posters:
     - /assets/images/projects/american-ultra/american-ultra-poster-3.jpg
     - /assets/images/projects/american-ultra/american-ultra-poster-4.jpg
     - /assets/images/projects/american-ultra/american-ultra-poster-5.jpg
-trailer: https://www.youtube.com/embed/bLGFwkRx2HA?rel=0&amp;showinfo=0
+trailers:
+    - trailer: //www.youtube.com/embed/bLGFwkRx2HA?rel=0&amp;showinfo=0
+      thumbnail: //i.ytimg.com/vi/bLGFwkRx2HA/mqdefault.jpg
 imdb: https://www.imdb.com/title/tt3316948/
 director:
     - Nima Nourizadeh

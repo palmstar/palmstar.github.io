@@ -5,7 +5,9 @@ title: November Man
 date: 2014-08-27 12:00:00 +0100
 posters:
     - /assets/images/projects/november-man/november-man-poster.jpg
-trailer: https://www.youtube.com/embed/p2zFH8Zruqo?rel=0&amp;showinfo=0
+trailers:
+    - trailer: //www.youtube.com/embed/p2zFH8Zruqo?rel=0&amp;showinfo=0
+      thumbnail: //i.ytimg.com/vi/p2zFH8Zruqo/mqdefault.jpg
 imdb: http://www.imdb.com/title/tt2402157/
 director:
     - Roger Donaldson

@@ -8,7 +8,15 @@ posters:
     - /assets/images/projects/hereditary/hereditary-poster-2.jpg
 hero:
     - /assets/images/projects/hereditary/hereditary-hero-5.jpg
-trailer: https://www.youtube.com/embed/V6wWKNij_1M?rel=0&amp;showinfo=0
+trailers:
+    - trailer: //www.youtube.com/embed/V6wWKNij_1M?rel=0&amp;showinfo=0
+      thumbnail: //i.ytimg.com/vi/V6wWKNij_1M/mqdefault.jpg
+    - trailer: //www.youtube.com/embed/MJNR58zaStE?rel=0&amp;showinfo=0
+      thumbnail: //i.ytimg.com/vi/MJNR58zaStE/mqdefault.jpg
+    - trailer: //www.youtube.com/embed/No-L6bsa8g4?rel=0&amp;showinfo=0
+      thumbnail: //i.ytimg.com/vi/No-L6bsa8g4/mqdefault.jpg
+    - trailer: //www.youtube.com/embed/RFm1kzn1o9w?rel=0&amp;showinfo=0
+      thumbnail: //i.ytimg.com/vi/RFm1kzn1o9w/mqdefault.jpg
 imdb: https://www.imdb.com/title/tt7784604/
 director:
     - Ari Aster
