@@ -57,7 +57,16 @@
         /* stylelint-enable */
         &.home-bleed {
             @include position (absolute, 0, 0, auto, 0);
-            background-color: transparent;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, .85) 0%, rgba(0, 0, 0, .25) 75%, rgba(0, 0, 0, 0) 100%);
+
+            ul {
+                li {
+                    a {
+                        color: $white;
+                        text-shadow: 1px 1px 0 rgba(0, 0, 0, .8);
+                    }
+                }
+            }
         }
 
         .home-link {

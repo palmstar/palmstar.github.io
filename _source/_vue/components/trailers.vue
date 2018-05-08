@@ -1,9 +1,10 @@
 <template>
-    <div v-if="project.trailers && project.trailers.length" class="trailer">
-        <div class="videoWrapper">
+    <div class="trailer">
+        <div v-if="loading" class="videoWrapper loadingWrapper"></div>
+        <div v-if="!loading && project.trailers && project.trailers.length" class="videoWrapper">
             <iframe id="palmStarPlayer" :src="project.trailers[0].trailer" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
-        <div v-if="project.trailers.length > 1" class="thumbs">
+        <div v-if="!loading && project.trailers && project.trailers.length > 1" class="thumbs">
             <ul>
                 <li v-for="(item, index) in project.trailers" :key="item.id" :class="{ 'active': activeIndex == index }">
                     <button type="button" @click="selectTrailer(item, index)">
@@ -16,14 +17,10 @@
 </template>
 
 <script>
-    import Icon from './icon.vue';
     import axios from 'axios';
 
     export default {
         name: 'trailers',
-        components: {
-            Icon
-        },
         props: {
             projectSlug: {
                 type: String,
@@ -33,6 +30,7 @@
         },
         data() {
             return {
+                loading: true,
                 project: [],
                 errors: [],
                 activeIndex: 0
@@ -46,6 +44,9 @@
                 })
                 .catch((e) => {
                     self.errors.push(e);
+                })
+                .finally(() => {
+                    this.loading = false;
                 });
         },
         methods: {

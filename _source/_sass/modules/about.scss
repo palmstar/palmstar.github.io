@@ -1,6 +1,22 @@
 .about {
-    .imdb-link {
+    .imdb-link,
+    .facebook-link,
+    .twitter-link {
         display: inline-block;
+        margin: 0 20px 0 0;
+        vertical-align: middle;
+    }
+
+    .imdb-link {
         width: 75px;
+    }
+
+    .facebook-link {
+        width: 38px;
+    }
+
+    .twitter-link {
+        color: $twitter-blue;
+        width: 40px;
     }
 }
