@@ -40,7 +40,7 @@
         },
         created() {
             const self = this;
-            axios.get(`//0.0.0.0:4000/api/v1/projects/${self.projectSlug}/index.json`)
+            axios.get(`/api/v1/projects/${self.projectSlug}/index.json`)
                 .then((response) => {
                     self.project = response.data.attributes;
                 })
