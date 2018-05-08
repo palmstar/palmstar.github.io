@@ -57,7 +57,7 @@
         /* stylelint-enable */
         &.home-bleed {
             @include position (absolute, 0, 0, auto, 0);
-            background: linear-gradient(to bottom, rgba(0, 0, 0, .85) 0%, rgba(0, 0, 0, .25) 75%, rgba(0, 0, 0, 0) 100%);
+            background: linear-gradient(to bottom, rgba(0, 0, 0, .85) 0%, rgba(0, 0, 0, .4) 60%, rgba(0, 0, 0, 0) 100%);
 
             ul {
                 li {

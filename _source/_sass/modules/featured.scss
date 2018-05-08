@@ -1,5 +1,5 @@
 .fullbleed {
-    $num-of-featured: 8;
+    $num-of-featured: 5;
     @include position (absolute, 0, 0, 0, 0);
     display: block;
     overflow: hidden;
@@ -40,7 +40,7 @@
             display: inline-block;
             padding: 10px;
             text-align: center;
-            text-shadow: 2px 2px 0 rgba(0, 0, 0, .8);
+            text-shadow: 2px 2px 0 rgba(0, 0, 0, .75);
             white-space: normal;
             z-index: 2;
 
