@@ -1,22 +1,52 @@
 .about {
-    .imdb-link,
-    .facebook-link,
-    .twitter-link {
-        display: inline-block;
-        margin: 0 20px 0 0;
-        vertical-align: middle;
-    }
+    .social-media-link-list {
+        border-top: solid 1px $alto;
+        margin: 20px 0 0;
+        padding: 20px 0 0;
 
-    .imdb-link {
-        width: 75px;
-    }
+        li {
+            display: inline-block;
+            margin: 0 20px 0 0;
+            vertical-align: middle;
 
-    .facebook-link {
-        width: 38px;
-    }
+            a {
+                display: block;
+            }
+        }
 
-    .twitter-link {
-        color: $twitter-blue;
-        width: 40px;
+        .imdb-link {
+            width: 75px;
+
+            .imdb-background {
+                fill: $imdb-yellow;
+            }
+
+            .imdb-i,
+            .imdb-m,
+            .imdb-d,
+            .imdb-b {
+                fill: $black;
+            }
+        }
+
+        .linkedin-link {
+            color: $linkedin-blue;
+            width: 40px;
+        }
+
+        .vimeo-link {
+            color: $vimeo-blue;
+            width: 40px;
+        }
+
+        .facebook-link {
+            color: $facebook-blue;
+            width: 38px;
+        }
+
+        .twitter-link {
+            color: $twitter-blue;
+            width: 40px;
+        }
     }
 }

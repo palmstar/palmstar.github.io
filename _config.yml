@@ -84,17 +84,17 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-author: brianfleming
-author:
-  twitter: brianfleming
+author: PalmStar
 twitter:
-  username: brianfleming
+  username: PalmStar
 social:
-  name: Brian Fleming
+  name: PalmStar
   links:
-    - https://twitter.com/BrianFleming
-    - https://www.linkedin.com/in/brianmfleming
-    - https://github.com/brianfleming
+    - https://twitter.com/PalmStar
+    - https://www.linkedin.com/company/palmstar/
+    - https://www.facebook.com/PalmStarMedia/
+    - https://vimeo.com/palmstar
+    - http://www.imdb.com/company/co0037203/
 
 compress_html:
   clippings: []

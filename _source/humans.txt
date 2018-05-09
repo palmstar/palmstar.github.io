@@ -5,7 +5,7 @@
 /* TEAM */
   Brian Fleming
   Site: http://www.palmstar.com
-  Twitter: @brianfleming
+  Twitter: @palmstar
   Location: Philadelphia, PA
 
 /* SITE */

@@ -27,10 +27,6 @@ body {
     -webkit-touch-callout: none !important;
     -webkit-user-drag: none;
 
-    @include breakpoint (small, max) {
-        font-size: 15px;
-    }
-
     // @include breakpoint (extra-small, min) {
     //     border: solid 10px red;
     // }
@@ -62,4 +58,44 @@ body {
     display: inline-block;
     height: 1em;
     width: 1em;
+}
+
+.fullbleed + .social-media-link-list {
+    @include position (absolute, auto, 8px, 30px, auto);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    @include breakpoint (small, max) {
+        @include position (absolute, auto, 8px, 32px, 8px);
+        text-align: center;
+    }
+
+    li {
+        display: inline-block;
+        margin: 0 8px 0 0;
+        vertical-align: middle;
+
+        a {
+            color: rgba($white, .7);
+            display: block;
+
+            &.imdb-link {
+                width: 45px;
+            }
+
+            &.facebook-link {
+                width: 21px;
+            }
+
+            &.linkedin-link,
+            &.vimeo-link {
+                width: 23px;
+            }
+
+            &.twitter-link {
+                width: 25px;
+            }
+        }
+    }
 }
