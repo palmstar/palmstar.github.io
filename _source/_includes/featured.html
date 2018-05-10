@@ -1,5 +1,5 @@
 {%- assign totalFeatured = 5 -%}
-<div class="fullbleed">
+<div class="fullbleed" v-featured-keypress="{active: 1, total: {{totalFeatured}}}">
     {%- for counter in (1..totalFeatured) -%}
     <input type="radio" name="featured" id="featured{{ counter }}" {%- if counter == 1 -%}checked="checked"{%- endif -%} class="featured__nav"/>
     {%- endfor -%}
