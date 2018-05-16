@@ -50,3 +50,13 @@
         }
     }
 }
+
+.about2 {
+    h1 {
+        display: none;
+
+        @include breakpoint (medium, max) {
+            display: block;
+        }
+    }
+}
