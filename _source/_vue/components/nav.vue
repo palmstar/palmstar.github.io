@@ -22,9 +22,9 @@
         </ul>
         <div v-if="activePage === 'about2'" class="video-outer-wrapper">
             <div class="video-wrapper">
-                <video id="bgvid" playsinline autoplay muted poster="/assets/video/palmstar.png">
-                    <source src="/assets/video/ps-trimmed.webm" type="video/webm">
-                    <source src="/assets/video/ps-trimmed.mp4" type="video/mp4">
+                <video id="bgvid" playsinline autoplay muted poster="/assets/video/palmstar-poster.png">
+                    <source src="/assets/video/palmstar-trimmed.webm" type="video/webm">
+                    <source src="/assets/video/palmstar-trimmed.mp4" type="video/mp4">
                 </video>
                 <div class="video-shadow"></div>
             </div>
