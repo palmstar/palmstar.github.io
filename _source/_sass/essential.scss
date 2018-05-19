@@ -52,6 +52,27 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    padding-top: 0;
+
+    &.scrolling-up {
+        margin-top: 120px;
+
+        nav {
+            @include transition-animation (transform, 250ms, ease-in, 0ms);
+            @include position (fixed, -120px, 0, auto, 0);
+            @include transform (translateY(120px));
+        }
+    }
+
+    &.scrolling-down {
+        margin-top: 120px;
+
+        nav {
+            @include transition-animation (transform, 250ms, ease-in, 0ms);
+            @include position (fixed, -120px, 0, auto, 0);
+            @include transform (translateY(0));
+        }
+    }
 }
 
 .svg-icon {
