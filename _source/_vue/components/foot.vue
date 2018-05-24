@@ -9,7 +9,7 @@
             &copy; 2018 PalmStar Media Capital, LLC.
             <ins>all rights reserved.</ins>
         </span>
-        <a href="http://www.nationallampoon.com/" class="nli-logo" title="National Lampoon">
+        <a href="http://www.nationallampoon.com/" class="nli-logo" title="Visit nationallampoon.com">
             <icon name="nli-logo-alt"></icon>
         </a>
     </footer>
@@ -91,6 +91,7 @@
         }
 
         .nli-logo {
+            @include transition-animation (opacity, 200ms, ease-in,  0ms);
             color: $nli-yellow;
             display: inline-block;
             margin: 10px 0 0;
@@ -99,6 +100,10 @@
 
             svg {
                 height: 60%;
+            }
+
+            &:hover {
+                @include opacity (.75);
             }
         }
 

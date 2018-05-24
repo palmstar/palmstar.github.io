@@ -10,43 +10,46 @@
             vertical-align: middle;
 
             a {
+                @include transition-animation (opacity, 200ms, ease-in,  0ms);
                 display: block;
+
+                &:hover {
+                    @include opacity (.75);
+                }
+
+                &.imdb-link {
+                    .imdb-background {
+                        fill: $imdb-yellow;
+                    }
+
+                    .imdb-i,
+                    .imdb-m,
+                    .imdb-d,
+                    .imdb-b {
+                        fill: $black;
+                    }
+                }
+
+                &.linkedin-link {
+                    color: $linkedin-blue;
+                    width: 40px;
+                }
+
+                &.vimeo-link {
+                    color: $vimeo-blue;
+                    width: 40px;
+                }
+
+                &.facebook-link {
+                    color: $facebook-blue;
+                    width: 38px;
+                }
+
+                &.twitter-link {
+                    color: $twitter-blue;
+                    width: 40px;
+                }
             }
-        }
-
-        .imdb-link {
-            width: 75px;
-
-            .imdb-background {
-                fill: $imdb-yellow;
-            }
-
-            .imdb-i,
-            .imdb-m,
-            .imdb-d,
-            .imdb-b {
-                fill: $black;
-            }
-        }
-
-        .linkedin-link {
-            color: $linkedin-blue;
-            width: 40px;
-        }
-
-        .vimeo-link {
-            color: $vimeo-blue;
-            width: 40px;
-        }
-
-        .facebook-link {
-            color: $facebook-blue;
-            width: 38px;
-        }
-
-        .twitter-link {
-            color: $twitter-blue;
-            width: 40px;
         }
     }
 }

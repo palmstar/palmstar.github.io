@@ -2,11 +2,11 @@
     <nav :class="{
         'home-bleed': (activePage === 'home'),
         'video-header': (activePage === 'about2')
-    }">
+    }" role="banner">
         <a id="main-logo" href="/" title="PalmStar Homepage" class="home-link">
             <icon name="logo-white"></icon>
         </a>
-        <ul>
+        <ul role="navigation">
             <li :class="{ 'active': (activePage === 'about') }">
                 <a href="/about" title="About">About</a>
             </li>

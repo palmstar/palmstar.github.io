@@ -2,7 +2,7 @@
     <div class="slider">
         {%- for poster in page.posters -%}
         {%- assign totalPosters = forloop.length -%}
-        <input type="radio" name="slider" id="slide{{ forloop.index }}" {%- if forloop.index == 1 -%}checked="checked"{%- endif -%} class="slider__nav"/>
+        <input type="radio" name="slider" id="slide{{ forloop.index }}"{% if forloop.index == 1 %} checked="checked"{% endif %} class="slider__nav"/>
         {%- endfor -%}
         <div class="slider__inner">
             {%- for poster in page.posters -%}
@@ -13,10 +13,10 @@
         <div class="slider-prev-next-control">
             {%- for poster in page.posters -%}
             <div class="arrows arrows{{ forloop.index }}">
-                <label for="{% if forloop.index == 1 %}slide{{ totalPosters }}{% else %}slide{{ forloop.index | minus: 1 }}{% endif %}">
+                <label for="{% if forloop.index == 1 %}slide{{ totalPosters }}{% else %}slide{{ forloop.index | minus: 1 }}{% endif %}" role="button">
                     <icon name="arrow-left"></icon>
                 </label>
-                <label for="{% if forloop.index == totalPosters %}slide1{% else %}slide{{ forloop.index | plus: 1 }}{% endif %}">
+                <label for="{% if forloop.index == totalPosters %}slide1{% else %}slide{{ forloop.index | plus: 1 }}{% endif %}" role="button">
                     <icon name="arrow-right"></icon>
                 </label>
             </div>
@@ -24,7 +24,7 @@
         </div>
         <div class="slider-dot-control">
             {%- for poster in page.posters -%}
-            <label for=slide{{ forloop.index }}></label>
+            <label for=slide{{ forloop.index }} role="button"></label>
             {%- endfor -%}
         </div>
         {%- endif -%}

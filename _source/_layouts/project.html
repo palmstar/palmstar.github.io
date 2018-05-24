@@ -6,7 +6,7 @@ layout: base
     {%- if page.trailers -%}
     <trailers project-slug="{{ page.slug }}"></trailers>
     {%- endif -%}
-    <div class="content-interior">
+    <div class="content-interior" role="complementary">
         <h1>
             {{ page.title }}
             <small>({{page.date | date: "%Y"}})</small>
@@ -77,7 +77,7 @@ layout: base
 
                 {%- if page.imdb -%}
                 <div class="footer">
-                    <a class="imdb-link" href="{{ page.imdb }}" title="View IMDB Page">
+                    <a class="imdb-link" href="{{ page.imdb }}" title="View {{ page.title }} IMDB Page">
                         <icon name="imdb-color"></icon>
                     </a>
                 </div>

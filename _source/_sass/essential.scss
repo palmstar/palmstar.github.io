@@ -98,8 +98,13 @@ body {
         vertical-align: middle;
 
         a {
+            @include transition-animation (opacity, 200ms, ease-in,  0ms);
             color: rgba($white, .7);
             display: block;
+
+            &:hover {
+                @include opacity (.75);
+            }
 
             &.imdb-link {
                 width: 45px;

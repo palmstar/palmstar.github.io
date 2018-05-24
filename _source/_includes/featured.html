@@ -1,7 +1,7 @@
 {%- assign totalFeatured = 5 -%}
 <div class="fullbleed" v-featured-keypress="{active: 1, total: {{totalFeatured}}}">
     {%- for counter in (1..totalFeatured) -%}
-    <input type="radio" name="featured" id="featured{{ counter }}" {%- if counter == 1 -%}checked="checked"{%- endif -%} class="featured__nav"/>
+    <input type="radio" name="featured" id="featured{{ counter }}"{% if counter == 1 %} checked="checked"{% endif %} class="featured__nav"/>
     {%- endfor -%}
     <div class="featured__inner">
         {%- assign sorted = site.posts | reverse -%}
@@ -59,10 +59,10 @@
     <div class="featured-prev-next-control">
         {%- for counter in (1..totalFeatured) -%}
         <div class="arrows arrows{{ counter }}">
-            <label for="{% if counter == 1 %}featured{{ totalFeatured }}{% else %}featured{{ counter | minus: 1 }}{% endif %}">
+            <label for="{% if counter == 1 %}featured{{ totalFeatured }}{% else %}featured{{ counter | minus: 1 }}{% endif %}" role="button">
                 <icon name="arrow-left"></icon>
             </label>
-            <label for="{% if counter == totalFeatured %}featured1{% else %}featured{{ counter | plus: 1 }}{% endif %}">
+            <label for="{% if counter == totalFeatured %}featured1{% else %}featured{{ counter | plus: 1 }}{% endif %}" role="button">
                 <icon name="arrow-right"></icon>
             </label>
         </div>
@@ -70,7 +70,7 @@
     </div>
     <div class="featured-dot-control">
         {%- for counter in (1..totalFeatured) -%}
-        <label for=featured{{ counter }}></label>
+        <label for=featured{{ counter }} role="button"></label>
         {%- endfor -%}
     </div>
 </div>

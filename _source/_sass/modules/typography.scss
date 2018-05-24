@@ -11,6 +11,16 @@ a {
     &:hover {
         text-decoration: none;
     }
+
+    &.imdb-link {
+        @include transition-animation (opacity, 200ms, ease-in,  0ms);
+        display: inline-block;
+        width: 75px;
+
+        &:hover {
+            @include opacity (.75);
+        }
+    }
 }
 
 h1,
