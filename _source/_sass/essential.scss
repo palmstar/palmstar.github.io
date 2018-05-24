@@ -27,6 +27,15 @@ body {
     -webkit-touch-callout: none !important;
     -webkit-user-drag: none;
 
+    .content-skip {
+        clip: rect(1px, 1px, 1px, 1px);
+        height: 1px;
+        margin: 0;
+        overflow: hidden;
+        position: absolute;
+        width: 1px;
+    }
+
     // @include breakpoint (extra-small, min) {
     //     border: solid 10px red;
     // }

@@ -62,9 +62,10 @@ layout: compress
         {%- endif -%}
     </head>
     <body>
+        <a href="#main" title="Skip to main content" class="content-skip">Skip to main content</a>
         <div id="app">
             <navigation active-page="{{page.active_page | liquify}}"></navigation>
-            <div class="content" role="main">
+            <div id="main" class="content" role="main">
                 {{ content }}
             </div>
             <foot{% if page.active_page == 'home' %} class="home-bleed"{%- endif -%} role="contentinfo"></foot>
