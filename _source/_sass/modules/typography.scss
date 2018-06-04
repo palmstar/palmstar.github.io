@@ -5,10 +5,11 @@ pre {
 
 a {
     @include transition-animation (color, 200ms, ease-in,  0ms);
-    color: $palmstar-blue;
+    color: $white;
     text-decoration: underline;
 
     &:hover {
+        color: $nli-nav-yellow;
         text-decoration: none;
     }
 
@@ -39,17 +40,6 @@ h1 {
     position: relative;
     text-align: left;
 
-    &::before {
-        @include position (absolute, -12px, auto, -12px, -30px);
-        background-color: $palmstar-blue;
-        content: '';
-        width: 2px;
-    }
-
-    &.recase {
-        text-transform: capitalize;
-    }
-
     @include breakpoint (medium, max) {
         font-size: 38px;
         line-height: 50px;
@@ -75,55 +65,7 @@ h1 {
     }
 }
 
-h3 {
-    color: $black;
-    display: block;
-    font-size: 32px;
-    font-weight: 400;
-    margin: 0 0 5px;
-    text-align: left;
-    text-transform: uppercase;
-
-    @include breakpoint (medium, max) {
-        font-size: 30px;
-    }
-
-    @include breakpoint (small, max) {
-        font-size: 26px;
-    }
-}
-
-h4 {
-    color: $gray-headline;
-    font-size: 24px;
-    margin: 0;
-    text-align: left;
-
-    @include breakpoint (small, max) {
-        font-size: 22px;
-    }
-
-    &.project_name {
-        margin: 10px 0 0;
-        text-align: center;
-    }
-
-    small {
-        font-size: 50%;
-    }
-
-    a {
-        color: $gray-headline;
-        text-decoration: none;
-
-        &:hover {
-            color: $palmstar-blue;
-        }
-    }
-}
-
 p {
-    color: $emperor;
     font-size: 18px;
     line-height: 1.8em;
 

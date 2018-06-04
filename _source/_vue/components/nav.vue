@@ -1,37 +1,18 @@
 <template>
-    <nav :class="{
-        'home-bleed': (activePage === 'home'),
-        'video-header': (activePage === 'about2')
-    }" role="banner">
-        <a id="main-logo" href="/" title="PalmStar Homepage" class="home-link">
-            <icon name="logo-white"></icon>
-        </a>
+    <nav role="banner">
         <ul role="navigation">
             <li :class="{ 'active': (activePage === 'about') }">
                 <a href="/about" title="About">About</a>
             </li>
-            <li :class="{ 'active': (activePage === 'team') }">
-                <a href="/team" title="Team">Team</a>
+            <li :class="{ 'active': (activePage === 'home') }" class="logo">
+                <a href="/" title="National Lampoon Homepage" class="home-link">
+                    <icon name="logo-mark"></icon>
+                </a>
             </li>
-            <li :class="{ 'active': (activePage === 'projects') }">
-                <a href="/projects" title="Projects">Projects</a>
-            </li>
-            <li :class="{ 'active': (activePage === 'press') }">
-                <a href="/press" title="Press">Press</a>
+            <li :class="{ 'active': (activePage === 'contact') }">
+                <a href="/contact" title="Press">Contact</a>
             </li>
         </ul>
-        <div v-if="activePage === 'about2'" class="video-outer-wrapper">
-            <div class="video-wrapper">
-                <video id="bgvid" playsinline autoplay muted poster="/assets/video/palmstar-poster.png">
-                    <source src="/assets/video/palmstar-trimmed.webm" type="video/webm">
-                    <source src="/assets/video/palmstar-trimmed.mp4" type="video/mp4">
-                </video>
-                <div class="video-shadow"></div>
-            </div>
-        </div>
-        <h1 v-if="activePage === 'about2'" id="tagline">
-            We work with the foremost talent to produce film and television content, reflecting the highest artistic and commercial standards.
-        </h1>
     </nav>
 </template>
 
@@ -49,335 +30,45 @@
                 default: 'home',
                 required: true
             }
-        },
-        mounted() {
-            const vid = document.getElementById('bgvid');
-            if (vid) {
-                vid.addEventListener('ended', this.videoEnded.bind(null, vid), false);
-            }
-        },
-        methods: {
-            videoEnded(vid) {
-                vid.classList.add('opacity-hide');
-                document.getElementById('tagline').classList.add('opacity-show');
-                document.getElementById('main-logo').classList.add('opacity-show');
-            }
         }
     };
 </script>
 
 <style lang="scss" scoped>
     nav {
-        /* stylelint-disable declaration-block-no-redundant-longhand-properties */
-        $gradient-shadow-color: $black;
-        align-content: stretch;
-        align-items: flex-start;
-        background-color: $header-background;
-        display: flex;
-        flex-direction: row;
-        flex-shrink: 0;
-        flex-wrap: nowrap;
-        height: 120px;
-        justify-content: flex-start;
-        line-height: 120px;
-        overflow: hidden;
-        position: relative;
-        text-align: center;
-        z-index: 3;
-        /* stylelint-enable */
-        &.home-bleed {
-            @include position (absolute, 0, 0, auto, 0);
-            background: linear-gradient(to bottom, rgba(0, 0, 0, .85) 0%, rgba(0, 0, 0, .4) 60%, rgba(0, 0, 0, 0) 100%);
-
-            ul {
-                li {
-                    a {
-                        color: $white;
-                        text-shadow: 1px 1px 0 rgba(0, 0, 0, .8);
-                    }
-                }
-            }
-        }
-
-        &.video-header {
-            padding-bottom: 18%;
-
-            @include breakpoint (medium, max) {
-                padding-bottom: 0;
-            }
-
-            .home-link {
-                @include transition-animation (opacity, 2100ms, ease-in, 50ms);
-                @include opacity(0);
-
-                &.opacity-show {
-                    @include opacity(1);
-                }
-
-                @include breakpoint (medium, max) {
-                    opacity: 1 !important;
-                }
-            }
-
-            ul {
-                height: 120px;
-            }
-
-            .home-link,
-            ul {
-                z-index: 3;
-            }
-
-            .video-wrapper {
-                z-index: 1;
-            }
-
-            h1 {
-                @include opacity(0);
-                display: block;
-
-                &.opacity-show {
-                    @include opacity(1);
-                }
-            }
-        }
-
-        h1 {
-            @include opacity(0);
-            @include position (absolute, calc(50% - 40px), 10%, auto, 10%);
-            @include transition-animation (opacity, 2100ms, ease-in, 50ms);
-            color: $white;
-            display: none;
-            margin: 0;
-            position: absolute;
-            text-align: center;
-
-            &::before {
-                display: none;
-            }
-
-            @include breakpoint (extra-large, max) {
-                font-size: 38px;
-                line-height: 52px;
-            }
-
-            @include breakpoint (large, max) {
-                font-size: 32px;
-                line-height: 40px;
-                top: calc(50% - 20px);
-            }
-
-            @include breakpoint (medium, max) {
-                display: none !important;
-            }
-        }
-
-        .video-outer-wrapper {
-            @include position (absolute, auto, auto, 0, 50%);
-            @include transform (translateX(-50%));
-            line-height: 0;
-            overflow: hidden;
-            width: 50%;
-
-            .video-wrapper {
-                height: 0;
-                padding-bottom: 49%;
-                position: relative;
-
-                video {
-                    @include transition-animation (opacity, 750ms, ease-in, 0ms);
-                    @include opacity(1);
-                    width: 100%;
-
-                    &.opacity-hide {
-                        @include opacity(0);
-                    }
-                }
-
-                .video-shadow {
-                    @include position (absolute, 0, auto, auto, 50%);
-                    @include transform (translateX(-50%));
-                    background: linear-gradient(to right, $gradient-shadow-color 0%, $gradient-shadow-color 1%, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 95%, $gradient-shadow-color 100%), linear-gradient(to bottom, $gradient-shadow-color 0%, $gradient-shadow-color 1%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0) 90%, $gradient-shadow-color 100%);
-                    border: solid 2px $black;
-                    height: 100%;
-                    width: 100%;
-                }
-            }
-
-            @include breakpoint (extra-large, max) {
-                width: 55%;
-            }
-
-            @include breakpoint (large, max) {
-                width: 55%;
-            }
-
-            @include breakpoint (medium, max) {
-                display: none;
-            }
-        }
-
-        .home-link {
-            align-self: auto;
-            flex: 0 1 auto;
-            height: calc(100% - 50px);
-            margin: 25px 0 0 25px;
-            order: 0;
-
-            svg {
-                width: auto;
-            }
-        }
-
         ul {
-            align-self: auto;
-            display: inline-block;
-            flex: 1 1 auto;
-            height: 100%;
+            list-style: none;
             margin: 0;
-            order: 0;
-            overflow: hidden;
-            padding: 0 0 0 20px;
-            text-align: right;
+            padding: 0;
+            text-align: center;
 
             li {
                 display: inline-block;
-                font-weight: normal;
-                margin: 0;
+                vertical-align: middle;
 
                 a {
-                    color: rgba($white, .75);
+                    color: $nli-nav;
                     display: block;
-                    font-size: 12px;
-                    letter-spacing: 5px;
-                    padding: 0 30px;
-                    position: relative;
+                    font-size: 15px;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                    line-height: 150px;
+                    padding: 0 25px;
                     text-decoration: none;
                     text-transform: uppercase;
 
-                    &::after {
-                        @include position (absolute, auto, 25px, 40px, 20px);
-                        @include transform (scaleX(0));
-                        border: solid 2px $white;
-                        border-color: transparent transparent $white;
-                        content: '';
-                        display: block;
-                        ms-transition: -webkit-transform .3s ease-out, border-color .3s ease-out;
-                        -webkit-transition: -webkit-transform .3s ease-out, border-color .3s ease-out;
-                        transition: transform .2s ease-out, border-color .3s ease-out;
+                    svg {
+                        height: 85px;
                     }
 
                     &:hover {
-                        color: $white;
-
-                        &::after {
-                            @include transform (scaleX(1));
-                        }
+                        color: $nli-nav-yellow;
                     }
                 }
 
-                &.active {
+                &.logo {
                     a {
                         color: $white;
-
-                        &::after {
-                            @include transform (scaleX(1));
-                        }
-                    }
-                }
-            }
-        }
-
-        @include breakpoint (large, max) {
-            ul {
-                li {
-                    a {
-                        letter-spacing: 3px;
-                        padding: 0 18px;
-
-                        &::after {
-                            left: 10px;
-                            right: 15px;
-                        }
-                    }
-                }
-            }
-        }
-
-        @include breakpoint (medium, max) {
-            flex-direction: column;
-
-            .home-link {
-                height: 50%;
-                margin: 10px 0 0 35px;
-            }
-
-            ul {
-                height: 50%;
-                line-height: initial;
-                padding: 0;
-                text-align: left;
-                width: 100%;
-
-                li {
-                    line-height: initial;
-
-                    a {
-                        padding: 15px 35px;
-
-                        &::after {
-                            bottom: 5px;
-                        }
-                    }
-                }
-            }
-        }
-
-        @include breakpoint (small, max) {
-            .home-link {
-                margin: 10px 0 0 20px;
-            }
-
-            ul {
-                li {
-                    a {
-                        padding: 15px 18px;
-                    }
-                }
-            }
-        }
-
-        @include breakpoint (extra-small, max) {
-            height: 260px;
-
-            .home-link {
-                height: 60px;
-                margin: 15px auto 0;
-            }
-
-            ul {
-                li {
-                    display: block;
-
-                    a {
-                        padding: 15px 18px 15px 30px;
-
-                        &:hover {
-                            color: $white;
-
-                            &::after {
-                                @include transform (scaleY(1));
-                            }
-                        }
-
-                        &::after {
-                            @include transform (scaleY(0));
-                            border-color: transparent transparent transparent $white;
-                            bottom: 5px;
-                            left: 15px;
-                            right: auto;
-                            top: 5px;
-                        }
                     }
                 }
             }

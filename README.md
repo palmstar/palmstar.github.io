@@ -1,2 +1,2 @@
-# palmstar.github.io
+# nationallampoon.github.io
 Corporate website
