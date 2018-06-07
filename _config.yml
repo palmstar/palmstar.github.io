@@ -35,7 +35,7 @@ safe: false
 host: 0.0.0.0
 port: 4000
 baseurl: ""
-url: https://www.nationallampoon.com
+url: https://www.palmstar.com
 lsi: false
 
 maruku:
@@ -84,7 +84,17 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-author: National Lampoon
+author: PalmStar
+twitter:
+  username: PalmStar
+social:
+  name: PalmStar
+  links:
+    - https://twitter.com/PalmStar
+    - https://www.linkedin.com/company/palmstar/
+    - https://www.facebook.com/PalmStarMedia/
+    - https://vimeo.com/palmstar
+    - http://www.imdb.com/company/co0037203/
 
 compress_html:
   clippings: []

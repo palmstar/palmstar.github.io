@@ -3,7 +3,12 @@
 // ---
 
 @import 'modules/typography';
+@import 'modules/featured';
 @import 'modules/about';
+@import 'modules/team';
+@import 'modules/press';
+@import 'modules/projects';
+@import 'modules/poster-slider';
 
 .content {
     flex: 1;
@@ -37,24 +42,92 @@
     }
 }
 
-.home-splash {
-    margin: 0 auto;
-    padding-top: 5%;
-    text-align: center;
+.paginator {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
 
-    svg {
-        display: inline-block;
-        width: 800px;
+        li {
+            display: inline-block;
+            margin: 0 10px 10px 0;
+
+            a {
+                border: solid 2px $black;
+                border-radius: 3px;
+                color: $black;
+                display: block;
+                margin: 0;
+                padding: 8px 12px;
+                text-decoration: none;
+
+                &:hover {
+                    border: solid 2px rgba($black, .65);
+                    color: rgba($black, .75);
+                }
+            }
+
+            &.selected {
+                a {
+                    background-color: rgba($black, .1);
+                    border: solid 2px rgba($black, .035);
+                    color: $palmstar-blue;
+                }
+            }
+        }
     }
 }
 
-.fourohfour {
-    h1 {
-        color: $white;
-        text-align: center;
+.tag-list {
+    margin: 0 0 40px;
+    padding: 0 10px;
+    text-align: center;
+
+    @include breakpoint (medium, max) {
+        text-align: left;
+    }
+
+    @include breakpoint (small, max) {
+        font-size: 13px;
+        margin: 0 0 10px;
+        padding: 0;
+    }
+}
+
+.genre-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    @include breakpoint (small, max) {
+        font-size: 13px;
+    }
+
+    li {
+        display: inline-block;
+        margin: 0 10px 10px 0;
 
         a {
-            color: $white;
+            border: solid 2px $black;
+            border-radius: 3px;
+            color: $black;
+            display: block;
+            margin: 0;
+            padding: 8px 12px;
+            text-decoration: none;
+
+            &:hover {
+                border: solid 2px rgba($black, .65);
+                color: rgba($black, .75);
+            }
+        }
+
+        &.selected {
+            a {
+                background-color: rgba($black, .1);
+                border: solid 2px rgba($black, .035);
+                color: $palmstar-blue;
+            }
         }
     }
 }

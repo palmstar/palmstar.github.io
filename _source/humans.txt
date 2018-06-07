@@ -4,8 +4,9 @@
 
 /* TEAM */
   Brian Fleming
-  Site: http://www.nationallampoon.com
-  Location: Los Angeles, CA
+  Site: http://www.palmstar.com
+  Twitter: @palmstar
+  Location: Philadelphia, PA
 
 /* SITE */
   Standards: HTML5, CSS3

@@ -1,0 +1,116 @@
+.slider {
+    $num-of-slide: 10;
+    overflow: hidden;
+    position: relative;
+
+    .slider__nav {
+        display: none;
+    }
+
+    .slider__inner {
+        @include transform (translate3d(0, 0, 0));
+        @include transition-animation (transform, .5s, ease-in-out, 0ms);
+        position: relative;
+
+        img {
+            border: 0;
+            display: inline-block;
+            width: 100%;
+        }
+    }
+    /* stylelint-disable at-rule-no-unknown */
+    @for $i from 1 through ($num-of-slide) {
+        @if $i == 1 {
+            .slider__nav:checked:nth-of-type(1) ~ .slider__inner {
+                @include transform (translate3d(0, 0, 0));
+            }
+        }
+        @else {
+            .slider__nav:checked:nth-of-type(#{$i}) ~ .slider__inner {
+                @include transform (translate3d(-#{($i - 1) * 100%}, 0, 0));
+            }
+        }
+    }
+    /* stylelint-enable */
+    .slider-prev-next-control {
+        @include position (absolute, 50%, auto, auto, auto);
+        @include transform (translateY(-50%));
+        @include transition-animation (opacity, 250ms, ease-in-out, 0ms);
+        height: 50px;
+        width: 100%;
+
+        .arrows {
+            @include position (absolute, 0, 0, 0, 0);
+            display: none;
+
+            label {
+                @include transition-animation (all, 250ms, ease-in-out, 0ms);
+                border-radius: 50%;
+                color: $white;
+                cursor: pointer;
+                height: 40px;
+                margin: 0 5px;
+                position: relative;
+                width: 40px;
+
+                &:nth-child(1) {
+                    float: left;
+                }
+
+                &:nth-child(2) {
+                    float: right;
+                }
+
+                &:hover {
+                    color: rgba($white, .65);
+                }
+
+                .arrow-left,
+                .arrow-right {
+                    @include position (absolute, 50%, auto, auto, 50%);
+                    @include transform (translate3d(-50%, -50%, 0));
+                    height: 20px;
+                    width: auto;
+                }
+            }
+        }
+    }
+    /* stylelint-disable at-rule-no-unknown */
+    @for $i from 1 through ($num-of-slide) {
+        #slide#{$i}:checked {
+            & ~ .slider-prev-next-control .arrows#{$i} {
+                display: block;
+            }
+        }
+    }
+    /* stylelint-enable */
+    .slider-dot-control {
+        padding: 12px 0;
+        text-align: center;
+        width: 100%;
+
+        label {
+            @include transition-animation (background-color, 250ms, ease-in-out, 0ms);
+            background-color: rgba($black, .25);
+            border-radius: 50%;
+            cursor: pointer;
+            display: inline-block;
+            height: 11px;
+            margin: 0 5px;
+            width: 11px;
+
+            &:hover {
+                background-color: $black;
+            }
+        }
+    }
+    /* stylelint-disable at-rule-no-unknown */
+    @for $i from 1 through $num-of-slide {
+        #slide#{$i}:checked {
+            & ~ .slider-dot-control label:nth-child(#{$i}) {
+                background-color: $black;
+            }
+        }
+    }
+    /* stylelint-enable */
+}

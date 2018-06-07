@@ -1,0 +1,18 @@
+{
+    "type": {{page.post.category | jsonify}},
+    "id": {{page.post.id | jsonify}},
+    "attributes": {
+        "title": {{page.post.title | jsonify}},
+        "date": {{ page.post.date | jsonify }},
+        "url": {{ page.post.url | jsonify }},
+        "posters": {{ page.post.posters | jsonify }},
+        "hero": {{ page.post.hero | jsonify }},
+        "trailers": {{ page.post.trailers | jsonify }},
+        "imdb": {{ page.post.imdb | jsonify }},
+        "director": {{ page.post.director | jsonify }},
+        "distributor": {{ page.post.distributor | jsonify }},
+        "cast": {{ page.post.cast | jsonify }},
+        "writer": {{ page.post.writer | jsonify }},
+        "genre": {{ page.post.tags | jsonify }}
+    }
+}

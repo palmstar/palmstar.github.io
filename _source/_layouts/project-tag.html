@@ -1,0 +1,21 @@
+---
+layout: base
+active_page: 'projects'
+---
+
+<div class="projects">
+    <div class="content-interior">
+        {%- include project-tag-list.html -%}
+    </div>
+    <div class="posts">
+        {%- for post in site.posts -%}
+        {%- for tag in post.tags -%}
+        {%- if tag == page.tag -%}
+        <div class="post">
+            {%- include project-poster-link.html -%}
+        </div>
+        {%- endif -%}
+        {%- endfor -%}
+        {%- endfor -%}
+    </div>
+</div>

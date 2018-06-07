@@ -1,0 +1,9 @@
+.team-member {
+    border-bottom: solid 1px $alto;
+    margin: 0 0 30px;
+    padding: 0 0 30px;
+
+    &:last-of-type {
+        border-bottom: 0;
+    }
+}

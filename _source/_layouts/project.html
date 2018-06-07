@@ -1,0 +1,88 @@
+---
+layout: base
+---
+
+<div class="project">
+    {%- if page.trailers -%}
+    <trailers project-slug="{{ page.slug }}"></trailers>
+    {%- endif -%}
+    <div class="content-interior" role="complementary">
+        <h1>
+            {{ page.title }}
+            <small>({{page.date | date: "%Y"}})</small>
+        </h1>
+        <div class="details">
+            {%- if page.posters -%}
+            {%- include poster-slider.html -%}
+            {%- endif -%}
+            <div class="meta">
+                {%- if page.director -%}
+                {%- if page.director.size == 1 -%}
+                <h3>Director</h3>
+                {%- else -%}
+                <h3>Directors</h3>
+                {%- endif -%}
+                <ul>
+                    {%- for director in page.director -%}
+                    <li>{{ director }}</li>
+                    {%- endfor -%}
+                </ul>
+                {%- endif -%}
+
+                {%- if page.writer -%}
+                {%- if page.writer.size == 1 -%}
+                <h3>Writer</h3>
+                {%- else -%}
+                <h3>Writers</h3>
+                {%- endif -%}
+                <ul>
+                    {%- for writer in page.writer -%}
+                    <li>{{ writer }}</li>
+                    {%- endfor -%}
+                </ul>
+                {%- endif -%}
+
+                {%- if page.cast -%}
+                <h3>Cast</h3>
+                <ul>
+                    {%- for cast in page.cast -%}
+                    <li>{{ cast }}</li>
+                    {%- endfor -%}
+                </ul>
+                {%- endif -%}
+
+                {%- if page.distributor -%}
+                {%- if page.distributor.size == 1 -%}
+                <h3>Distributor</h3>
+                {%- else -%}
+                <h3>Distributors</h3>
+                {%- endif -%}
+                <ul>
+                    {%- for distributor in page.distributor -%}
+                    <li>{{ distributor }}</li>
+                    {%- endfor -%}
+                </ul>
+                {%- endif -%}
+
+                {%- if page.tags -%}
+                <h3>Genre</h3>
+                <ul>
+                    {%- for tag in page.tags -%}
+                    <li>
+                        {{tag | downcase}}
+                    </li>
+                    {%- endfor -%}
+                </ul>
+                {%- endif -%}
+
+                {%- if page.imdb -%}
+                <div class="footer">
+                    <a class="imdb-link" href="{{ page.imdb }}" title="View {{ page.title }} IMDB Page">
+                        <icon name="imdb-color"></icon>
+                    </a>
+                </div>
+                {%- endif -%}
+            </div>
+        </div>
+    </div>
+</div>
