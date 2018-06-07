@@ -1,7 +1,6 @@
 <template>
     <nav :class="{
-        'home-bleed': (activePage === 'home'),
-        'video-header': (activePage === 'about2')
+        'home-bleed': (activePage === 'home')
     }" role="banner">
         <a id="main-logo" href="/" title="PalmStar Homepage" class="home-link">
             <icon name="logo-white"></icon>
@@ -20,18 +19,6 @@
                 <a href="/press" title="Press">Press</a>
             </li>
         </ul>
-        <div v-if="activePage === 'about2'" class="video-outer-wrapper">
-            <div class="video-wrapper">
-                <video id="bgvid" playsinline autoplay muted poster="/assets/video/palmstar-poster.png">
-                    <source src="/assets/video/palmstar-trimmed.webm" type="video/webm">
-                    <source src="/assets/video/palmstar-trimmed.mp4" type="video/mp4">
-                </video>
-                <div class="video-shadow"></div>
-            </div>
-        </div>
-        <h1 v-if="activePage === 'about2'" id="tagline">
-            We work with the foremost talent to produce film and television content, reflecting the highest artistic and commercial standards.
-        </h1>
     </nav>
 </template>
 
@@ -48,19 +35,6 @@
                 type: String,
                 default: 'home',
                 required: true
-            }
-        },
-        mounted() {
-            const vid = document.getElementById('bgvid');
-            if (vid) {
-                vid.addEventListener('ended', this.videoEnded.bind(null, vid), false);
-            }
-        },
-        methods: {
-            videoEnded(vid) {
-                vid.classList.add('opacity-hide');
-                document.getElementById('tagline').classList.add('opacity-show');
-                document.getElementById('main-logo').classList.add('opacity-show');
             }
         }
     };
@@ -96,124 +70,6 @@
                         text-shadow: 1px 1px 0 rgba(0, 0, 0, .8);
                     }
                 }
-            }
-        }
-
-        &.video-header {
-            padding-bottom: 18%;
-
-            @include breakpoint (medium, max) {
-                padding-bottom: 0;
-            }
-
-            .home-link {
-                @include transition-animation (opacity, 2100ms, ease-in, 50ms);
-                @include opacity(0);
-
-                &.opacity-show {
-                    @include opacity(1);
-                }
-
-                @include breakpoint (medium, max) {
-                    opacity: 1 !important;
-                }
-            }
-
-            ul {
-                height: 120px;
-            }
-
-            .home-link,
-            ul {
-                z-index: 3;
-            }
-
-            .video-wrapper {
-                z-index: 1;
-            }
-
-            h1 {
-                @include opacity(0);
-                display: block;
-
-                &.opacity-show {
-                    @include opacity(1);
-                }
-            }
-        }
-
-        h1 {
-            @include opacity(0);
-            @include position (absolute, calc(50% - 40px), 10%, auto, 10%);
-            @include transition-animation (opacity, 2100ms, ease-in, 50ms);
-            color: $white;
-            display: none;
-            margin: 0;
-            position: absolute;
-            text-align: center;
-
-            &::before {
-                display: none;
-            }
-
-            @include breakpoint (extra-large, max) {
-                font-size: 38px;
-                line-height: 52px;
-            }
-
-            @include breakpoint (large, max) {
-                font-size: 32px;
-                line-height: 40px;
-                top: calc(50% - 20px);
-            }
-
-            @include breakpoint (medium, max) {
-                display: none !important;
-            }
-        }
-
-        .video-outer-wrapper {
-            @include position (absolute, auto, auto, 0, 50%);
-            @include transform (translateX(-50%));
-            line-height: 0;
-            overflow: hidden;
-            width: 50%;
-
-            .video-wrapper {
-                height: 0;
-                padding-bottom: 49%;
-                position: relative;
-
-                video {
-                    @include transition-animation (opacity, 750ms, ease-in, 0ms);
-                    @include opacity(1);
-                    width: 100%;
-
-                    &.opacity-hide {
-                        @include opacity(0);
-                    }
-                }
-
-                .video-shadow {
-                    @include position (absolute, 0, auto, auto, 50%);
-                    @include transform (translateX(-50%));
-                    background: linear-gradient(to right, $gradient-shadow-color 0%, $gradient-shadow-color 1%, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 95%, $gradient-shadow-color 100%), linear-gradient(to bottom, $gradient-shadow-color 0%, $gradient-shadow-color 1%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0) 90%, $gradient-shadow-color 100%);
-                    border: solid 2px $black;
-                    height: 100%;
-                    width: 100%;
-                }
-            }
-
-            @include breakpoint (extra-large, max) {
-                width: 55%;
-            }
-
-            @include breakpoint (large, max) {
-                width: 55%;
-            }
-
-            @include breakpoint (medium, max) {
-                display: none;
             }
         }
 
