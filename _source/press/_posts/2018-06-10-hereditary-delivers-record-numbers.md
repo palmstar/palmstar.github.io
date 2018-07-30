@@ -8,6 +8,6 @@ publication: Box Office Mojo
 category: press
 ---
 
-A24's Hereditary smashed tracking expectations and even outperformed Mojo's lofty, pre-weekend forecast to finish within the top five, earning A24 its largest opening ever.
+A24’s Hereditary smashed tracking expectations and even outperformed Mojo's lofty, pre-weekend forecast to finish within the top five, earning A24 its largest opening ever.
 <!--more-->
 
