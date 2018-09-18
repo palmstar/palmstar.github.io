@@ -10,9 +10,3 @@ category: press
 
 Ari Aster’s debut feature Hereditary premiered in the Midnight section of Sundance back in January to unanimously positive response and has now become the biggest worldwide grossing movie ever for A24.
 <!--more-->
-
-
-
-
-
-
