@@ -4,6 +4,7 @@ require 'json'
 require 'open-uri'
 versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 
+gem "json"
 gem "jekyll"
 gem 'kramdown'
 gem 'jekyll-sitemap'
