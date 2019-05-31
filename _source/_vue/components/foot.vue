@@ -6,11 +6,11 @@
             </a>
         </div>
         <span>
-            &copy; 2018 PalmStar Media Capital, LLC.
+            &copy; 2019 PalmStar Media Capital, LLC.
             <ins>all rights reserved.</ins>
         </span>
         <a href="http://www.nationallampoon.com/" class="nli-logo" title="Visit nationallampoon.com">
-            <icon name="nli-logo-alt"></icon>
+            <icon name="nli-logo-red"></icon>
         </a>
     </footer>
 </template>
