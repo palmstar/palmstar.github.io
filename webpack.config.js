@@ -42,7 +42,6 @@ const config = {
                             // If you are having trouble with urls not resolving add this setting.
                             // See https://github.com/webpack-contrib/css-loader#url
                             // url: false,
-                            minimize: process.env.NODE_ENV === 'production',
                             sourceMap: true
                         }
                     },
@@ -69,8 +68,7 @@ const config = {
                     loader: 'file-loader',
                     options: {
                         context: path.resolve(__dirname, './_source/'),
-                        name: '[name].[ext]',
-                        useRelativePath: true
+                        name: '[path][name].[ext]'
                     }
                 },
                 {
@@ -120,7 +118,7 @@ const config = {
                     ],
                     copy: [
                         {
-                            source: path.resolve(__dirname, './_source/images/*.{svg,ico,xml,webmanifest}'), destination: path.resolve(__dirname, './_site/assets/images')
+                            source: path.resolve(__dirname, './_source/images/**/*.{svg,ico,xml,webmanifest}'), destination: path.resolve(__dirname, './_site/assets/images')
                         }
                     ]
                 }
