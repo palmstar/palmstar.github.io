@@ -2,7 +2,7 @@
 layout: project
 active_page: projects
 title: Night Hunter
-date: 2018-09-28 12:00:00 +0100
+date: 2019-09-06 12:00:00 +0100
 posters:
     - /assets/images/projects/night-hunter/night-hunter-poster.jpg
 trailers:
