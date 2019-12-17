@@ -201,7 +201,7 @@ module.exports = {
             "kebab-case"
         ],
         "vue/max-attributes-per-line": [
-            3,
+            2,
             {
                 "singleline": 1,
                 "multiline": {

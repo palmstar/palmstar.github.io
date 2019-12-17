@@ -68,7 +68,8 @@ const config = {
                     loader: 'file-loader',
                     options: {
                         context: path.resolve(__dirname, './_source/'),
-                        name: '[path][name].[ext]'
+                        name: '[path][name].[ext]',
+                        useRelativePath: true
                     }
                 },
                 {
@@ -79,10 +80,11 @@ const config = {
                             quality: 80
                         },
                         pngquant: {
-                            quality: '65-90',
+                            quality: [0.65, 0.90],
                             speed: 4
                         },
                         gifsicle: {
+                            interlaced: false,
                             optimizationLevel: 3
                         }
                     }

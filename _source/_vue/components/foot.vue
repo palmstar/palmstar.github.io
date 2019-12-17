@@ -1,7 +1,9 @@
 <template>
     <footer>
         <div>
-            <a href="/" title="PalmStar Homepage">
+            <a
+                href="/"
+                title="PalmStar Homepage">
                 <icon name="logo-mark"></icon>
             </a>
         </div>
@@ -9,8 +11,11 @@
             &copy; 2019 PalmStar Media Capital, LLC.
             <ins>all rights reserved.</ins>
         </span>
-        <a href="http://www.nationallampoon.com/" class="nli-logo" title="Visit nationallampoon.com">
-            <icon name="nli-logo-red"></icon>
+        <a
+            href="http://www.nationallampoon.com/"
+            class="nli-logo"
+            title="Visit nationallampoon.com">
+            <icon name="nli-logo-alt"></icon>
         </a>
     </footer>
 </template>
