@@ -8,7 +8,7 @@
             </a>
         </div>
         <span>
-            &copy; 2019 PalmStar Media Capital, LLC.
+            &copy; 2020 PalmStar Media Capital, LLC.
             <ins>all rights reserved.</ins>
         </span>
         <a
@@ -142,7 +142,7 @@
         @include breakpoint (extra-small, max) {
             &.home-bleed {
                 background-color: $black;
-                border-top: 0;
+                border-top: $zero;
                 color: $white;
                 display: none;
                 font-weight: normal;

@@ -12,35 +12,35 @@
     "repository": "git@github.com:palmstar/palmstar.github.io.git",
     "dependencies": {},
     "devDependencies": {
-        "axios": "^0.19.0",
+        "axios": "^0.19.2",
         "babel-core": "^6.26.3",
-        "babel-loader": "^8.0.6",
-        "concurrently": "^5.0.1",
-        "css-loader": "^3.2.0",
-        "eslint": "^6.7.2",
-        "eslint-config-airbnb-base": "^14.0.0",
-        "eslint-plugin-import": "^2.19.1",
-        "eslint-plugin-vue": "^6.0.1",
-        "file-loader": "^4.3.0",
+        "babel-loader": "^8.1.0",
+        "concurrently": "^5.2.0",
+        "css-loader": "^3.5.3",
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb-base": "^14.1.0",
+        "eslint-plugin-import": "^2.20.2",
+        "eslint-plugin-vue": "^6.2.2",
+        "file-loader": "^6.0.0",
         "filemanager-webpack-plugin": "^2.0.5",
-        "husky": "^3.1.0",
+        "husky": "^4.2.5",
         "image-webpack-loader": "^6.0.0",
-        "lint-staged": "^9.5.0",
-        "mini-css-extract-plugin": "^0.8.1",
-        "node-sass": "^4.13.0",
+        "lint-staged": "^10.2.0",
+        "mini-css-extract-plugin": "^0.9.0",
+        "node-sass": "^4.14.0",
         "normalize.css": "^8.0.1",
-        "npm": "^6.13.4",
-        "sass-loader": "^8.0.0",
-        "sass-resources-loader": "^2.0.1",
-        "style-loader": "^1.0.2",
-        "stylelint": "^12.0.0",
-        "stylelint-declaration-strict-value": "^1.1.7",
-        "stylelint-order": "^3.1.1",
+        "npm": "^6.14.4",
+        "sass-loader": "^8.0.2",
+        "sass-resources-loader": "^2.0.3",
+        "style-loader": "^1.2.1",
+        "stylelint": "^13.3.3",
+        "stylelint-declaration-strict-value": "^1.4.2",
+        "stylelint-order": "^4.0.0",
         "vue": "^2.6.11",
-        "vue-loader": "^15.8.3",
+        "vue-loader": "^15.9.1",
         "vue-template-compiler": "^2.6.11",
-        "webpack": "^4.41.3",
-        "webpack-cli": "^3.3.10"
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.11"
     },
     "husky": {
         "hooks": {
@@ -49,21 +49,17 @@
     },
     "lint-staged": {
         "webpack.config.js": [
-            "eslint",
-            "git add"
+            "eslint"
         ],
         "_source/**/*.js": [
-            "eslint",
-            "git add"
+            "eslint"
         ],
         "_source/**/*.scss": [
-            "stylelint --syntax scss",
-            "git add"
+            "stylelint --syntax scss"
         ],
         "_source/**/*.vue": [
             "eslint",
-            "stylelint",
-            "git add"
+            "stylelint"
         ]
     },
     "scripts": {

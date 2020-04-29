@@ -22,7 +22,7 @@ writer:
     - Stephen J. Rivele (story)
     - Christopher Wilkinson
 tags:
-    - Historical Drama
+    - Historical
 category: projects
 published: true
 ---
