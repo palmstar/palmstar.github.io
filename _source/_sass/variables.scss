@@ -20,6 +20,24 @@ $imdb-yellow: #e6b91e;
 $palmstar-dark-blue: #213863;
 $silver: #ccc;
 $white: #fff;
+
+$font-size-max-input: 54px;
+$font-size-extralarge: 44px;
+$font-size-large: 36px;
+$font-size-mediumlarge: 30px;
+$font-size-medium: 24px;
+$font-size-small: 18px;
+$font-size-text: 16px;
+$font-size-extrasmall: 13px;
+$font-size-button: 12px;
+
+$z-index-negative: -1;
+$z-index-base: 1;
+$z-index-base-middle: 2;
+$z-index-base-top: 3;
+$z-index-base-max: 4;
+$z-index-max: 10000;
+
 $breakpoints: (
     'extra-small': 400px,
     'small': 544px,

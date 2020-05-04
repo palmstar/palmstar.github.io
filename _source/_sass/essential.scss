@@ -94,7 +94,7 @@ body {
     width: 1em;
 }
 
-.fullbleed + .social-media-link-list {
+.gallery + .social-media-link-list {
     @include position (absolute, auto, 8px, 30px, auto);
     list-style: none;
     margin: 0;

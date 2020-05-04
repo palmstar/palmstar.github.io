@@ -30,7 +30,7 @@ const config = {
                 loader: 'vue-loader'
             },
             {
-                test: /\.scss$/,
+                test: /\.(scss|css)(\?.*$|$)/,
                 use: [
                     {
                         loader: 'vue-style-loader'
