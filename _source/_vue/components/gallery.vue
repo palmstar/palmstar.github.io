@@ -201,7 +201,7 @@
                         }
 
                         .meta {
-                            @include position (relative, 50%, auto, auto, 50%);
+                            @include position (absolute, 50%, auto, auto, 50%);
                             @include transform (translate3d(-50%, -50%, 0));
                             color: $white;
                             display: inline-block;
