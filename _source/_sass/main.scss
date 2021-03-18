@@ -130,3 +130,16 @@
         }
     }
 }
+
+.home-base {
+    background-color: $black;
+    position: relative;
+
+    svg {
+        @include position (absolute, 50%, auto, auto, 50%);
+        @include transform (translate3d(-50%, -50%, 0));
+        height: auto;
+        max-width: 600px;
+        width: 75vw;
+    }
+}
