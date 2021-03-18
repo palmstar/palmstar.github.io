@@ -1,0 +1,18 @@
+{
+    "type": "projects",
+    "id": "/projects/2016/04/29/mothers-day",
+    "attributes": {
+        "title": "Mother’s Day",
+        "date": "2016-04-29 07:00:00 -0400",
+        "url": "/projects/2016/04/29/mothers-day/",
+        "posters": ["/assets/images/projects/mothers-day/mothers-day-poster.jpg"],
+        "hero": null,
+        "trailers": [{"trailer":"//www.youtube.com/embed/AQkCNxIM5yk?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/AQkCNxIM5yk/mqdefault.jpg"}],
+        "imdb": "https://www.imdb.com/title/tt4824302/",
+        "director": ["Garry Marshall"],
+        "distributor": ["Open Road Films"],
+        "cast": ["Jennifer Aniston","Kate Hudson","Julia Roberts","Jason Sudeikis","Jennifer Garner"],
+        "writer": ["Anya Kochoff","Matthew Walker","Tom Hines","Lily Hollander (story)","Garry Marshall (story)"],
+        "genre": ["Comedy","Drama"]
+    }
+}

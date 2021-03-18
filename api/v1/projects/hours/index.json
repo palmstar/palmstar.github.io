@@ -1,0 +1,18 @@
+{
+    "type": "projects",
+    "id": "/projects/2013/12/04/hours",
+    "attributes": {
+        "title": "Hours",
+        "date": "2013-12-04 06:00:00 -0500",
+        "url": "/projects/2013/12/04/hours/",
+        "posters": ["/assets/images/projects/hours/hours-poster.jpg","/assets/images/projects/hours/hours-poster-2.jpg"],
+        "hero": null,
+        "trailers": [{"trailer":"//www.youtube.com/embed/u0wF20zmb0k?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/u0wF20zmb0k/mqdefault.jpg"}],
+        "imdb": "http://www.imdb.com/title/tt2094018/",
+        "director": ["Eric Heisserer"],
+        "distributor": ["Pantelion Films"],
+        "cast": ["Paul Walker","Genesis Rodriguez"],
+        "writer": ["Eric Heisserer"],
+        "genre": ["Drama"]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "type": "projects",
+    "id": "/projects/2014/12/11/shelter",
+    "attributes": {
+        "title": "Shelter",
+        "date": "2014-12-11 06:00:00 -0500",
+        "url": "/projects/2014/12/11/shelter/",
+        "posters": ["/assets/images/projects/shelter/shelter-poster.jpg","/assets/images/projects/shelter/shelter-poster-2.jpg"],
+        "hero": null,
+        "trailers": ["https://www.youtube.com/embed/1QWudLnDyZw?rel=0&amp;showinfo=0"],
+        "imdb": "http://www.imdb.com/title/tt3136112/",
+        "director": ["Paul Bettany"],
+        "distributor": ["Millennium Entertainment"],
+        "cast": ["Anthony Mackie","Jennifer Connelly"],
+        "writer": ["Paul Bettany"],
+        "genre": ["Drama"]
+    }
+}

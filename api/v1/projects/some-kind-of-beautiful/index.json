@@ -1,0 +1,18 @@
+{
+    "type": "projects",
+    "id": "/projects/2014/11/06/some-kind-of-beautiful",
+    "attributes": {
+        "title": "Some Kind of Beautiful",
+        "date": "2014-11-06 06:00:00 -0500",
+        "url": "/projects/2014/11/06/some-kind-of-beautiful/",
+        "posters": ["/assets/images/projects/some-kind-of-beautiful/some-kind-of-beautiful-poster.jpg"],
+        "hero": null,
+        "trailers": [{"trailer":"//www.youtube.com/embed/SnSf62D7TPY?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/SnSf62D7TPY/mqdefault.jpg"}],
+        "imdb": "http://www.imdb.com/title/tt1725986/",
+        "director": ["Tom Vaughan"],
+        "distributor": ["Lionsgate"],
+        "cast": ["Pierce Brosnan","Salma Hayek","Jessica Alba","Malcolm McDowell"],
+        "writer": ["Matthew Newman"],
+        "genre": ["Comedy"]
+    }
+}

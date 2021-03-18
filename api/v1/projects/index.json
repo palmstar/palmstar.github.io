@@ -1,0 +1,644 @@
+{
+    "meta": {
+        "total-pages": 1,
+        "total-posts": 35
+    },
+    "data": [
+        {
+            "type": "projects",
+            "id": "/projects/2019/09/06/night-hunter",
+            "attributes": {
+                "title": "Night Hunter",
+                "date": "2019-09-06 07:00:00 -0400",
+                "url": "/projects/2019/09/06/night-hunter/",
+                "posters": ["/assets/images/projects/night-hunter/night-hunter-poster.jpg"],
+                "hero": null,
+                "trailers": [{"trailer":"//www.youtube.com/embed/ZxIanAd-S-o?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/ZxIanAd-S-o/mqdefault.jpg"}],
+                "imdb": "https://www.imdb.com/title/tt6533240/",
+                "director": ["David Raymond"],
+                "distributor": ["Saban Films"],
+                "cast": ["Henry Cavill","Alexandra Daddario","Ben Kingsley","Stanley Tucci"],
+                "writer": ["David Raymond"],
+                "genre": ["Action","Thriller"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2019/01/07/glass",
+            "attributes": {
+                "title": "Glass",
+                "date": "2019-01-07 06:00:00 -0500",
+                "url": "/projects/2019/01/07/glass/",
+                "posters": ["/assets/images/projects/glass/glass-poster.jpg"],
+                "hero": null,
+                "trailers": [{"trailer":"//www.youtube.com/embed/95ghQs5AmNk?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/95ghQs5AmNk/mqdefault.jpg"}],
+                "imdb": "https://www.imdb.com/title/tt6823368/",
+                "director": ["M. Night Shyamalan"],
+                "distributor": ["Universal"],
+                "cast": ["James McAvoy","Bruce Willis","Samuel L. Jackson","Anya Taylor-Joy","Sarah Paulson"],
+                "writer": ["M. Night Shyamalan"],
+                "genre": ["Sci-Fi","Thriller"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2018/07/01/the-catcher-was-a-spy",
+            "attributes": {
+                "title": "The Catcher Was a Spy",
+                "date": "2018-07-01 07:00:00 -0400",
+                "url": "/projects/2018/07/01/the-catcher-was-a-spy/",
+                "posters": ["/assets/images/projects/the-catcher-was-a-spy/the-catcher-was-a-spy-poster.jpg"],
+                "hero": ["/assets/images/projects/the-catcher-was-a-spy/the-catcher-was-a-spy-hero-1.jpg"],
+                "trailers": [{"trailer":"//www.youtube.com/embed/W0XTxOs-_Os?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/W0XTxOs-_Os/mqdefault.jpg"}],
+                "imdb": "https://www.imdb.com/title/tt4602066/",
+                "director": ["Ben Lewin"],
+                "distributor": ["IFC/FilmNation"],
+                "cast": ["Paul Rudd","Mark Strong","Sienna Miller","Jeff Daniels","Tom Wilkinson","Guy Pearce","Paul Giamatti"],
+                "writer": ["Robert Rodat"],
+                "genre": ["Drama"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2018/06/08/hereditary",
+            "attributes": {
+                "title": "Hereditary",
+                "date": "2018-06-08 07:00:00 -0400",
+                "url": "/projects/2018/06/08/hereditary/",
+                "posters": ["/assets/images/projects/hereditary/hereditary-poster.jpg","/assets/images/projects/hereditary/hereditary-poster-2.jpg"],
+                "hero": ["/assets/images/projects/hereditary/hereditary-hero-5.jpg"],
+                "trailers": [{"trailer":"//www.youtube.com/embed/V6wWKNij_1M?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/V6wWKNij_1M/mqdefault.jpg"},{"trailer":"//www.youtube.com/embed/MJNR58zaStE?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/MJNR58zaStE/mqdefault.jpg"},{"trailer":"//www.youtube.com/embed/No-L6bsa8g4?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/No-L6bsa8g4/mqdefault.jpg"},{"trailer":"//www.youtube.com/embed/RFm1kzn1o9w?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/RFm1kzn1o9w/mqdefault.jpg"}],
+                "imdb": "https://www.imdb.com/title/tt7784604/",
+                "director": ["Ari Aster"],
+                "distributor": ["A24"],
+                "cast": ["Toni Collette","Alex Wolff","Gabriel Byrne","Milly Shapiro","Ann Dowd"],
+                "writer": ["Ari Aster"],
+                "genre": ["Drama","Horror","Mystery"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2017/09/10/submergence",
+            "attributes": {
+                "title": "Submergence",
+                "date": "2017-09-10 07:00:00 -0400",
+                "url": "/projects/2017/09/10/submergence/",
+                "posters": ["/assets/images/projects/submergence/submergence-poster.jpg","/assets/images/projects/submergence/submergence-poster-2.jpg"],
+                "hero": null,
+                "trailers": [{"trailer":"//www.youtube.com/embed/0Ec7JVwz9Dw?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/0Ec7JVwz9Dw/mqdefault.jpg"}],
+                "imdb": "http://www.imdb.com/title/tt3563262/",
+                "director": ["Wim Wenders"],
+                "distributor": ["Samuel Golwyn Films"],
+                "cast": ["James McAvoy","Alicia Vikander"],
+                "writer": ["Erin Dignam","J.M. Ledgard (novel)"],
+                "genre": ["Drama","Romance","Thriller"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2017/06/22/dear-dictator",
+            "attributes": {
+                "title": "Dear Dictator",
+                "date": "2017-06-22 07:00:00 -0400",
+                "url": "/projects/2017/06/22/dear-dictator/",
+                "posters": ["/assets/images/projects/dear-dictator/dear-dictator-poster.jpg"],
+                "hero": null,
+                "trailers": [{"trailer":"//www.youtube.com/embed/cNd4BQvN60c?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/cNd4BQvN60c/mqdefault.jpg"}],
+                "imdb": "https://www.imdb.com/title/tt5779540/",
+                "director": ["Lisa Addario","Joe Syracuse"],
+                "distributor": ["Cinedigm"],
+                "cast": ["Michael Caine","Katie Holmes","Odeya Rush","Seth Green","Jason Biggs"],
+                "writer": ["Lisa Addario","Joe Syracuse"],
+                "genre": ["Comedy"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2017/02/10/john-wick-chapter-2",
+            "attributes": {
+                "title": "John Wick: Chapter 2",
+                "date": "2017-02-10 06:00:00 -0500",
+                "url": "/projects/2017/02/10/john-wick-chapter-2/",
+                "posters": ["/assets/images/projects/john-wick-chapter-2/john-wick-chapter-2-poster.jpg","/assets/images/projects/john-wick-chapter-2/john-wick-chapter-2-poster-2.jpg","/assets/images/projects/john-wick-chapter-2/john-wick-chapter-2-poster-3.jpg"],
+                "hero": null,
+                "trailers": [{"trailer":"//www.youtube.com/embed/XGk2EfbD_Ps?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/XGk2EfbD_Ps/mqdefault.jpg"}],
+                "imdb": "http://www.imdb.com/title/tt4425200/",
+                "director": ["Chad Stahelski"],
+                "distributor": ["Summit Entertainment"],
+                "cast": ["Keanu Reeves","Common","Laurence Fishburne"],
+                "writer": ["Derek Kolstad"],
+                "genre": ["Action","Crime","Thriller"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2017/01/20/split",
+            "attributes": {
+                "title": "Split",
+                "date": "2017-01-20 06:00:00 -0500",
+                "url": "/projects/2017/01/20/split/",
+                "posters": ["/assets/images/projects/split/split-poster.jpg"],
+                "hero": null,
+                "trailers": [{"trailer":"//www.youtube.com/embed/84TouqfIsiI?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/84TouqfIsiI/mqdefault.jpg"}],
+                "imdb": "https://www.imdb.com/title/tt4972582",
+                "director": ["M. Night Shyamalan"],
+                "distributor": ["Universal Pictures"],
+                "cast": ["James McAvoy","Anya Taylor-Joy"],
+                "writer": ["M. Night Shyamalan"],
+                "genre": ["Horror","Thriller"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2016/12/16/collateral-beauty",
+            "attributes": {
+                "title": "Collateral Beauty",
+                "date": "2016-12-16 06:00:00 -0500",
+                "url": "/projects/2016/12/16/collateral-beauty/",
+                "posters": ["/assets/images/projects/collateral-beauty/collateral-beauty-poster.jpg"],
+                "hero": ["/assets/images/projects/collateral-beauty/collateral-beauty-hero-2.jpg"],
+                "trailers": [{"trailer":"//www.youtube.com/embed/isQ5Ycie73U?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/isQ5Ycie73U/mqdefault.jpg"}],
+                "imdb": "https://www.imdb.com/title/tt4682786/",
+                "director": ["David Frankel"],
+                "distributor": ["Warner Bros."],
+                "cast": ["Will Smith","Ed Norton","Kate Winslet","Keira Knightley","Helen Mirren"],
+                "writer": ["Allan Loeb"],
+                "genre": ["Drama"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2016/11/11/true-memoirs-of-an-international-assassin",
+            "attributes": {
+                "title": "True Memoirs of an International Assassin",
+                "date": "2016-11-11 06:00:00 -0500",
+                "url": "/projects/2016/11/11/true-memoirs-of-an-international-assassin/",
+                "posters": ["/assets/images/projects/true-memoirs-of-an-international-assassin/true-memoirs-of-an-international-assassin-poster.jpg"],
+                "hero": null,
+                "trailers": [{"trailer":"//www.youtube.com/embed/E6l4xrEjFY8?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/E6l4xrEjFY8/mqdefault.jpg"}],
+                "imdb": "https://www.imdb.com/title/tt1542768/",
+                "director": ["Jeff Wadlow"],
+                "distributor": ["Netflix"],
+                "cast": ["Kevin James","Rob Riggle","Andy Garcia"],
+                "writer": ["Jeff Morris","Jeff Wadlow"],
+                "genre": ["Action","Comedy"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2016/10/21/the-whole-truth",
+            "attributes": {
+                "title": "The Whole Truth",
+                "date": "2016-10-21 07:00:00 -0400",
+                "url": "/projects/2016/10/21/the-whole-truth/",
+                "posters": ["/assets/images/projects/the-whole-truth/the-whole-truth-poster.jpg"],
+                "hero": null,
+                "trailers": [{"trailer":"//www.youtube.com/embed/eNjXFdiC1O0?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/eNjXFdiC1O0/mqdefault.jpg"}],
+                "imdb": "http://www.imdb.com/title/tt3503406/",
+                "director": ["Courtney Hunt"],
+                "distributor": ["Lionsgate"],
+                "cast": ["Keanu Reeves","Renée Zellweger","Gugu Mbatha-Raw"],
+                "writer": ["Nicholas Kazan"],
+                "genre": ["Drama","Thriller"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2016/09/16/31",
+            "attributes": {
+                "title": 31,
+                "date": "2016-09-16 07:00:00 -0400",
+                "url": "/projects/2016/09/16/31/",
+                "posters": ["/assets/images/projects/31/31-poster.jpg","/assets/images/projects/31/31-poster-2.jpg"],
+                "hero": null,
+                "trailers": [{"trailer":"//www.youtube.com/embed/4y5GpF9FZeA?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/4y5GpF9FZeA/mqdefault.jpg"}],
+                "imdb": "http://www.imdb.com/title/tt3835080/",
+                "director": ["Rob Zombie"],
+                "distributor": ["Fathom Events"],
+                "cast": ["Sheri Moon Zombie","Lew Temple","Malcolm McDowell"],
+                "writer": ["Rob Zombie"],
+                "genre": ["Horror","Thriller"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2016/04/29/mothers-day",
+            "attributes": {
+                "title": "Mother’s Day",
+                "date": "2016-04-29 07:00:00 -0400",
+                "url": "/projects/2016/04/29/mothers-day/",
+                "posters": ["/assets/images/projects/mothers-day/mothers-day-poster.jpg"],
+                "hero": null,
+                "trailers": [{"trailer":"//www.youtube.com/embed/AQkCNxIM5yk?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/AQkCNxIM5yk/mqdefault.jpg"}],
+                "imdb": "https://www.imdb.com/title/tt4824302/",
+                "director": ["Garry Marshall"],
+                "distributor": ["Open Road Films"],
+                "cast": ["Jennifer Aniston","Kate Hudson","Julia Roberts","Jason Sudeikis","Jennifer Garner"],
+                "writer": ["Anya Kochoff","Matthew Walker","Tom Hines","Lily Hollander (story)","Garry Marshall (story)"],
+                "genre": ["Comedy","Drama"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2016/03/17/sing-street",
+            "attributes": {
+                "title": "Sing Street",
+                "date": "2016-03-17 07:00:00 -0400",
+                "url": "/projects/2016/03/17/sing-street/",
+                "posters": ["/assets/images/projects/sing-street/sing-street-poster.jpg","/assets/images/projects/sing-street/sing-street-poster-2.jpg"],
+                "hero": ["/assets/images/projects/sing-street/sing-street-hero-1.jpg"],
+                "trailers": [{"trailer":"//www.youtube.com/embed/r3lChU6RdEA?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/r3lChU6RdEA/mqdefault.jpg"}],
+                "imdb": "http://www.imdb.com/title/tt3544112/",
+                "director": ["John Carney"],
+                "distributor": ["The Weinstein Company"],
+                "cast": ["Ferdia Walsh-Peelo","Kelly Thornton","Jack Reynor"],
+                "writer": ["John Carney","Simon Carmody (story)"],
+                "genre": ["Comedy","Drama","Music","Romance"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2016/01/22/exposed",
+            "attributes": {
+                "title": "Exposed",
+                "date": "2016-01-22 06:00:00 -0500",
+                "url": "/projects/2016/01/22/exposed/",
+                "posters": ["/assets/images/projects/exposed/exposed-poster.jpg"],
+                "hero": null,
+                "trailers": [{"trailer":"//www.youtube.com/embed/YsfBjOkTVxI?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/YsfBjOkTVxI/mqdefault.jpg"}],
+                "imdb": "http://www.imdb.com/title/tt4019560/",
+                "director": ["Gee Malik Linton"],
+                "distributor": ["Lionsgate"],
+                "cast": ["Keanu Reeves","Ana de Armas","Christopher McDonald"],
+                "writer": ["Gee Malik Linton"],
+                "genre": ["Crime","Drama","Mystery","Thriller"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2015/08/21/american-ultra",
+            "attributes": {
+                "title": "American Ultra",
+                "date": "2015-08-21 07:00:00 -0400",
+                "url": "/projects/2015/08/21/american-ultra/",
+                "posters": ["/assets/images/projects/american-ultra/american-ultra-poster.jpg","/assets/images/projects/american-ultra/american-ultra-poster-2.jpg","/assets/images/projects/american-ultra/american-ultra-poster-3.jpg","/assets/images/projects/american-ultra/american-ultra-poster-4.jpg","/assets/images/projects/american-ultra/american-ultra-poster-5.jpg"],
+                "hero": null,
+                "trailers": [{"trailer":"//www.youtube.com/embed/bLGFwkRx2HA?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/bLGFwkRx2HA/mqdefault.jpg"}],
+                "imdb": "https://www.imdb.com/title/tt3316948/",
+                "director": ["Nima Nourizadeh"],
+                "distributor": ["Lionsgate"],
+                "cast": ["Jesse Eisenberg","Kristen Stewart","Topher Grace","Connie Britton","Walton Goggins"],
+                "writer": ["Max Landis"],
+                "genre": ["Comedy"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2015/07/31/jennys-wedding",
+            "attributes": {
+                "title": "Jenny’s Wedding",
+                "date": "2015-07-31 07:00:00 -0400",
+                "url": "/projects/2015/07/31/jennys-wedding/",
+                "posters": ["/assets/images/projects/jennys-wedding/jennys-wedding-poster.jpg"],
+                "hero": null,
+                "trailers": [{"trailer":"//www.youtube.com/embed/MsRh-PTeXzw?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/MsRh-PTeXzw/mqdefault.jpg"}],
+                "imdb": "http://www.imdb.com/title/tt3289712/",
+                "director": ["Mary Agnes Donoghue"],
+                "distributor": ["IFC Films"],
+                "cast": ["Katherine Heigl","Tom Wilkinson","Linda Emond"],
+                "writer": ["Mary Agnes Donoghue"],
+                "genre": ["Comedy"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2015/01/06/parts-per-billion",
+            "attributes": {
+                "title": "Parts Per Billion",
+                "date": "2015-01-06 06:00:00 -0500",
+                "url": "/projects/2015/01/06/parts-per-billion/",
+                "posters": ["/assets/images/projects/parts-per-billion/parts-per-billion-poster.jpg","/assets/images/projects/parts-per-billion/parts-per-billion-poster-2.jpg"],
+                "hero": null,
+                "trailers": [{"trailer":"//www.youtube.com/embed/q4yZvBcPVkI?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/q4yZvBcPVkI/mqdefault.jpg"}],
+                "imdb": "http://www.imdb.com/title/tt2495104/",
+                "director": ["Brian Horiuchi"],
+                "distributor": ["Millennium Entertainment"],
+                "cast": ["Frank Langella","Gena Rowlands","Rosario Dawson","Josh Hartnett"],
+                "writer": ["Brian Horiuchi"],
+                "genre": ["Drama"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2014/12/11/shelter",
+            "attributes": {
+                "title": "Shelter",
+                "date": "2014-12-11 06:00:00 -0500",
+                "url": "/projects/2014/12/11/shelter/",
+                "posters": ["/assets/images/projects/shelter/shelter-poster.jpg","/assets/images/projects/shelter/shelter-poster-2.jpg"],
+                "hero": null,
+                "trailers": ["https://www.youtube.com/embed/1QWudLnDyZw?rel=0&amp;showinfo=0"],
+                "imdb": "http://www.imdb.com/title/tt3136112/",
+                "director": ["Paul Bettany"],
+                "distributor": ["Millennium Entertainment"],
+                "cast": ["Anthony Mackie","Jennifer Connelly"],
+                "writer": ["Paul Bettany"],
+                "genre": ["Drama"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2014/12/05/by-the-gun",
+            "attributes": {
+                "title": "By the Gun",
+                "date": "2014-12-05 06:00:00 -0500",
+                "url": "/projects/2014/12/05/by-the-gun/",
+                "posters": ["/assets/images/projects/by-the-gun/by-the-gun-poster.jpg","/assets/images/projects/by-the-gun/by-the-gun-poster-2.jpg"],
+                "hero": null,
+                "trailers": [{"trailer":"//www.youtube.com/embed/EzzHcrlWpig?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/EzzHcrlWpig/mqdefault.jpg"}],
+                "imdb": "https://www.imdb.com/title/tt2543702/",
+                "director": ["James Mottern"],
+                "distributor": ["Millennium Entertainment"],
+                "cast": ["Ben Barnes","Leighton Meester","Slaine"],
+                "writer": ["Emilio Mauro"],
+                "genre": ["Crime","Drama","Thriller"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2014/11/20/catch-hell",
+            "attributes": {
+                "title": "Catch Hell",
+                "date": "2014-11-20 06:00:00 -0500",
+                "url": "/projects/2014/11/20/catch-hell/",
+                "posters": ["/assets/images/projects/catch-hell/catch-hell-poster.jpg"],
+                "hero": null,
+                "trailers": [{"trailer":"//www.youtube.com/embed/zmdMQ-FszGQ?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/zmdMQ-FszGQ/mqdefault.jpg"}],
+                "imdb": "http://www.imdb.com/title/tt2403558/",
+                "director": ["Ryan Phillippe"],
+                "distributor": ["Entertainment One"],
+                "cast": ["Ryan Phillippe"],
+                "writer": ["Ryan Phillippe","Joe Gossett"],
+                "genre": ["Thriller"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2014/11/06/some-kind-of-beautiful",
+            "attributes": {
+                "title": "Some Kind of Beautiful",
+                "date": "2014-11-06 06:00:00 -0500",
+                "url": "/projects/2014/11/06/some-kind-of-beautiful/",
+                "posters": ["/assets/images/projects/some-kind-of-beautiful/some-kind-of-beautiful-poster.jpg"],
+                "hero": null,
+                "trailers": [{"trailer":"//www.youtube.com/embed/SnSf62D7TPY?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/SnSf62D7TPY/mqdefault.jpg"}],
+                "imdb": "http://www.imdb.com/title/tt1725986/",
+                "director": ["Tom Vaughan"],
+                "distributor": ["Lionsgate"],
+                "cast": ["Pierce Brosnan","Salma Hayek","Jessica Alba","Malcolm McDowell"],
+                "writer": ["Matthew Newman"],
+                "genre": ["Comedy"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2014/10/24/laggies",
+            "attributes": {
+                "title": "Laggies",
+                "date": "2014-10-24 07:00:00 -0400",
+                "url": "/projects/2014/10/24/laggies/",
+                "posters": ["/assets/images/projects/laggies/laggies-poster.jpg","/assets/images/projects/laggies/laggies-poster-2.jpg"],
+                "hero": null,
+                "trailers": [{"trailer":"//www.youtube.com/embed/WQEYmmErpjg?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/WQEYmmErpjg/mqdefault.jpg"}],
+                "imdb": "http://www.imdb.com/title/tt2034031/",
+                "director": ["Lynn Shelton"],
+                "distributor": ["A24"],
+                "cast": ["Chloë Grace Moretz","Keira Knightley","Sam Rockwell"],
+                "writer": ["Andrea Seigel"],
+                "genre": ["Comedy"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2014/10/24/john-wick",
+            "attributes": {
+                "title": "John Wick",
+                "date": "2014-10-24 07:00:00 -0400",
+                "url": "/projects/2014/10/24/john-wick/",
+                "posters": ["/assets/images/projects/john-wick/john-wick-poster.jpg","/assets/images/projects/john-wick/john-wick-poster-2.jpg","/assets/images/projects/john-wick/john-wick-poster-3.jpg"],
+                "hero": null,
+                "trailers": [{"trailer":"//www.youtube.com/embed/2AUmvWm5ZDQ?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/2AUmvWm5ZDQ/mqdefault.jpg"}],
+                "imdb": "http://www.imdb.com/title/tt2911666/",
+                "director": ["Chad Stahelski"],
+                "distributor": ["Summit Entertainment"],
+                "cast": ["Keanu Reeves","Adrianne Palicki","Willem Dafoe"],
+                "writer": ["Derek Kolstad"],
+                "genre": ["Action","Crime","Thriller"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2014/09/11/pawn-sacrifice",
+            "attributes": {
+                "title": "Pawn Sacrifice",
+                "date": "2014-09-11 07:00:00 -0400",
+                "url": "/projects/2014/09/11/pawn-sacrifice/",
+                "posters": ["/assets/images/projects/pawn-sacrifice/pawn-sacrifice-poster.jpg"],
+                "hero": null,
+                "trailers": [{"trailer":"//www.youtube.com/embed/xFHvH9FtACg?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/xFHvH9FtACg/mqdefault.jpg"}],
+                "imdb": "http://www.imdb.com/title/tt1596345/",
+                "director": ["Edward Zwick"],
+                "distributor": ["Bleecker Street Media"],
+                "cast": ["Tobey Maguire","Liev Schreiber","Michael Stuhlbarg"],
+                "writer": ["Steven Knight","Stephen J. Rivele (story)","Christopher Wilkinson"],
+                "genre": ["Historical"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2014/08/27/november-man",
+            "attributes": {
+                "title": "November Man",
+                "date": "2014-08-27 07:00:00 -0400",
+                "url": "/projects/2014/08/27/november-man/",
+                "posters": ["/assets/images/projects/november-man/november-man-poster.jpg"],
+                "hero": null,
+                "trailers": [{"trailer":"//www.youtube.com/embed/p2zFH8Zruqo?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/p2zFH8Zruqo/mqdefault.jpg"}],
+                "imdb": "http://www.imdb.com/title/tt2402157/",
+                "director": ["Roger Donaldson"],
+                "distributor": ["Relativity Media"],
+                "cast": ["Pierce Brosnan","Luke Bracey","Olga Kurylenko"],
+                "writer": ["Michael Finch","Karl Gajdusek","Bill Granger (novel)"],
+                "genre": ["Action"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2014/04/20/every-secret-thing",
+            "attributes": {
+                "title": "Every Secret Thing",
+                "date": "2014-04-20 07:00:00 -0400",
+                "url": "/projects/2014/04/20/every-secret-thing/",
+                "posters": ["/assets/images/projects/every-secret-thing/every-secret-thing-poster.jpg"],
+                "hero": null,
+                "trailers": [{"trailer":"//www.youtube.com/embed/6QT0zKjvRfE?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/6QT0zKjvRfE/mqdefault.jpg"}],
+                "imdb": "http://www.imdb.com/title/tt1706598/",
+                "director": ["Amy Berg"],
+                "distributor": ["Starz Digital Media"],
+                "cast": ["Diane Lane","Elizabeth Banks","Dakota Fanning"],
+                "writer": ["Nicole Holofcener","Laura Lippman (novel)"],
+                "genre": ["Drama","Crime"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2014/03/10/well-never-have-paris",
+            "attributes": {
+                "title": "We’ll Never Have Paris",
+                "date": "2014-03-10 07:00:00 -0400",
+                "url": "/projects/2014/03/10/well-never-have-paris/",
+                "posters": ["/assets/images/projects/well-never-have-paris/well-never-have-paris-poster.jpg"],
+                "hero": null,
+                "trailers": [{"trailer":"//www.youtube.com/embed/pSJ8TZW6tLo?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/pSJ8TZW6tLo/mqdefault.jpg"}],
+                "imdb": "http://www.imdb.com/title/tt3079016/?ref_=nv_sr_1",
+                "director": ["Simon Helberg","Jocelyn Towne"],
+                "distributor": ["Orion Pictures"],
+                "cast": ["Simon Helberg","Melanie Lynskey","Zachary Quinto"],
+                "writer": ["Simon Helberg"],
+                "genre": ["Comedy","Romance"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2013/12/06/night-train-to-lisbon",
+            "attributes": {
+                "title": "Night Train to Lisbon",
+                "date": "2013-12-06 06:00:00 -0500",
+                "url": "/projects/2013/12/06/night-train-to-lisbon/",
+                "posters": ["/assets/images/projects/night-train-to-lisbon/night-train-to-lisbon-poster.jpg"],
+                "hero": null,
+                "trailers": [{"trailer":"//www.youtube.com/embed/NkIJ0f-IXLM?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/NkIJ0f-IXLM/mqdefault.jpg"}],
+                "imdb": "http://www.imdb.com/title/tt1654523/",
+                "director": ["Billie August"],
+                "distributor": ["Wrekin Hill Entertainment"],
+                "cast": ["Jeremy Irons","Mélanie Laurent","Jack Huston"],
+                "writer": ["Greg Latter","Ulrich Herrmann","Pascal Mercier (novel)"],
+                "genre": ["Romance","Thriller"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2013/12/04/hours",
+            "attributes": {
+                "title": "Hours",
+                "date": "2013-12-04 06:00:00 -0500",
+                "url": "/projects/2013/12/04/hours/",
+                "posters": ["/assets/images/projects/hours/hours-poster.jpg","/assets/images/projects/hours/hours-poster-2.jpg"],
+                "hero": null,
+                "trailers": [{"trailer":"//www.youtube.com/embed/u0wF20zmb0k?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/u0wF20zmb0k/mqdefault.jpg"}],
+                "imdb": "http://www.imdb.com/title/tt2094018/",
+                "director": ["Eric Heisserer"],
+                "distributor": ["Pantelion Films"],
+                "cast": ["Paul Walker","Genesis Rodriguez"],
+                "writer": ["Eric Heisserer"],
+                "genre": ["Drama"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2013/09/07/hateship-loveship",
+            "attributes": {
+                "title": "Hateship, Loveship",
+                "date": "2013-09-07 07:00:00 -0400",
+                "url": "/projects/2013/09/07/hateship-loveship/",
+                "posters": ["/assets/images/projects/hateship-loveship/hateship-loveship-poster.jpg"],
+                "hero": null,
+                "trailers": [{"trailer":"//www.youtube.com/embed/0zN05QECAtQ?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/0zN05QECAtQ/mqdefault.jpg"}],
+                "imdb": "http://www.imdb.com/title/tt2463512/",
+                "director": ["Liza Johnson"],
+                "distributor": ["IFC Films"],
+                "cast": ["Kristen Wiig","Guy Pearce","Hailee Steinfeld","Jennifer Jason Leigh"],
+                "writer": ["Mark Poirier","Alice Munro (short story)"],
+                "genre": ["Drama","Romance"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2012/08/24/celeste-and-jesse-forever",
+            "attributes": {
+                "title": "Celeste and Jesse Forever",
+                "date": "2012-08-24 07:00:00 -0400",
+                "url": "/projects/2012/08/24/celeste-and-jesse-forever/",
+                "posters": ["/assets/images/projects/celeste-and-jesse-forever/celeste-and-jesse-forever-poster.jpg","/assets/images/projects/celeste-and-jesse-forever/celeste-and-jesse-forever-poster-2.jpg"],
+                "hero": null,
+                "trailers": [{"trailer":"//www.youtube.com/embed/NQoH1IGRB3w?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/NQoH1IGRB3w/mqdefault.jpg"}],
+                "imdb": "http://www.imdb.com/title/tt1405365/",
+                "director": ["Lee Toland Krieger"],
+                "distributor": ["Sony Pictures Classics"],
+                "cast": ["Rashida Jones","Andy Samberg","Ari Graynor","Emma Roberts","Chris Pine"],
+                "writer": ["Rashida Jones","Will McCormack"],
+                "genre": ["Comedy"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2009/05/16/veronika-decides-to-die",
+            "attributes": {
+                "title": "Veronika Decides to Die",
+                "date": "2009-05-16 07:00:00 -0400",
+                "url": "/projects/2009/05/16/veronika-decides-to-die/",
+                "posters": ["/assets/images/projects/veronika-decides-to-die/veronika-decides-to-die-poster.jpg"],
+                "hero": null,
+                "trailers": [{"trailer":"//www.youtube.com/embed/6VLS2P_g534?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/6VLS2P_g534/mqdefault.jpg"}],
+                "imdb": "http://www.imdb.com/title/tt1068678/",
+                "director": ["Emily Young"],
+                "distributor": ["Entertainment One"],
+                "cast": ["Sarah Michelle Gellar","Jonathan Tucker","Erika Christensen"],
+                "writer": ["Larry Gross","Roberta Hanley","Paulo Coelho (novel)"],
+                "genre": ["Drama","Romance"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2006/04/26/fifty-pills",
+            "attributes": {
+                "title": "Fifty Pills",
+                "date": "2006-04-26 07:00:00 -0400",
+                "url": "/projects/2006/04/26/fifty-pills/",
+                "posters": ["/assets/images/projects/fifty-pills/fifty-pills-poster.jpg"],
+                "hero": null,
+                "trailers": [{"trailer":"//www.youtube.com/embed/rAfGRtQ9aSo?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/rAfGRtQ9aSo/mqdefault.jpg"}],
+                "imdb": "http://www.imdb.com/title/tt0426462/",
+                "director": ["Theo Avgerinos"],
+                "distributor": ["Imagem Filmes"],
+                "cast": ["Kristen Bell","Diora Baird","Michael Peña","Jane Lynch"],
+                "writer": ["Matthew Perniciaro"],
+                "genre": ["Comedy","Crime","Drama"]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "/projects/2006/03/06/premium",
+            "attributes": {
+                "title": "Premium",
+                "date": "2006-03-06 06:00:00 -0500",
+                "url": "/projects/2006/03/06/premium/",
+                "posters": ["/assets/images/projects/premium/premium-poster.jpg"],
+                "hero": null,
+                "trailers": [{"trailer":"//www.youtube.com/embed/goFPdHp_uvo?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/goFPdHp_uvo/mqdefault.jpg"}],
+                "imdb": "http://www.imdb.com/title/tt0451166/",
+                "director": ["Pete Chatmon"],
+                "distributor": ["Codeblack Entertainment"],
+                "cast": ["Zoe Saldana","Dorian Missick","William Sadler"],
+                "writer": ["Pete Chatmon"],
+                "genre": ["Comedy","Drama","Romance"]
+            }
+        }],
+    "links": {
+        "self": "/api/v1/projects/index.json",
+        "first": "/api/v1/projects/index.json",
+        "prev": null,
+        "next": null,
+        "last": "/api/v1/projects/1/index.json"
+    }
+}

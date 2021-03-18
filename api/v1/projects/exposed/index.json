@@ -1,0 +1,18 @@
+{
+    "type": "projects",
+    "id": "/projects/2016/01/22/exposed",
+    "attributes": {
+        "title": "Exposed",
+        "date": "2016-01-22 06:00:00 -0500",
+        "url": "/projects/2016/01/22/exposed/",
+        "posters": ["/assets/images/projects/exposed/exposed-poster.jpg"],
+        "hero": null,
+        "trailers": [{"trailer":"//www.youtube.com/embed/YsfBjOkTVxI?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/YsfBjOkTVxI/mqdefault.jpg"}],
+        "imdb": "http://www.imdb.com/title/tt4019560/",
+        "director": ["Gee Malik Linton"],
+        "distributor": ["Lionsgate"],
+        "cast": ["Keanu Reeves","Ana de Armas","Christopher McDonald"],
+        "writer": ["Gee Malik Linton"],
+        "genre": ["Crime","Drama","Mystery","Thriller"]
+    }
+}

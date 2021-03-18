@@ -1,0 +1,18 @@
+{
+    "type": "projects",
+    "id": "/projects/2014/11/20/catch-hell",
+    "attributes": {
+        "title": "Catch Hell",
+        "date": "2014-11-20 06:00:00 -0500",
+        "url": "/projects/2014/11/20/catch-hell/",
+        "posters": ["/assets/images/projects/catch-hell/catch-hell-poster.jpg"],
+        "hero": null,
+        "trailers": [{"trailer":"//www.youtube.com/embed/zmdMQ-FszGQ?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/zmdMQ-FszGQ/mqdefault.jpg"}],
+        "imdb": "http://www.imdb.com/title/tt2403558/",
+        "director": ["Ryan Phillippe"],
+        "distributor": ["Entertainment One"],
+        "cast": ["Ryan Phillippe"],
+        "writer": ["Ryan Phillippe","Joe Gossett"],
+        "genre": ["Thriller"]
+    }
+}

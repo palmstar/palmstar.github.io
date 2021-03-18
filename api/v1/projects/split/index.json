@@ -1,0 +1,18 @@
+{
+    "type": "projects",
+    "id": "/projects/2017/01/20/split",
+    "attributes": {
+        "title": "Split",
+        "date": "2017-01-20 06:00:00 -0500",
+        "url": "/projects/2017/01/20/split/",
+        "posters": ["/assets/images/projects/split/split-poster.jpg"],
+        "hero": null,
+        "trailers": [{"trailer":"//www.youtube.com/embed/84TouqfIsiI?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/84TouqfIsiI/mqdefault.jpg"}],
+        "imdb": "https://www.imdb.com/title/tt4972582",
+        "director": ["M. Night Shyamalan"],
+        "distributor": ["Universal Pictures"],
+        "cast": ["James McAvoy","Anya Taylor-Joy"],
+        "writer": ["M. Night Shyamalan"],
+        "genre": ["Horror","Thriller"]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "type": "projects",
+    "id": "/projects/2019/01/07/glass",
+    "attributes": {
+        "title": "Glass",
+        "date": "2019-01-07 06:00:00 -0500",
+        "url": "/projects/2019/01/07/glass/",
+        "posters": ["/assets/images/projects/glass/glass-poster.jpg"],
+        "hero": null,
+        "trailers": [{"trailer":"//www.youtube.com/embed/95ghQs5AmNk?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/95ghQs5AmNk/mqdefault.jpg"}],
+        "imdb": "https://www.imdb.com/title/tt6823368/",
+        "director": ["M. Night Shyamalan"],
+        "distributor": ["Universal"],
+        "cast": ["James McAvoy","Bruce Willis","Samuel L. Jackson","Anya Taylor-Joy","Sarah Paulson"],
+        "writer": ["M. Night Shyamalan"],
+        "genre": ["Sci-Fi","Thriller"]
+    }
+}

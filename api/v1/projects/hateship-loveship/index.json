@@ -1,0 +1,18 @@
+{
+    "type": "projects",
+    "id": "/projects/2013/09/07/hateship-loveship",
+    "attributes": {
+        "title": "Hateship, Loveship",
+        "date": "2013-09-07 07:00:00 -0400",
+        "url": "/projects/2013/09/07/hateship-loveship/",
+        "posters": ["/assets/images/projects/hateship-loveship/hateship-loveship-poster.jpg"],
+        "hero": null,
+        "trailers": [{"trailer":"//www.youtube.com/embed/0zN05QECAtQ?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/0zN05QECAtQ/mqdefault.jpg"}],
+        "imdb": "http://www.imdb.com/title/tt2463512/",
+        "director": ["Liza Johnson"],
+        "distributor": ["IFC Films"],
+        "cast": ["Kristen Wiig","Guy Pearce","Hailee Steinfeld","Jennifer Jason Leigh"],
+        "writer": ["Mark Poirier","Alice Munro (short story)"],
+        "genre": ["Drama","Romance"]
+    }
+}

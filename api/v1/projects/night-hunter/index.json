@@ -1,0 +1,18 @@
+{
+    "type": "projects",
+    "id": "/projects/2019/09/06/night-hunter",
+    "attributes": {
+        "title": "Night Hunter",
+        "date": "2019-09-06 07:00:00 -0400",
+        "url": "/projects/2019/09/06/night-hunter/",
+        "posters": ["/assets/images/projects/night-hunter/night-hunter-poster.jpg"],
+        "hero": null,
+        "trailers": [{"trailer":"//www.youtube.com/embed/ZxIanAd-S-o?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/ZxIanAd-S-o/mqdefault.jpg"}],
+        "imdb": "https://www.imdb.com/title/tt6533240/",
+        "director": ["David Raymond"],
+        "distributor": ["Saban Films"],
+        "cast": ["Henry Cavill","Alexandra Daddario","Ben Kingsley","Stanley Tucci"],
+        "writer": ["David Raymond"],
+        "genre": ["Action","Thriller"]
+    }
+}

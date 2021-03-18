@@ -1,0 +1,18 @@
+{
+    "type": "projects",
+    "id": "/projects/2006/04/26/fifty-pills",
+    "attributes": {
+        "title": "Fifty Pills",
+        "date": "2006-04-26 07:00:00 -0400",
+        "url": "/projects/2006/04/26/fifty-pills/",
+        "posters": ["/assets/images/projects/fifty-pills/fifty-pills-poster.jpg"],
+        "hero": null,
+        "trailers": [{"trailer":"//www.youtube.com/embed/rAfGRtQ9aSo?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/rAfGRtQ9aSo/mqdefault.jpg"}],
+        "imdb": "http://www.imdb.com/title/tt0426462/",
+        "director": ["Theo Avgerinos"],
+        "distributor": ["Imagem Filmes"],
+        "cast": ["Kristen Bell","Diora Baird","Michael Peña","Jane Lynch"],
+        "writer": ["Matthew Perniciaro"],
+        "genre": ["Comedy","Crime","Drama"]
+    }
+}

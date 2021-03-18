@@ -1,0 +1,18 @@
+{
+    "type": "projects",
+    "id": "/projects/2017/06/22/dear-dictator",
+    "attributes": {
+        "title": "Dear Dictator",
+        "date": "2017-06-22 07:00:00 -0400",
+        "url": "/projects/2017/06/22/dear-dictator/",
+        "posters": ["/assets/images/projects/dear-dictator/dear-dictator-poster.jpg"],
+        "hero": null,
+        "trailers": [{"trailer":"//www.youtube.com/embed/cNd4BQvN60c?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/cNd4BQvN60c/mqdefault.jpg"}],
+        "imdb": "https://www.imdb.com/title/tt5779540/",
+        "director": ["Lisa Addario","Joe Syracuse"],
+        "distributor": ["Cinedigm"],
+        "cast": ["Michael Caine","Katie Holmes","Odeya Rush","Seth Green","Jason Biggs"],
+        "writer": ["Lisa Addario","Joe Syracuse"],
+        "genre": ["Comedy"]
+    }
+}

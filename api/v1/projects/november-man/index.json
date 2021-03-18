@@ -1,0 +1,18 @@
+{
+    "type": "projects",
+    "id": "/projects/2014/08/27/november-man",
+    "attributes": {
+        "title": "November Man",
+        "date": "2014-08-27 07:00:00 -0400",
+        "url": "/projects/2014/08/27/november-man/",
+        "posters": ["/assets/images/projects/november-man/november-man-poster.jpg"],
+        "hero": null,
+        "trailers": [{"trailer":"//www.youtube.com/embed/p2zFH8Zruqo?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/p2zFH8Zruqo/mqdefault.jpg"}],
+        "imdb": "http://www.imdb.com/title/tt2402157/",
+        "director": ["Roger Donaldson"],
+        "distributor": ["Relativity Media"],
+        "cast": ["Pierce Brosnan","Luke Bracey","Olga Kurylenko"],
+        "writer": ["Michael Finch","Karl Gajdusek","Bill Granger (novel)"],
+        "genre": ["Action"]
+    }
+}

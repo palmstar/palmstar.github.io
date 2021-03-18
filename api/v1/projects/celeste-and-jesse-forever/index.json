@@ -1,0 +1,18 @@
+{
+    "type": "projects",
+    "id": "/projects/2012/08/24/celeste-and-jesse-forever",
+    "attributes": {
+        "title": "Celeste and Jesse Forever",
+        "date": "2012-08-24 07:00:00 -0400",
+        "url": "/projects/2012/08/24/celeste-and-jesse-forever/",
+        "posters": ["/assets/images/projects/celeste-and-jesse-forever/celeste-and-jesse-forever-poster.jpg","/assets/images/projects/celeste-and-jesse-forever/celeste-and-jesse-forever-poster-2.jpg"],
+        "hero": null,
+        "trailers": [{"trailer":"//www.youtube.com/embed/NQoH1IGRB3w?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/NQoH1IGRB3w/mqdefault.jpg"}],
+        "imdb": "http://www.imdb.com/title/tt1405365/",
+        "director": ["Lee Toland Krieger"],
+        "distributor": ["Sony Pictures Classics"],
+        "cast": ["Rashida Jones","Andy Samberg","Ari Graynor","Emma Roberts","Chris Pine"],
+        "writer": ["Rashida Jones","Will McCormack"],
+        "genre": ["Comedy"]
+    }
+}

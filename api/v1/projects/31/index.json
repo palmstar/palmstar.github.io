@@ -1,0 +1,18 @@
+{
+    "type": "projects",
+    "id": "/projects/2016/09/16/31",
+    "attributes": {
+        "title": 31,
+        "date": "2016-09-16 07:00:00 -0400",
+        "url": "/projects/2016/09/16/31/",
+        "posters": ["/assets/images/projects/31/31-poster.jpg","/assets/images/projects/31/31-poster-2.jpg"],
+        "hero": null,
+        "trailers": [{"trailer":"//www.youtube.com/embed/4y5GpF9FZeA?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/4y5GpF9FZeA/mqdefault.jpg"}],
+        "imdb": "http://www.imdb.com/title/tt3835080/",
+        "director": ["Rob Zombie"],
+        "distributor": ["Fathom Events"],
+        "cast": ["Sheri Moon Zombie","Lew Temple","Malcolm McDowell"],
+        "writer": ["Rob Zombie"],
+        "genre": ["Horror","Thriller"]
+    }
+}

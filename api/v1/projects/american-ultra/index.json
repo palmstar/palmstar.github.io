@@ -1,0 +1,18 @@
+{
+    "type": "projects",
+    "id": "/projects/2015/08/21/american-ultra",
+    "attributes": {
+        "title": "American Ultra",
+        "date": "2015-08-21 07:00:00 -0400",
+        "url": "/projects/2015/08/21/american-ultra/",
+        "posters": ["/assets/images/projects/american-ultra/american-ultra-poster.jpg","/assets/images/projects/american-ultra/american-ultra-poster-2.jpg","/assets/images/projects/american-ultra/american-ultra-poster-3.jpg","/assets/images/projects/american-ultra/american-ultra-poster-4.jpg","/assets/images/projects/american-ultra/american-ultra-poster-5.jpg"],
+        "hero": null,
+        "trailers": [{"trailer":"//www.youtube.com/embed/bLGFwkRx2HA?rel=0&amp;showinfo=0","thumbnail":"//i.ytimg.com/vi/bLGFwkRx2HA/mqdefault.jpg"}],
+        "imdb": "https://www.imdb.com/title/tt3316948/",
+        "director": ["Nima Nourizadeh"],
+        "distributor": ["Lionsgate"],
+        "cast": ["Jesse Eisenberg","Kristen Stewart","Topher Grace","Connie Britton","Walton Goggins"],
+        "writer": ["Max Landis"],
+        "genre": ["Comedy"]
+    }
+}
